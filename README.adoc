@@ -118,6 +118,10 @@ when the Apple II CPU is a bus master.
 
 Using an RC2014 CPU is NOT possible on this board.
 
+== Build
+
+To get the board built, KiCad schematics, gerber files, and a BOM with Mouser part numbers are provided in the repository.
+
 == Revision History
 
 - [R1.0A](https://github.com/fachat/csa_ultrabus/tree/r1.0a): the original Euro-PCB board. Built with Eagle
