@@ -1,0 +1,2294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/fachat/8bit/8bitgit/Eagle/work/CSA_ULTRABUS_V2.0A/csa_ultrabus_v2.kicad_sch</source>
+    <date>Fri Feb 16 13:55:04 2024</date>
+    <tool>Eeschema 7.0.10</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>csa_ultrabus_v2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/CS/A BUS/" tstamps="/1fe210f8-c98a-4838-9832-4bbc78dcac4a/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>CS%2fA_BUS.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Apple II Bus/" tstamps="/aae24c6a-3b65-4530-9bc3-3c3dd58e8ebc/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Apple_II_Bus.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/RCxxxx/" tstamps="/fde785bd-efae-48a8-86cb-f2ef6cfd3419/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>RCxxxx.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/C64/" tstamps="/79492ee7-4524-4618-bb5b-9f0d9902e7e8/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>C64.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Shortbus/" tstamps="/54cb4c21-526c-4a4b-a16f-60eae9ce1264/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Shortbus.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>47u</value>
+      <footprint>csa_ultrabus_v2:E2,5-5</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="CPOL-EUE2.5-5" description=""/>
+      <property name="Sheetname" value="CS/A BUS"/>
+      <property name="Sheetfile" value="CS%2fA_BUS.kicad_sch"/>
+      <sheetpath names="/CS/A BUS/" tstamps="/1fe210f8-c98a-4838-9832-4bbc78dcac4a/"/>
+      <tstamps>1e0768bf-1dac-433d-8e55-41e93c1a7e21</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>47u</value>
+      <footprint>csa_ultrabus_v2:E2,5-5</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="CPOL-EUE2.5-5" description=""/>
+      <property name="Sheetname" value="CS/A BUS"/>
+      <property name="Sheetfile" value="CS%2fA_BUS.kicad_sch"/>
+      <sheetpath names="/CS/A BUS/" tstamps="/1fe210f8-c98a-4838-9832-4bbc78dcac4a/"/>
+      <tstamps>a9f17f79-9a2d-4418-8381-97bc9b5e39ad</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>47u</value>
+      <footprint>csa_ultrabus_v2:E2,5-5</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="CPOL-EUE2.5-5" description=""/>
+      <property name="Sheetname" value="CS/A BUS"/>
+      <property name="Sheetfile" value="CS%2fA_BUS.kicad_sch"/>
+      <sheetpath names="/CS/A BUS/" tstamps="/1fe210f8-c98a-4838-9832-4bbc78dcac4a/"/>
+      <tstamps>39373713-6040-4b52-8a2b-16af77b79ff2</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>47u</value>
+      <footprint>csa_ultrabus_v2:E2,5-5</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="CPOL-EUE2.5-5" description=""/>
+      <property name="Sheetname" value="CS/A BUS"/>
+      <property name="Sheetfile" value="CS%2fA_BUS.kicad_sch"/>
+      <sheetpath names="/CS/A BUS/" tstamps="/1fe210f8-c98a-4838-9832-4bbc78dcac4a/"/>
+      <tstamps>178c6dc9-373d-4189-81d2-e9cce0bacac0</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>47u</value>
+      <footprint>csa_ultrabus_v2:E2,5-5</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="CPOL-EUE2.5-5" description=""/>
+      <property name="Sheetname" value="CS/A BUS"/>
+      <property name="Sheetfile" value="CS%2fA_BUS.kicad_sch"/>
+      <sheetpath names="/CS/A BUS/" tstamps="/1fe210f8-c98a-4838-9832-4bbc78dcac4a/"/>
+      <tstamps>4357ceed-7f85-4a42-b19f-aab0fd7d42e2</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>47u</value>
+      <footprint>csa_ultrabus_v2:E2,5-5</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="CPOL-EUE2.5-5" description=""/>
+      <property name="Sheetname" value="CS/A BUS"/>
+      <property name="Sheetfile" value="CS%2fA_BUS.kicad_sch"/>
+      <sheetpath names="/CS/A BUS/" tstamps="/1fe210f8-c98a-4838-9832-4bbc78dcac4a/"/>
+      <tstamps>945a2f51-f4c5-4599-9e4e-1c6e71b6c3d4</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>47u</value>
+      <footprint>csa_ultrabus_v2:E2,5-5</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="CPOL-EUE2.5-5" description=""/>
+      <property name="Sheetname" value="CS/A BUS"/>
+      <property name="Sheetfile" value="CS%2fA_BUS.kicad_sch"/>
+      <sheetpath names="/CS/A BUS/" tstamps="/1fe210f8-c98a-4838-9832-4bbc78dcac4a/"/>
+      <tstamps>84c3243c-8411-4d2a-a3cb-e20d9f131fc0</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MOUNT-HOLE3.2</value>
+      <footprint>csa_ultrabus_v2:3,2</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="MOUNT-HOLE3.2" description=""/>
+      <property name="Sheetname" value="CS/A BUS"/>
+      <property name="Sheetfile" value="CS%2fA_BUS.kicad_sch"/>
+      <sheetpath names="/CS/A BUS/" tstamps="/1fe210f8-c98a-4838-9832-4bbc78dcac4a/"/>
+      <tstamps>449476de-714f-4a89-85f4-6a456a45dc2d</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MOUNT-HOLE3.2</value>
+      <footprint>csa_ultrabus_v2:3,2</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="MOUNT-HOLE3.2" description=""/>
+      <property name="Sheetname" value="CS/A BUS"/>
+      <property name="Sheetfile" value="CS%2fA_BUS.kicad_sch"/>
+      <sheetpath names="/CS/A BUS/" tstamps="/1fe210f8-c98a-4838-9832-4bbc78dcac4a/"/>
+      <tstamps>15f38f5e-b0ec-4612-8494-178fe4459f72</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MOUNT-HOLE3.2</value>
+      <footprint>csa_ultrabus_v2:3,2</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="MOUNT-HOLE3.2" description=""/>
+      <property name="Sheetname" value="CS/A BUS"/>
+      <property name="Sheetfile" value="CS%2fA_BUS.kicad_sch"/>
+      <sheetpath names="/CS/A BUS/" tstamps="/1fe210f8-c98a-4838-9832-4bbc78dcac4a/"/>
+      <tstamps>9ae6538e-a085-4428-b674-a196b77e6625</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MOUNT-HOLE3.2</value>
+      <footprint>csa_ultrabus_v2:3,2</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="MOUNT-HOLE3.2" description=""/>
+      <property name="Sheetname" value="CS/A BUS"/>
+      <property name="Sheetfile" value="CS%2fA_BUS.kicad_sch"/>
+      <sheetpath names="/CS/A BUS/" tstamps="/1fe210f8-c98a-4838-9832-4bbc78dcac4a/"/>
+      <tstamps>9f96a3a9-969f-4227-95c8-e0d74074517c</tstamps>
+    </comp>
+    <comp ref="H5">
+      <value>MOUNT-HOLE3.2</value>
+      <footprint>csa_ultrabus_v2:3,2</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="MOUNT-HOLE3.2" description=""/>
+      <property name="Sheetname" value="CS/A BUS"/>
+      <property name="Sheetfile" value="CS%2fA_BUS.kicad_sch"/>
+      <sheetpath names="/CS/A BUS/" tstamps="/1fe210f8-c98a-4838-9832-4bbc78dcac4a/"/>
+      <tstamps>2a94b978-bfdd-4f54-b1ff-47569b232870</tstamps>
+    </comp>
+    <comp ref="H6">
+      <value>MOUNT-HOLE3.2</value>
+      <footprint>csa_ultrabus_v2:3,2</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="MOUNT-HOLE3.2" description=""/>
+      <property name="Sheetname" value="CS/A BUS"/>
+      <property name="Sheetfile" value="CS%2fA_BUS.kicad_sch"/>
+      <sheetpath names="/CS/A BUS/" tstamps="/1fe210f8-c98a-4838-9832-4bbc78dcac4a/"/>
+      <tstamps>b2bd31d5-13ca-4d15-a6ed-0adaecc3171d</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>FLOP-4W827001</value>
+      <footprint>csa_ultrabus_v2:827001</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="FLOP-4W827001" description=""/>
+      <property name="Sheetname" value="CS/A BUS"/>
+      <property name="Sheetfile" value="CS%2fA_BUS.kicad_sch"/>
+      <sheetpath names="/CS/A BUS/" tstamps="/1fe210f8-c98a-4838-9832-4bbc78dcac4a/"/>
+      <tstamps>ae82bec3-01df-4c7b-b2d5-348528f0e0af</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>JP2E</value>
+      <footprint>csa_ultrabus_v2:JP2</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="JP2E" description=""/>
+      <property name="Sheetname" value="CS/A BUS"/>
+      <property name="Sheetfile" value="CS%2fA_BUS.kicad_sch"/>
+      <sheetpath names="/CS/A BUS/" tstamps="/1fe210f8-c98a-4838-9832-4bbc78dcac4a/"/>
+      <tstamps>d99d2484-d946-4bff-a1fd-1608493e6981</tstamps>
+    </comp>
+    <comp ref="P1">
+      <value>CSABUSSOCK180</value>
+      <footprint>csa_ultrabus_v2:CSABUSSOCK180</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="CSABUSSOCK180" description=""/>
+      <property name="Sheetname" value="CS/A BUS"/>
+      <property name="Sheetfile" value="CS%2fA_BUS.kicad_sch"/>
+      <sheetpath names="/CS/A BUS/" tstamps="/1fe210f8-c98a-4838-9832-4bbc78dcac4a/"/>
+      <tstamps>20df6686-e600-47b7-bc4b-c63c0437d545</tstamps>
+    </comp>
+    <comp ref="P2">
+      <value>CSABUSSOCK180</value>
+      <footprint>csa_ultrabus_v2:CSABUSSOCK180</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="CSABUSSOCK180" description=""/>
+      <property name="Sheetname" value="CS/A BUS"/>
+      <property name="Sheetfile" value="CS%2fA_BUS.kicad_sch"/>
+      <sheetpath names="/CS/A BUS/" tstamps="/1fe210f8-c98a-4838-9832-4bbc78dcac4a/"/>
+      <tstamps>3e72aded-90c3-4bcc-8f5a-ab4e58f9a4c3</tstamps>
+    </comp>
+    <comp ref="P3">
+      <value>CSABUSSOCK180</value>
+      <footprint>csa_ultrabus_v2:CSABUSSOCK180</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="CSABUSSOCK180" description=""/>
+      <property name="Sheetname" value="CS/A BUS"/>
+      <property name="Sheetfile" value="CS%2fA_BUS.kicad_sch"/>
+      <sheetpath names="/CS/A BUS/" tstamps="/1fe210f8-c98a-4838-9832-4bbc78dcac4a/"/>
+      <tstamps>e201ca60-656b-46c0-9587-26b046d0bc6e</tstamps>
+    </comp>
+    <comp ref="P4">
+      <value>CSABUSSOCK180</value>
+      <footprint>csa_ultrabus_v2:CSABUSSOCK180</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="CSABUSSOCK180" description=""/>
+      <property name="Sheetname" value="CS/A BUS"/>
+      <property name="Sheetfile" value="CS%2fA_BUS.kicad_sch"/>
+      <sheetpath names="/CS/A BUS/" tstamps="/1fe210f8-c98a-4838-9832-4bbc78dcac4a/"/>
+      <tstamps>47a3a6f7-622b-4641-b39a-a0415c32e3bf</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>C-EUC0603</value>
+      <footprint>csa_ultrabus_v2:C0603</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="C-EUC0603" description=""/>
+      <property name="Sheetname" value="Apple II Bus"/>
+      <property name="Sheetfile" value="Apple_II_Bus.kicad_sch"/>
+      <sheetpath names="/Apple II Bus/" tstamps="/aae24c6a-3b65-4530-9bc3-3c3dd58e8ebc/"/>
+      <tstamps>f743b01a-4042-4bd2-abf1-3d185e2cc159</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>C-EUC0603</value>
+      <footprint>csa_ultrabus_v2:C0603</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="C-EUC0603" description=""/>
+      <property name="Sheetname" value="Apple II Bus"/>
+      <property name="Sheetfile" value="Apple_II_Bus.kicad_sch"/>
+      <sheetpath names="/Apple II Bus/" tstamps="/aae24c6a-3b65-4530-9bc3-3c3dd58e8ebc/"/>
+      <tstamps>4b25baae-aaa2-4dfb-9d2c-e5d8aa7c7e6c</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>C-EUC0603</value>
+      <footprint>csa_ultrabus_v2:C0603</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="C-EUC0603" description=""/>
+      <property name="Sheetname" value="Apple II Bus"/>
+      <property name="Sheetfile" value="Apple_II_Bus.kicad_sch"/>
+      <sheetpath names="/Apple II Bus/" tstamps="/aae24c6a-3b65-4530-9bc3-3c3dd58e8ebc/"/>
+      <tstamps>073cd617-ea9a-4263-b912-46b0cdf71410</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>C-EUC0603</value>
+      <footprint>csa_ultrabus_v2:C0603</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="C-EUC0603" description=""/>
+      <property name="Sheetname" value="Apple II Bus"/>
+      <property name="Sheetfile" value="Apple_II_Bus.kicad_sch"/>
+      <sheetpath names="/Apple II Bus/" tstamps="/aae24c6a-3b65-4530-9bc3-3c3dd58e8ebc/"/>
+      <tstamps>2af829bd-9da5-4a8d-a901-6cc002b4107b</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>C-EUC0603</value>
+      <footprint>csa_ultrabus_v2:C0603</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="C-EUC0603" description=""/>
+      <property name="Sheetname" value="Apple II Bus"/>
+      <property name="Sheetfile" value="Apple_II_Bus.kicad_sch"/>
+      <sheetpath names="/Apple II Bus/" tstamps="/aae24c6a-3b65-4530-9bc3-3c3dd58e8ebc/"/>
+      <tstamps>665e099b-c1f4-45a1-9c65-cfdcf75dc921</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>C-EUC0603</value>
+      <footprint>csa_ultrabus_v2:C0603</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="C-EUC0603" description=""/>
+      <property name="Sheetname" value="Apple II Bus"/>
+      <property name="Sheetfile" value="Apple_II_Bus.kicad_sch"/>
+      <sheetpath names="/Apple II Bus/" tstamps="/aae24c6a-3b65-4530-9bc3-3c3dd58e8ebc/"/>
+      <tstamps>969e93e4-457d-4866-bfd7-a6b2014be952</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>C-EUC0603</value>
+      <footprint>csa_ultrabus_v2:C0603</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="C-EUC0603" description=""/>
+      <property name="Sheetname" value="Apple II Bus"/>
+      <property name="Sheetfile" value="Apple_II_Bus.kicad_sch"/>
+      <sheetpath names="/Apple II Bus/" tstamps="/aae24c6a-3b65-4530-9bc3-3c3dd58e8ebc/"/>
+      <tstamps>101c6057-6e4c-4907-a8e5-c614de11cca6</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>47u</value>
+      <footprint>csa_ultrabus_v2:E2,5-5</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="CPOL-EUE2.5-5" description=""/>
+      <property name="Sheetname" value="Apple II Bus"/>
+      <property name="Sheetfile" value="Apple_II_Bus.kicad_sch"/>
+      <sheetpath names="/Apple II Bus/" tstamps="/aae24c6a-3b65-4530-9bc3-3c3dd58e8ebc/"/>
+      <tstamps>5e0f682c-312a-4c44-92ce-ad65f8c72da4</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>47u</value>
+      <footprint>csa_ultrabus_v2:E2,5-5</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="CPOL-EUE2.5-5" description=""/>
+      <property name="Sheetname" value="Apple II Bus"/>
+      <property name="Sheetfile" value="Apple_II_Bus.kicad_sch"/>
+      <sheetpath names="/Apple II Bus/" tstamps="/aae24c6a-3b65-4530-9bc3-3c3dd58e8ebc/"/>
+      <tstamps>22474e87-9949-4586-ad1a-9e2fbd41b6f5</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>47u</value>
+      <footprint>csa_ultrabus_v2:E2,5-5</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="CPOL-EUE2.5-5" description=""/>
+      <property name="Sheetname" value="Apple II Bus"/>
+      <property name="Sheetfile" value="Apple_II_Bus.kicad_sch"/>
+      <sheetpath names="/Apple II Bus/" tstamps="/aae24c6a-3b65-4530-9bc3-3c3dd58e8ebc/"/>
+      <tstamps>1d8f8a70-e18b-410d-87bb-a52fb18c9f40</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>C-EUC0603</value>
+      <footprint>csa_ultrabus_v2:C0603</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="C-EUC0603" description=""/>
+      <property name="Sheetname" value="Apple II Bus"/>
+      <property name="Sheetfile" value="Apple_II_Bus.kicad_sch"/>
+      <sheetpath names="/Apple II Bus/" tstamps="/aae24c6a-3b65-4530-9bc3-3c3dd58e8ebc/"/>
+      <tstamps>69ca7a4d-ce00-4503-b54f-4337054b35a8</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>47u</value>
+      <footprint>csa_ultrabus_v2:E2,5-5</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="CPOL-EUE2.5-5" description=""/>
+      <property name="Sheetname" value="Apple II Bus"/>
+      <property name="Sheetfile" value="Apple_II_Bus.kicad_sch"/>
+      <sheetpath names="/Apple II Bus/" tstamps="/aae24c6a-3b65-4530-9bc3-3c3dd58e8ebc/"/>
+      <tstamps>ddba752a-91b2-44ad-b1e8-067e486ce45b</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>47u</value>
+      <footprint>csa_ultrabus_v2:E2,5-5</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="CPOL-EUE2.5-5" description=""/>
+      <property name="Sheetname" value="Apple II Bus"/>
+      <property name="Sheetfile" value="Apple_II_Bus.kicad_sch"/>
+      <sheetpath names="/Apple II Bus/" tstamps="/aae24c6a-3b65-4530-9bc3-3c3dd58e8ebc/"/>
+      <tstamps>30d28279-9fe9-4b69-b2e9-14dc036b3a4b</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>47u</value>
+      <footprint>csa_ultrabus_v2:E2,5-5</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="CPOL-EUE2.5-5" description=""/>
+      <property name="Sheetname" value="Apple II Bus"/>
+      <property name="Sheetfile" value="Apple_II_Bus.kicad_sch"/>
+      <sheetpath names="/Apple II Bus/" tstamps="/aae24c6a-3b65-4530-9bc3-3c3dd58e8ebc/"/>
+      <tstamps>01669818-4bc6-4d7c-a307-cbfc4cd175b0</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>7404D</value>
+      <footprint>csa_ultrabus_v2:SO14</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="7404D" description=""/>
+      <property name="Sheetname" value="Apple II Bus"/>
+      <property name="Sheetfile" value="Apple_II_Bus.kicad_sch"/>
+      <sheetpath names="/Apple II Bus/" tstamps="/aae24c6a-3b65-4530-9bc3-3c3dd58e8ebc/"/>
+      <tstamps>a884a9c1-cdd7-490a-a0c5-ec6b7eb2f664 2c74155f-ae08-4989-aac7-49b3f5ec0601</tstamps>
+    </comp>
+    <comp ref="IC2">
+      <value>74138D</value>
+      <footprint>csa_ultrabus_v2:SO16</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="74138D" description=""/>
+      <property name="Sheetname" value="Apple II Bus"/>
+      <property name="Sheetfile" value="Apple_II_Bus.kicad_sch"/>
+      <sheetpath names="/Apple II Bus/" tstamps="/aae24c6a-3b65-4530-9bc3-3c3dd58e8ebc/"/>
+      <tstamps>b999e1b7-cf94-4def-b857-0576e0bea3f1 66b1a68a-a086-40e1-8f81-3cabcb98ed73</tstamps>
+    </comp>
+    <comp ref="IC3">
+      <value>74138D</value>
+      <footprint>csa_ultrabus_v2:SO16</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="74138D" description=""/>
+      <property name="Sheetname" value="Apple II Bus"/>
+      <property name="Sheetfile" value="Apple_II_Bus.kicad_sch"/>
+      <sheetpath names="/Apple II Bus/" tstamps="/aae24c6a-3b65-4530-9bc3-3c3dd58e8ebc/"/>
+      <tstamps>e5187a68-ef58-4179-98ce-2ad7448aad82 0a57babd-4f67-4bc2-88f4-0910fb378f60</tstamps>
+    </comp>
+    <comp ref="IC4">
+      <value>74138D</value>
+      <footprint>csa_ultrabus_v2:SO16</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="74138D" description=""/>
+      <property name="Sheetname" value="Apple II Bus"/>
+      <property name="Sheetfile" value="Apple_II_Bus.kicad_sch"/>
+      <sheetpath names="/Apple II Bus/" tstamps="/aae24c6a-3b65-4530-9bc3-3c3dd58e8ebc/"/>
+      <tstamps>ebf6bc5b-1608-4f6b-80f1-a074c60cff72 35342561-2bda-49c8-9326-7d62a46f4f55</tstamps>
+    </comp>
+    <comp ref="IC5">
+      <value>74138D</value>
+      <footprint>csa_ultrabus_v2:SO16</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="74138D" description=""/>
+      <property name="Sheetname" value="Apple II Bus"/>
+      <property name="Sheetfile" value="Apple_II_Bus.kicad_sch"/>
+      <sheetpath names="/Apple II Bus/" tstamps="/aae24c6a-3b65-4530-9bc3-3c3dd58e8ebc/"/>
+      <tstamps>cff6f9de-99fd-4fd2-a3c1-898206a2d749 83058c37-9ac5-4e89-afd5-cb2c5e494abf</tstamps>
+    </comp>
+    <comp ref="IC6">
+      <value>7400D</value>
+      <footprint>csa_ultrabus_v2:SO14</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="7400D" description=""/>
+      <property name="Sheetname" value="Apple II Bus"/>
+      <property name="Sheetfile" value="Apple_II_Bus.kicad_sch"/>
+      <sheetpath names="/Apple II Bus/" tstamps="/aae24c6a-3b65-4530-9bc3-3c3dd58e8ebc/"/>
+      <tstamps>9c25fa13-0a05-4ec4-ac2e-bc5352a49352</tstamps>
+    </comp>
+    <comp ref="IC7">
+      <value>74125D</value>
+      <footprint>csa_ultrabus_v2:SO14</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="74125D" description=""/>
+      <property name="Sheetname" value="Apple II Bus"/>
+      <property name="Sheetfile" value="Apple_II_Bus.kicad_sch"/>
+      <sheetpath names="/Apple II Bus/" tstamps="/aae24c6a-3b65-4530-9bc3-3c3dd58e8ebc/"/>
+      <tstamps>e463e39f-3b6f-4a96-bc5c-db0a5e351e5d 634221c2-851a-44cc-b9a7-12ccae028ac8 d7314eef-558a-4b44-8e7c-83d6a4556696 d9b6b535-34a6-456d-aab8-8c0154dc16cd 3e304782-9f2d-4023-afd8-9fecb0f67d41</tstamps>
+    </comp>
+    <comp ref="IC8">
+      <value>74125D</value>
+      <footprint>csa_ultrabus_v2:SO14</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="74125D" description=""/>
+      <property name="Sheetname" value="Apple II Bus"/>
+      <property name="Sheetfile" value="Apple_II_Bus.kicad_sch"/>
+      <sheetpath names="/Apple II Bus/" tstamps="/aae24c6a-3b65-4530-9bc3-3c3dd58e8ebc/"/>
+      <tstamps>f3887401-4728-47c8-9a08-921f94664d16 596dbc6a-f7c9-44d4-a6d0-2c762e088cb9 0e522fc0-4286-4e91-838c-a9a0a0f746be</tstamps>
+    </comp>
+    <comp ref="IC9">
+      <value>74138D</value>
+      <footprint>csa_ultrabus_v2:SO16</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="74138D" description=""/>
+      <property name="Sheetname" value="Apple II Bus"/>
+      <property name="Sheetfile" value="Apple_II_Bus.kicad_sch"/>
+      <sheetpath names="/Apple II Bus/" tstamps="/aae24c6a-3b65-4530-9bc3-3c3dd58e8ebc/"/>
+      <tstamps>c691425a-986f-42b2-9d32-e62e1bb8da24</tstamps>
+    </comp>
+    <comp ref="JP8">
+      <value>JP1E</value>
+      <footprint>csa_ultrabus_v2:JP1</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="JP1E" description=""/>
+      <property name="Sheetname" value="Apple II Bus"/>
+      <property name="Sheetfile" value="Apple_II_Bus.kicad_sch"/>
+      <sheetpath names="/Apple II Bus/" tstamps="/aae24c6a-3b65-4530-9bc3-3c3dd58e8ebc/"/>
+      <tstamps>0f7d4a3b-c8dd-465c-877b-cf024f50ee74</tstamps>
+    </comp>
+    <comp ref="JP9">
+      <value>JP2E</value>
+      <footprint>csa_ultrabus_v2:JP2</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="JP2E" description=""/>
+      <property name="Sheetname" value="Apple II Bus"/>
+      <property name="Sheetfile" value="Apple_II_Bus.kicad_sch"/>
+      <sheetpath names="/Apple II Bus/" tstamps="/aae24c6a-3b65-4530-9bc3-3c3dd58e8ebc/"/>
+      <tstamps>532dc5f0-75e3-478f-b944-2b089a85835d</tstamps>
+    </comp>
+    <comp ref="JP10">
+      <value>JP2E</value>
+      <footprint>csa_ultrabus_v2:JP2</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="JP2E" description=""/>
+      <property name="Sheetname" value="Apple II Bus"/>
+      <property name="Sheetfile" value="Apple_II_Bus.kicad_sch"/>
+      <sheetpath names="/Apple II Bus/" tstamps="/aae24c6a-3b65-4530-9bc3-3c3dd58e8ebc/"/>
+      <tstamps>678516e6-61fc-4dc9-9f4d-1131b72b3056</tstamps>
+    </comp>
+    <comp ref="JP11">
+      <value>JP2E</value>
+      <footprint>csa_ultrabus_v2:JP2</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="JP2E" description=""/>
+      <property name="Sheetname" value="Apple II Bus"/>
+      <property name="Sheetfile" value="Apple_II_Bus.kicad_sch"/>
+      <sheetpath names="/Apple II Bus/" tstamps="/aae24c6a-3b65-4530-9bc3-3c3dd58e8ebc/"/>
+      <tstamps>898e0947-cc9b-4bb8-9a6e-299a3f4c2eb2</tstamps>
+    </comp>
+    <comp ref="JP15">
+      <value>JP2E</value>
+      <footprint>csa_ultrabus_v2:JP2</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="JP2E" description=""/>
+      <property name="Sheetname" value="Apple II Bus"/>
+      <property name="Sheetfile" value="Apple_II_Bus.kicad_sch"/>
+      <sheetpath names="/Apple II Bus/" tstamps="/aae24c6a-3b65-4530-9bc3-3c3dd58e8ebc/"/>
+      <tstamps>c9aa62b6-f98a-499e-a9bd-2280a880afe4</tstamps>
+    </comp>
+    <comp ref="JP16">
+      <value>JP2E</value>
+      <footprint>csa_ultrabus_v2:JP2</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="JP2E" description=""/>
+      <property name="Sheetname" value="Apple II Bus"/>
+      <property name="Sheetfile" value="Apple_II_Bus.kicad_sch"/>
+      <sheetpath names="/Apple II Bus/" tstamps="/aae24c6a-3b65-4530-9bc3-3c3dd58e8ebc/"/>
+      <tstamps>c660f968-8c88-4140-b989-27ed5da4ef74</tstamps>
+    </comp>
+    <comp ref="JP17">
+      <value>JP1E</value>
+      <footprint>csa_ultrabus_v2:JP1</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="JP1E" description=""/>
+      <property name="Sheetname" value="Apple II Bus"/>
+      <property name="Sheetfile" value="Apple_II_Bus.kicad_sch"/>
+      <sheetpath names="/Apple II Bus/" tstamps="/aae24c6a-3b65-4530-9bc3-3c3dd58e8ebc/"/>
+      <tstamps>1c8bd0e6-4cf2-4434-807a-c452b0686788</tstamps>
+    </comp>
+    <comp ref="SLOT3">
+      <value>A2SLOT</value>
+      <footprint>csa_ultrabus_v2:FE100-25</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="A2SLOT" description=""/>
+      <property name="Sheetname" value="Apple II Bus"/>
+      <property name="Sheetfile" value="Apple_II_Bus.kicad_sch"/>
+      <sheetpath names="/Apple II Bus/" tstamps="/aae24c6a-3b65-4530-9bc3-3c3dd58e8ebc/"/>
+      <tstamps>85ce003f-290f-4f69-b826-84e95444a1cd</tstamps>
+    </comp>
+    <comp ref="SLOT5">
+      <value>A2SLOT</value>
+      <footprint>csa_ultrabus_v2:FE100-25</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="A2SLOT" description=""/>
+      <property name="Sheetname" value="Apple II Bus"/>
+      <property name="Sheetfile" value="Apple_II_Bus.kicad_sch"/>
+      <sheetpath names="/Apple II Bus/" tstamps="/aae24c6a-3b65-4530-9bc3-3c3dd58e8ebc/"/>
+      <tstamps>1c8e6534-bceb-4a86-842d-d3f79df3a63a</tstamps>
+    </comp>
+    <comp ref="SLOT7">
+      <value>A2SLOT</value>
+      <footprint>csa_ultrabus_v2:FE100-25</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="A2SLOT" description=""/>
+      <property name="Sheetname" value="Apple II Bus"/>
+      <property name="Sheetfile" value="Apple_II_Bus.kicad_sch"/>
+      <sheetpath names="/Apple II Bus/" tstamps="/aae24c6a-3b65-4530-9bc3-3c3dd58e8ebc/"/>
+      <tstamps>43e6991f-3583-4bae-b528-618598ebd001</tstamps>
+    </comp>
+    <comp ref="JP14">
+      <value>JP2E</value>
+      <footprint>csa_ultrabus_v2:JP2</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="JP2E" description=""/>
+      <property name="Sheetname" value="RCxxxx"/>
+      <property name="Sheetfile" value="RCxxxx.kicad_sch"/>
+      <sheetpath names="/RCxxxx/" tstamps="/fde785bd-efae-48a8-86cb-f2ef6cfd3419/"/>
+      <tstamps>6fef67bd-446c-474c-a8f1-dedaa67d3864</tstamps>
+    </comp>
+    <comp ref="SLOT6.1">
+      <value>RC2014/6502</value>
+      <footprint>csa_ultrabus_v2:SIL40</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="RC2014/6502" description=""/>
+      <property name="Sheetname" value="RCxxxx"/>
+      <property name="Sheetfile" value="RCxxxx.kicad_sch"/>
+      <sheetpath names="/RCxxxx/" tstamps="/fde785bd-efae-48a8-86cb-f2ef6cfd3419/"/>
+      <tstamps>b7fc9549-2396-4b1e-84cb-23a9dc6b10be</tstamps>
+    </comp>
+    <comp ref="SLOT6.2">
+      <value>RC2014/6502</value>
+      <footprint>csa_ultrabus_v2:SIL40</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="RC2014/6502" description=""/>
+      <property name="Sheetname" value="RCxxxx"/>
+      <property name="Sheetfile" value="RCxxxx.kicad_sch"/>
+      <sheetpath names="/RCxxxx/" tstamps="/fde785bd-efae-48a8-86cb-f2ef6cfd3419/"/>
+      <tstamps>fdc118b8-1589-46ef-9e31-38e44f51b8a7</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>C-EUC0603</value>
+      <footprint>csa_ultrabus_v2:C0603</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="C-EUC0603" description=""/>
+      <property name="Sheetname" value="C64"/>
+      <property name="Sheetfile" value="C64.kicad_sch"/>
+      <sheetpath names="/C64/" tstamps="/79492ee7-4524-4618-bb5b-9f0d9902e7e8/"/>
+      <tstamps>f4428580-9650-451b-b08e-6b608e8c6564</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>JP2E</value>
+      <footprint>csa_ultrabus_v2:JP2</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="JP2E" description=""/>
+      <property name="Sheetname" value="C64"/>
+      <property name="Sheetfile" value="C64.kicad_sch"/>
+      <sheetpath names="/C64/" tstamps="/79492ee7-4524-4618-bb5b-9f0d9902e7e8/"/>
+      <tstamps>c050257a-9c37-4dae-b2ce-de2abfaa5b1a</tstamps>
+    </comp>
+    <comp ref="X1">
+      <value>PORT_EXPANSION_64_CONN</value>
+      <footprint>csa_ultrabus_v2:FE100-22-2</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="PORT_EXPANSION_64_CONN" description=""/>
+      <property name="Sheetname" value="C64"/>
+      <property name="Sheetfile" value="C64.kicad_sch"/>
+      <sheetpath names="/C64/" tstamps="/79492ee7-4524-4618-bb5b-9f0d9902e7e8/"/>
+      <tstamps>aeae457c-5739-459c-bb82-36d598bb3354 a9f8b57f-01fd-4a78-906f-4f676779302f</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>47u</value>
+      <footprint>csa_ultrabus_v2:E2,5-5</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="CPOL-EUE2.5-5" description=""/>
+      <property name="Sheetname" value="Shortbus"/>
+      <property name="Sheetfile" value="Shortbus.kicad_sch"/>
+      <sheetpath names="/Shortbus/" tstamps="/54cb4c21-526c-4a4b-a16f-60eae9ce1264/"/>
+      <tstamps>ea9cef4a-984e-4275-b95a-5fb3ddfcbf81</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>47u</value>
+      <footprint>csa_ultrabus_v2:E2,5-5</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="CPOL-EUE2.5-5" description=""/>
+      <property name="Sheetname" value="Shortbus"/>
+      <property name="Sheetfile" value="Shortbus.kicad_sch"/>
+      <sheetpath names="/Shortbus/" tstamps="/54cb4c21-526c-4a4b-a16f-60eae9ce1264/"/>
+      <tstamps>ffcf8899-4d33-4638-9cef-29800d65e298</tstamps>
+    </comp>
+    <comp ref="U$1">
+      <value>CSASHORTBUSFS</value>
+      <footprint>csa_ultrabus_v2:FABC48S2</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="CSASHORTBUSFS" description=""/>
+      <property name="Sheetname" value="Shortbus"/>
+      <property name="Sheetfile" value="Shortbus.kicad_sch"/>
+      <sheetpath names="/Shortbus/" tstamps="/54cb4c21-526c-4a4b-a16f-60eae9ce1264/"/>
+      <tstamps>5c0198eb-e376-49c1-a659-478f8bc1603c</tstamps>
+    </comp>
+    <comp ref="U$2">
+      <value>CSASHORTBUSMA</value>
+      <footprint>csa_ultrabus_v2:MABC48B2</footprint>
+      <libsource lib="csa_ultrabus_v2-eagle-import" part="CSASHORTBUSMA" description=""/>
+      <property name="Sheetname" value="Shortbus"/>
+      <property name="Sheetfile" value="Shortbus.kicad_sch"/>
+      <sheetpath names="/Shortbus/" tstamps="/54cb4c21-526c-4a4b-a16f-60eae9ce1264/"/>
+      <tstamps>2d1619c6-f1ef-45cd-84d4-e1313b53967b</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="csa_ultrabus_v2-eagle-import" part="7400D">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Footprint">csa_ultrabus_v2:SO14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I0" type="input"/>
+        <pin num="2" name="I1" type="input"/>
+        <pin num="3" name="O" type="output"/>
+        <pin num="4" name="I0" type="input"/>
+        <pin num="5" name="I1" type="input"/>
+        <pin num="6" name="O" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="O" type="output"/>
+        <pin num="9" name="I0" type="input"/>
+        <pin num="10" name="I1" type="input"/>
+        <pin num="11" name="O" type="output"/>
+        <pin num="12" name="I0" type="input"/>
+        <pin num="13" name="I1" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="csa_ultrabus_v2-eagle-import" part="7404D">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Footprint">csa_ultrabus_v2:SO14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I" type="input"/>
+        <pin num="2" name="O" type="output"/>
+        <pin num="3" name="I" type="input"/>
+        <pin num="4" name="O" type="output"/>
+        <pin num="5" name="I" type="input"/>
+        <pin num="6" name="O" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="O" type="output"/>
+        <pin num="9" name="I" type="input"/>
+        <pin num="10" name="O" type="output"/>
+        <pin num="11" name="I" type="input"/>
+        <pin num="12" name="O" type="output"/>
+        <pin num="13" name="I" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="csa_ultrabus_v2-eagle-import" part="74125D">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Footprint">csa_ultrabus_v2:SO14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OE" type="input"/>
+        <pin num="2" name="I" type="input"/>
+        <pin num="3" name="O" type="tri_state"/>
+        <pin num="4" name="OE" type="input"/>
+        <pin num="5" name="I" type="input"/>
+        <pin num="6" name="O" type="tri_state"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="O" type="tri_state"/>
+        <pin num="9" name="I" type="input"/>
+        <pin num="10" name="OE" type="input"/>
+        <pin num="11" name="O" type="tri_state"/>
+        <pin num="12" name="I" type="input"/>
+        <pin num="13" name="OE" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="csa_ultrabus_v2-eagle-import" part="74138D">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Footprint">csa_ultrabus_v2:SO16</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="C" type="input"/>
+        <pin num="4" name="G2A" type="input"/>
+        <pin num="5" name="G2B" type="input"/>
+        <pin num="6" name="G1" type="input"/>
+        <pin num="7" name="Y7" type="output"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="Y6" type="output"/>
+        <pin num="10" name="Y5" type="output"/>
+        <pin num="11" name="Y4" type="output"/>
+        <pin num="12" name="Y3" type="output"/>
+        <pin num="13" name="Y2" type="output"/>
+        <pin num="14" name="Y1" type="output"/>
+        <pin num="15" name="Y0" type="output"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="csa_ultrabus_v2-eagle-import" part="A2SLOT">
+      <fields>
+        <field name="Footprint">csa_ultrabus_v2:FE100-25</field>
+      </fields>
+      <pins>
+        <pin num="1" name="/IOSELECT" type="bidirectional"/>
+        <pin num="2" name="A0" type="bidirectional"/>
+        <pin num="3" name="A1" type="bidirectional"/>
+        <pin num="4" name="A2" type="bidirectional"/>
+        <pin num="5" name="A3" type="bidirectional"/>
+        <pin num="6" name="A4" type="bidirectional"/>
+        <pin num="7" name="A5" type="bidirectional"/>
+        <pin num="8" name="A6" type="bidirectional"/>
+        <pin num="9" name="A7" type="bidirectional"/>
+        <pin num="10" name="A8" type="bidirectional"/>
+        <pin num="11" name="A9" type="bidirectional"/>
+        <pin num="12" name="A10" type="bidirectional"/>
+        <pin num="13" name="A11" type="bidirectional"/>
+        <pin num="14" name="A12" type="bidirectional"/>
+        <pin num="15" name="A13" type="bidirectional"/>
+        <pin num="16" name="A14" type="bidirectional"/>
+        <pin num="17" name="A15" type="bidirectional"/>
+        <pin num="18" name="R/-W" type="bidirectional"/>
+        <pin num="19" name="SYNC" type="bidirectional"/>
+        <pin num="20" name="/IOSTROBE" type="bidirectional"/>
+        <pin num="21" name="RDY" type="bidirectional"/>
+        <pin num="22" name="/DMA" type="bidirectional"/>
+        <pin num="23" name="INT_OUT" type="bidirectional"/>
+        <pin num="24" name="DMA_OUT" type="bidirectional"/>
+        <pin num="25" name="5V" type="bidirectional"/>
+        <pin num="A" name="12V" type="bidirectional"/>
+        <pin num="B" name="D0" type="bidirectional"/>
+        <pin num="C" name="D1" type="bidirectional"/>
+        <pin num="D" name="D2" type="bidirectional"/>
+        <pin num="E" name="D3" type="bidirectional"/>
+        <pin num="F" name="D4" type="bidirectional"/>
+        <pin num="G" name="D5" type="bidirectional"/>
+        <pin num="H" name="D6" type="bidirectional"/>
+        <pin num="J" name="D7" type="bidirectional"/>
+        <pin num="K" name="/DEVSELECT" type="bidirectional"/>
+        <pin num="L" name="PHI0" type="bidirectional"/>
+        <pin num="M" name="USER1" type="bidirectional"/>
+        <pin num="N" name="PHI1" type="bidirectional"/>
+        <pin num="O" name="Q3" type="bidirectional"/>
+        <pin num="P" name="7M" type="bidirectional"/>
+        <pin num="Q" name="COLORREF" type="bidirectional"/>
+        <pin num="R" name="-5V" type="bidirectional"/>
+        <pin num="S" name="-12V" type="bidirectional"/>
+        <pin num="T" name="/INH" type="bidirectional"/>
+        <pin num="U" name="/RES" type="bidirectional"/>
+        <pin num="V" name="/IRQ" type="bidirectional"/>
+        <pin num="W" name="/NMI" type="bidirectional"/>
+        <pin num="X" name="INT_IN" type="bidirectional"/>
+        <pin num="Y" name="DMA_IN" type="bidirectional"/>
+        <pin num="Z" name="GND" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="csa_ultrabus_v2-eagle-import" part="C-EUC0603">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Footprint">csa_ultrabus_v2:C0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="csa_ultrabus_v2-eagle-import" part="CPOL-EUE2.5-5">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Footprint">csa_ultrabus_v2:E2,5-5</field>
+      </fields>
+      <pins>
+        <pin num="+" name="+" type="passive"/>
+        <pin num="-" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="csa_ultrabus_v2-eagle-import" part="CSABUSSOCK180">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Footprint">csa_ultrabus_v2:CSABUSSOCK180</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="bidirectional"/>
+        <pin num="A2" name="VBUF" type="bidirectional"/>
+        <pin num="A3" name="50HZ" type="bidirectional"/>
+        <pin num="A4" name="/IOINH" type="bidirectional"/>
+        <pin num="A5" name="/EXTIO" type="bidirectional"/>
+        <pin num="A6" name="/MEMSEL" type="bidirectional"/>
+        <pin num="A7" name="/IOSEL" type="bidirectional"/>
+        <pin num="A8" name="/BE" type="bidirectional"/>
+        <pin num="A9" name="VCC33" type="bidirectional"/>
+        <pin num="A10" name="NOEXEC" type="bidirectional"/>
+        <pin num="A11" name="NOTMAPD" type="bidirectional"/>
+        <pin num="A12" name="WPROT" type="bidirectional"/>
+        <pin num="A13" name="I2CSDA" type="bidirectional"/>
+        <pin num="A14" name="I2CSCL" type="bidirectional"/>
+        <pin num="A15" name="D7" type="bidirectional"/>
+        <pin num="A16" name="D6" type="bidirectional"/>
+        <pin num="A17" name="D5" type="bidirectional"/>
+        <pin num="A18" name="D4" type="bidirectional"/>
+        <pin num="A19" name="D3" type="bidirectional"/>
+        <pin num="A20" name="D2" type="bidirectional"/>
+        <pin num="A21" name="D1" type="bidirectional"/>
+        <pin num="A22" name="D0" type="bidirectional"/>
+        <pin num="A23" name="/NMI" type="bidirectional"/>
+        <pin num="A24" name="/IRQ" type="bidirectional"/>
+        <pin num="A25" name="/SO" type="bidirectional"/>
+        <pin num="A26" name="RDY" type="bidirectional"/>
+        <pin num="A27" name="/RES" type="bidirectional"/>
+        <pin num="A28" name="GND2" type="bidirectional"/>
+        <pin num="A29" name="GND3" type="bidirectional"/>
+        <pin num="A30" name="GND4" type="bidirectional"/>
+        <pin num="A31" name="GND5" type="bidirectional"/>
+        <pin num="A32" name="GND6" type="bidirectional"/>
+        <pin num="C1" name="GND7" type="bidirectional"/>
+        <pin num="C2" name="VCC" type="bidirectional"/>
+        <pin num="C3" name="VCC2" type="bidirectional"/>
+        <pin num="C4" name="A19" type="bidirectional"/>
+        <pin num="C5" name="A18" type="bidirectional"/>
+        <pin num="C6" name="A17" type="bidirectional"/>
+        <pin num="C7" name="A16" type="bidirectional"/>
+        <pin num="C8" name="A15" type="bidirectional"/>
+        <pin num="C9" name="A14" type="bidirectional"/>
+        <pin num="C10" name="A13" type="bidirectional"/>
+        <pin num="C11" name="A12" type="bidirectional"/>
+        <pin num="C12" name="A11" type="bidirectional"/>
+        <pin num="C13" name="A10" type="bidirectional"/>
+        <pin num="C14" name="A9" type="bidirectional"/>
+        <pin num="C15" name="A8" type="bidirectional"/>
+        <pin num="C16" name="A7" type="bidirectional"/>
+        <pin num="C17" name="A6" type="bidirectional"/>
+        <pin num="C18" name="A5" type="bidirectional"/>
+        <pin num="C19" name="A4" type="bidirectional"/>
+        <pin num="C20" name="A3" type="bidirectional"/>
+        <pin num="C21" name="A2" type="bidirectional"/>
+        <pin num="C22" name="A1" type="bidirectional"/>
+        <pin num="C23" name="A0" type="bidirectional"/>
+        <pin num="C24" name="SYNC" type="bidirectional"/>
+        <pin num="C25" name="R/-W" type="bidirectional"/>
+        <pin num="C26" name="PHI2" type="bidirectional"/>
+        <pin num="C27" name="PHI1" type="bidirectional"/>
+        <pin num="C28" name="PHI0" type="bidirectional"/>
+        <pin num="C29" name="2PHI2" type="bidirectional"/>
+        <pin num="C30" name="16MHZ" type="bidirectional"/>
+        <pin num="C31" name="8PHI2" type="bidirectional"/>
+        <pin num="C32" name="GND8" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="csa_ultrabus_v2-eagle-import" part="CSASHORTBUSFS">
+      <fields>
+        <field name="Footprint">csa_ultrabus_v2:FABC48S2</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="bidirectional"/>
+        <pin num="A2" name="/MEMSEL" type="bidirectional"/>
+        <pin num="A3" name="/IOSEL" type="bidirectional"/>
+        <pin num="A4" name="/BE" type="bidirectional"/>
+        <pin num="A5" name="D7" type="bidirectional"/>
+        <pin num="A6" name="D6" type="bidirectional"/>
+        <pin num="A7" name="D5" type="bidirectional"/>
+        <pin num="A8" name="D4" type="bidirectional"/>
+        <pin num="A9" name="D3" type="bidirectional"/>
+        <pin num="A10" name="D2" type="bidirectional"/>
+        <pin num="A11" name="D1" type="bidirectional"/>
+        <pin num="A12" name="D0" type="bidirectional"/>
+        <pin num="A13" name="/NMI" type="bidirectional"/>
+        <pin num="A14" name="/IRQ" type="bidirectional"/>
+        <pin num="A15" name="/RES" type="bidirectional"/>
+        <pin num="A16" name="GND2" type="bidirectional"/>
+        <pin num="B1" name="A19" type="bidirectional"/>
+        <pin num="B2" name="A17" type="bidirectional"/>
+        <pin num="B3" name="A15" type="bidirectional"/>
+        <pin num="B4" name="A13" type="bidirectional"/>
+        <pin num="B5" name="A11" type="bidirectional"/>
+        <pin num="B6" name="A9" type="bidirectional"/>
+        <pin num="B7" name="A7" type="bidirectional"/>
+        <pin num="B8" name="A5" type="bidirectional"/>
+        <pin num="B9" name="A3" type="bidirectional"/>
+        <pin num="B10" name="A1" type="bidirectional"/>
+        <pin num="B11" name="SYNC" type="bidirectional"/>
+        <pin num="B12" name="R/-W" type="bidirectional"/>
+        <pin num="B13" name="RDY" type="bidirectional"/>
+        <pin num="B14" name="VCC33" type="bidirectional"/>
+        <pin num="B15" name="VBUF" type="bidirectional"/>
+        <pin num="B16" name="8PHI2" type="bidirectional"/>
+        <pin num="C1" name="VCC" type="bidirectional"/>
+        <pin num="C2" name="A18" type="bidirectional"/>
+        <pin num="C3" name="A16" type="bidirectional"/>
+        <pin num="C4" name="A14" type="bidirectional"/>
+        <pin num="C5" name="A12" type="bidirectional"/>
+        <pin num="C6" name="A10" type="bidirectional"/>
+        <pin num="C7" name="A8" type="bidirectional"/>
+        <pin num="C8" name="A6" type="bidirectional"/>
+        <pin num="C9" name="A4" type="bidirectional"/>
+        <pin num="C10" name="A2" type="bidirectional"/>
+        <pin num="C11" name="A0" type="bidirectional"/>
+        <pin num="C12" name="PHI2" type="bidirectional"/>
+        <pin num="C13" name="PHI1" type="bidirectional"/>
+        <pin num="C14" name="PHI0" type="bidirectional"/>
+        <pin num="C15" name="2PHI2" type="bidirectional"/>
+        <pin num="C16" name="VCC2" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="csa_ultrabus_v2-eagle-import" part="CSASHORTBUSMA">
+      <fields>
+        <field name="Footprint">csa_ultrabus_v2:MABC48B2</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="bidirectional"/>
+        <pin num="A2" name="/MEMSEL" type="bidirectional"/>
+        <pin num="A3" name="/IOSEL" type="bidirectional"/>
+        <pin num="A4" name="/BE" type="bidirectional"/>
+        <pin num="A5" name="D7" type="bidirectional"/>
+        <pin num="A6" name="D6" type="bidirectional"/>
+        <pin num="A7" name="D5" type="bidirectional"/>
+        <pin num="A8" name="D4" type="bidirectional"/>
+        <pin num="A9" name="D3" type="bidirectional"/>
+        <pin num="A10" name="D2" type="bidirectional"/>
+        <pin num="A11" name="D1" type="bidirectional"/>
+        <pin num="A12" name="D0" type="bidirectional"/>
+        <pin num="A13" name="/NMI" type="bidirectional"/>
+        <pin num="A14" name="/IRQ" type="bidirectional"/>
+        <pin num="A15" name="/RES" type="bidirectional"/>
+        <pin num="A16" name="GND2" type="bidirectional"/>
+        <pin num="B1" name="A19" type="bidirectional"/>
+        <pin num="B2" name="A17" type="bidirectional"/>
+        <pin num="B3" name="A15" type="bidirectional"/>
+        <pin num="B4" name="A13" type="bidirectional"/>
+        <pin num="B5" name="A11" type="bidirectional"/>
+        <pin num="B6" name="A9" type="bidirectional"/>
+        <pin num="B7" name="A7" type="bidirectional"/>
+        <pin num="B8" name="A5" type="bidirectional"/>
+        <pin num="B9" name="A3" type="bidirectional"/>
+        <pin num="B10" name="A1" type="bidirectional"/>
+        <pin num="B11" name="SYNC" type="bidirectional"/>
+        <pin num="B12" name="R/-W" type="bidirectional"/>
+        <pin num="B13" name="RDY" type="bidirectional"/>
+        <pin num="B14" name="VCC33" type="bidirectional"/>
+        <pin num="B15" name="VBUF" type="bidirectional"/>
+        <pin num="B16" name="8PHI2" type="bidirectional"/>
+        <pin num="C1" name="VCC" type="bidirectional"/>
+        <pin num="C2" name="A18" type="bidirectional"/>
+        <pin num="C3" name="A16" type="bidirectional"/>
+        <pin num="C4" name="A14" type="bidirectional"/>
+        <pin num="C5" name="A12" type="bidirectional"/>
+        <pin num="C6" name="A10" type="bidirectional"/>
+        <pin num="C7" name="A8" type="bidirectional"/>
+        <pin num="C8" name="A6" type="bidirectional"/>
+        <pin num="C9" name="A4" type="bidirectional"/>
+        <pin num="C10" name="A2" type="bidirectional"/>
+        <pin num="C11" name="A0" type="bidirectional"/>
+        <pin num="C12" name="PHI2" type="bidirectional"/>
+        <pin num="C13" name="PHI1" type="bidirectional"/>
+        <pin num="C14" name="PHI0" type="bidirectional"/>
+        <pin num="C15" name="2PHI2" type="bidirectional"/>
+        <pin num="C16" name="VCC2" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="csa_ultrabus_v2-eagle-import" part="FLOP-4W827001">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Footprint">csa_ultrabus_v2:827001</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="csa_ultrabus_v2-eagle-import" part="JP1E">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Footprint">csa_ultrabus_v2:JP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="csa_ultrabus_v2-eagle-import" part="JP2E">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Footprint">csa_ultrabus_v2:JP2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="csa_ultrabus_v2-eagle-import" part="MOUNT-HOLE3.2">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Footprint">csa_ultrabus_v2:3,2</field>
+      </fields>
+    </libpart>
+    <libpart lib="csa_ultrabus_v2-eagle-import" part="PORT_EXPANSION_64_CONN">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Footprint">csa_ultrabus_v2:FE100-22-2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="VCC@1" type="power_in"/>
+        <pin num="4" name="~{IRQ}" type="bidirectional"/>
+        <pin num="5" name="R/~{W}" type="bidirectional"/>
+        <pin num="6" name="DOTCLK" type="input"/>
+        <pin num="7" name="~{IO1}" type="input"/>
+        <pin num="8" name="~{GAME}" type="input"/>
+        <pin num="9" name="~{EXROM}" type="input"/>
+        <pin num="10" name="~{IO2}" type="input"/>
+        <pin num="11" name="~{ROML}" type="input"/>
+        <pin num="12" name="BA" type="input"/>
+        <pin num="13" name="DMA" type="bidirectional"/>
+        <pin num="14" name="D7" type="bidirectional"/>
+        <pin num="15" name="D6" type="bidirectional"/>
+        <pin num="16" name="D5" type="bidirectional"/>
+        <pin num="17" name="D4" type="bidirectional"/>
+        <pin num="18" name="D3" type="bidirectional"/>
+        <pin num="19" name="D2" type="bidirectional"/>
+        <pin num="20" name="D1" type="bidirectional"/>
+        <pin num="21" name="D0" type="bidirectional"/>
+        <pin num="22" name="GND@1" type="power_in"/>
+        <pin num="A" name="GND@2" type="power_in"/>
+        <pin num="B" name="~{ROMH}" type="input"/>
+        <pin num="C" name="~{RESET}" type="input"/>
+        <pin num="D" name="~{NMI}" type="bidirectional"/>
+        <pin num="E" name="PHI2" type="input"/>
+        <pin num="F" name="A15" type="bidirectional"/>
+        <pin num="H" name="A14" type="bidirectional"/>
+        <pin num="J" name="A13" type="bidirectional"/>
+        <pin num="K" name="A12" type="bidirectional"/>
+        <pin num="L" name="A11" type="bidirectional"/>
+        <pin num="M" name="A10" type="bidirectional"/>
+        <pin num="N" name="A9" type="bidirectional"/>
+        <pin num="P" name="A8" type="bidirectional"/>
+        <pin num="R" name="A7" type="bidirectional"/>
+        <pin num="S" name="A6" type="bidirectional"/>
+        <pin num="T" name="A5" type="bidirectional"/>
+        <pin num="U" name="A4" type="bidirectional"/>
+        <pin num="V" name="A3" type="bidirectional"/>
+        <pin num="W" name="A2" type="bidirectional"/>
+        <pin num="X" name="A1" type="bidirectional"/>
+        <pin num="Y" name="A0" type="bidirectional"/>
+        <pin num="Z" name="GND@3" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="csa_ultrabus_v2-eagle-import" part="RC2014/6502">
+      <fields>
+        <field name="Footprint">csa_ultrabus_v2:SIL40</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A15" type="bidirectional"/>
+        <pin num="2" name="A14" type="bidirectional"/>
+        <pin num="3" name="A13" type="bidirectional"/>
+        <pin num="4" name="A12" type="bidirectional"/>
+        <pin num="5" name="A11" type="bidirectional"/>
+        <pin num="6" name="A10" type="bidirectional"/>
+        <pin num="7" name="A9" type="bidirectional"/>
+        <pin num="8" name="A8" type="bidirectional"/>
+        <pin num="9" name="A7" type="bidirectional"/>
+        <pin num="10" name="A6" type="bidirectional"/>
+        <pin num="11" name="A5" type="bidirectional"/>
+        <pin num="12" name="A4" type="bidirectional"/>
+        <pin num="13" name="A3" type="bidirectional"/>
+        <pin num="14" name="A2" type="bidirectional"/>
+        <pin num="15" name="A1" type="bidirectional"/>
+        <pin num="16" name="A0" type="bidirectional"/>
+        <pin num="17" name="GND" type="bidirectional"/>
+        <pin num="18" name="VCC" type="bidirectional"/>
+        <pin num="19" name="*PHI2,/M1" type="bidirectional"/>
+        <pin num="20" name="/RES" type="bidirectional"/>
+        <pin num="21" name="PHI0,CLK" type="bidirectional"/>
+        <pin num="22" name="/IRQ" type="bidirectional"/>
+        <pin num="23" name="*PHI1,/MREQ" type="bidirectional"/>
+        <pin num="24" name="*R/-W,/WR" type="bidirectional"/>
+        <pin num="25" name="*RDY,/RD" type="bidirectional"/>
+        <pin num="26" name="*SYNC,/IOREQ" type="bidirectional"/>
+        <pin num="27" name="D0" type="bidirectional"/>
+        <pin num="28" name="D1" type="bidirectional"/>
+        <pin num="29" name="D2" type="bidirectional"/>
+        <pin num="30" name="D3" type="bidirectional"/>
+        <pin num="31" name="D4" type="bidirectional"/>
+        <pin num="32" name="D5" type="bidirectional"/>
+        <pin num="33" name="D6" type="bidirectional"/>
+        <pin num="34" name="D7" type="bidirectional"/>
+        <pin num="35" name="TX" type="bidirectional"/>
+        <pin num="36" name="RX" type="bidirectional"/>
+        <pin num="37" name="*/NMI,USER1" type="bidirectional"/>
+        <pin num="38" name="EX1/USER2" type="bidirectional"/>
+        <pin num="39" name="EX2/USER3" type="bidirectional"/>
+        <pin num="40" name="USER4" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="csa_ultrabus_v2-eagle-import">
+      <uri>/home/fachat/8bit/8bitgit/Eagle/work/CSA_ULTRABUS_V2.0A/csa_ultrabus_v2-eagle-import.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/Apple II Bus/8MHZ">
+      <node ref="IC1" pin="2" pinfunction="O" pintype="output"/>
+      <node ref="SLOT3" pin="P" pinfunction="7M" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="P" pinfunction="7M" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="P" pinfunction="7M" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="/Apple II Bus/A2USER1">
+      <node ref="JP8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SLOT3" pin="M" pinfunction="USER1" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="M" pinfunction="USER1" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="M" pinfunction="USER1" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/Apple II Bus/COLORREF">
+      <node ref="SLOT3" pin="Q" pinfunction="COLORREF" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="Q" pinfunction="COLORREF" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="Q" pinfunction="COLORREF" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/Apple II Bus/SLOT0DEV">
+      <node ref="IC4" pin="15" pinfunction="Y0" pintype="output"/>
+    </net>
+    <net code="7" name="/Apple II Bus/SLOT3DEV">
+      <node ref="IC4" pin="12" pinfunction="Y3" pintype="output"/>
+      <node ref="SLOT3" pin="K" pinfunction="/DEVSELECT" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/Apple II Bus/SLOT5DEV">
+      <node ref="IC4" pin="10" pinfunction="Y5" pintype="output"/>
+      <node ref="SLOT5" pin="K" pinfunction="/DEVSELECT" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/Apple II Bus/SLOT6DEV">
+      <node ref="IC4" pin="9" pinfunction="Y6" pintype="output"/>
+    </net>
+    <net code="10" name="/Apple II Bus/SLOT7DEV">
+      <node ref="IC4" pin="7" pinfunction="Y7" pintype="output"/>
+      <node ref="SLOT7" pin="K" pinfunction="/DEVSELECT" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/Apple II Bus/{slash}BANK2">
+      <node ref="IC2" pin="13" pinfunction="Y2" pintype="output"/>
+      <node ref="JP15" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="12" name="/Apple II Bus/{slash}BANK4">
+      <node ref="IC2" pin="11" pinfunction="Y4" pintype="output"/>
+    </net>
+    <net code="13" name="/Apple II Bus/{slash}BANK5">
+      <node ref="IC2" pin="10" pinfunction="Y5" pintype="output"/>
+    </net>
+    <net code="14" name="/Apple II Bus/{slash}DMA">
+      <node ref="JP9" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="SLOT3" pin="22" pinfunction="/DMA" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="22" pinfunction="/DMA" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="22" pinfunction="/DMA" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/Apple II Bus/{slash}IOSTROBE">
+      <node ref="JP10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SLOT3" pin="20" pinfunction="/IOSTROBE" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="20" pinfunction="/IOSTROBE" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="20" pinfunction="/IOSTROBE" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/Apple II Bus/{slash}SLOT0IO">
+      <node ref="IC3" pin="15" pinfunction="Y0" pintype="output"/>
+      <node ref="JP16" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="17" name="/Apple II Bus/{slash}SLOT2IO">
+      <node ref="IC3" pin="13" pinfunction="Y2" pintype="output"/>
+      <node ref="JP17" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="18" name="/Apple II Bus/{slash}SLOT3IO">
+      <node ref="IC3" pin="12" pinfunction="Y3" pintype="output"/>
+      <node ref="SLOT3" pin="1" pinfunction="/IOSELECT" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/Apple II Bus/{slash}SLOT5IO">
+      <node ref="IC3" pin="10" pinfunction="Y5" pintype="output"/>
+      <node ref="SLOT5" pin="1" pinfunction="/IOSELECT" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/Apple II Bus/{slash}SLOT7IO">
+      <node ref="IC3" pin="7" pinfunction="Y7" pintype="output"/>
+      <node ref="SLOT7" pin="1" pinfunction="/IOSELECT" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/Apple II Bus/{slash}SLOTIO">
+      <node ref="IC3" pin="4" pinfunction="G2A" pintype="input"/>
+      <node ref="JP11" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="24" name="/CS/A BUS/16MHZ">
+      <node ref="P1" pin="C30" pinfunction="16MHZ" pintype="bidirectional"/>
+      <node ref="P2" pin="C30" pinfunction="16MHZ" pintype="bidirectional"/>
+      <node ref="P3" pin="C30" pinfunction="16MHZ" pintype="bidirectional"/>
+      <node ref="P4" pin="C30" pinfunction="16MHZ" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/CS/A BUS/50HZ">
+      <node ref="P1" pin="A3" pinfunction="50HZ" pintype="bidirectional"/>
+      <node ref="P2" pin="A3" pinfunction="50HZ" pintype="bidirectional"/>
+      <node ref="P3" pin="A3" pinfunction="50HZ" pintype="bidirectional"/>
+      <node ref="P4" pin="A3" pinfunction="50HZ" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/CS/A BUS/I2SCL">
+      <node ref="P1" pin="A14" pinfunction="I2CSCL" pintype="bidirectional"/>
+      <node ref="P2" pin="A14" pinfunction="I2CSCL" pintype="bidirectional"/>
+      <node ref="P3" pin="A14" pinfunction="I2CSCL" pintype="bidirectional"/>
+      <node ref="P4" pin="A14" pinfunction="I2CSCL" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/CS/A BUS/I2SDA">
+      <node ref="P1" pin="A13" pinfunction="I2CSDA" pintype="bidirectional"/>
+      <node ref="P2" pin="A13" pinfunction="I2CSDA" pintype="bidirectional"/>
+      <node ref="P3" pin="A13" pinfunction="I2CSDA" pintype="bidirectional"/>
+      <node ref="P4" pin="A13" pinfunction="I2CSDA" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/CS/A BUS/NOEXEC">
+      <node ref="P1" pin="A10" pinfunction="NOEXEC" pintype="bidirectional"/>
+      <node ref="P2" pin="A10" pinfunction="NOEXEC" pintype="bidirectional"/>
+      <node ref="P3" pin="A10" pinfunction="NOEXEC" pintype="bidirectional"/>
+      <node ref="P4" pin="A10" pinfunction="NOEXEC" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="/CS/A BUS/NOTMAPD">
+      <node ref="P1" pin="A11" pinfunction="NOTMAPD" pintype="bidirectional"/>
+      <node ref="P2" pin="A11" pinfunction="NOTMAPD" pintype="bidirectional"/>
+      <node ref="P3" pin="A11" pinfunction="NOTMAPD" pintype="bidirectional"/>
+      <node ref="P4" pin="A11" pinfunction="NOTMAPD" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="/CS/A BUS/WPROT">
+      <node ref="P1" pin="A12" pinfunction="WPROT" pintype="bidirectional"/>
+      <node ref="P2" pin="A12" pinfunction="WPROT" pintype="bidirectional"/>
+      <node ref="P3" pin="A12" pinfunction="WPROT" pintype="bidirectional"/>
+      <node ref="P4" pin="A12" pinfunction="WPROT" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="/CS/A BUS/{slash}EXTIO">
+      <node ref="P1" pin="A5" pinfunction="/EXTIO" pintype="bidirectional"/>
+      <node ref="P2" pin="A5" pinfunction="/EXTIO" pintype="bidirectional"/>
+      <node ref="P3" pin="A5" pinfunction="/EXTIO" pintype="bidirectional"/>
+      <node ref="P4" pin="A5" pinfunction="/EXTIO" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="/CS/A BUS/{slash}SO">
+      <node ref="P1" pin="A25" pinfunction="/SO" pintype="bidirectional"/>
+      <node ref="P2" pin="A25" pinfunction="/SO" pintype="bidirectional"/>
+      <node ref="P3" pin="A25" pinfunction="/SO" pintype="bidirectional"/>
+      <node ref="P4" pin="A25" pinfunction="/SO" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="/RCxxxx/N$1">
+      <node ref="IC1" pin="11" pinfunction="I" pintype="input"/>
+      <node ref="JP14" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="37" name="/RCxxxx/RC_CLK">
+      <node ref="SLOT6.1" pin="21" pinfunction="PHI0,CLK" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="21" pinfunction="PHI0,CLK" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="/RCxxxx/RX">
+      <node ref="SLOT6.1" pin="36" pinfunction="RX" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="36" pinfunction="RX" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="/RCxxxx/TX">
+      <node ref="SLOT6.1" pin="35" pinfunction="TX" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="35" pinfunction="TX" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="/RCxxxx/USER1">
+      <node ref="SLOT6.1" pin="37" pinfunction="*/NMI,USER1" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="37" pinfunction="*/NMI,USER1" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="/RCxxxx/USER2">
+      <node ref="SLOT6.1" pin="38" pinfunction="EX1/USER2" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="38" pinfunction="EX1/USER2" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="/RCxxxx/USER3">
+      <node ref="SLOT6.1" pin="39" pinfunction="EX2/USER3" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="39" pinfunction="EX2/USER3" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="/RCxxxx/USER4">
+      <node ref="SLOT6.1" pin="40" pinfunction="USER4" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="40" pinfunction="USER4" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="/RCxxxx/{slash}M1">
+      <node ref="IC1" pin="4" pinfunction="O" pintype="output"/>
+      <node ref="SLOT6.1" pin="19" pinfunction="*PHI2,/M1" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="19" pinfunction="*PHI2,/M1" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="/RCxxxx/{slash}RD0">
+      <node ref="IC6" pin="6" pinfunction="O" pintype="output"/>
+      <node ref="SLOT6.1" pin="25" pinfunction="*RDY,/RD" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="25" pinfunction="*RDY,/RD" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="/RCxxxx/{slash}SLOT6.X_BANK">
+      <node ref="IC6" pin="8" pinfunction="O" pintype="output"/>
+      <node ref="SLOT6.1" pin="23" pinfunction="*PHI1,/MREQ" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="23" pinfunction="*PHI1,/MREQ" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="/RCxxxx/{slash}SLOT6.X_IO">
+      <node ref="IC6" pin="11" pinfunction="O" pintype="output"/>
+      <node ref="SLOT6.1" pin="26" pinfunction="*SYNC,/IOREQ" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="26" pinfunction="*SYNC,/IOREQ" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="/RCxxxx/{slash}WR0">
+      <node ref="IC6" pin="3" pinfunction="O" pintype="output"/>
+      <node ref="SLOT6.1" pin="24" pinfunction="*R/-W,/WR" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="24" pinfunction="*R/-W,/WR" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="12V">
+      <node ref="C19" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="C20" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="C21" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SLOT3" pin="A" pinfunction="12V" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="A" pinfunction="12V" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="A" pinfunction="12V" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="B2PHI2">
+      <node ref="P1" pin="C29" pinfunction="2PHI2" pintype="bidirectional"/>
+      <node ref="P2" pin="C29" pinfunction="2PHI2" pintype="bidirectional"/>
+      <node ref="P3" pin="C29" pinfunction="2PHI2" pintype="bidirectional"/>
+      <node ref="P4" pin="C29" pinfunction="2PHI2" pintype="bidirectional"/>
+      <node ref="SLOT3" pin="O" pinfunction="Q3" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="O" pinfunction="Q3" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="O" pinfunction="Q3" pintype="bidirectional"/>
+      <node ref="U$1" pin="C15" pinfunction="2PHI2" pintype="bidirectional"/>
+      <node ref="U$2" pin="C15" pinfunction="2PHI2" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="B8PHI2">
+      <node ref="IC1" pin="1" pinfunction="I" pintype="input"/>
+      <node ref="P1" pin="C31" pinfunction="8PHI2" pintype="bidirectional"/>
+      <node ref="P2" pin="C31" pinfunction="8PHI2" pintype="bidirectional"/>
+      <node ref="P3" pin="C31" pinfunction="8PHI2" pintype="bidirectional"/>
+      <node ref="P4" pin="C31" pinfunction="8PHI2" pintype="bidirectional"/>
+      <node ref="U$1" pin="B16" pinfunction="8PHI2" pintype="bidirectional"/>
+      <node ref="U$2" pin="B16" pinfunction="8PHI2" pintype="bidirectional"/>
+      <node ref="X1" pin="6" pinfunction="DOTCLK" pintype="input"/>
+    </net>
+    <net code="54" name="BA0">
+      <node ref="P1" pin="C23" pinfunction="A0" pintype="bidirectional"/>
+      <node ref="P2" pin="C23" pinfunction="A0" pintype="bidirectional"/>
+      <node ref="P3" pin="C23" pinfunction="A0" pintype="bidirectional"/>
+      <node ref="P4" pin="C23" pinfunction="A0" pintype="bidirectional"/>
+      <node ref="SLOT3" pin="2" pinfunction="A0" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="2" pinfunction="A0" pintype="bidirectional"/>
+      <node ref="SLOT6.1" pin="16" pinfunction="A0" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="16" pinfunction="A0" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="2" pinfunction="A0" pintype="bidirectional"/>
+      <node ref="U$1" pin="C11" pinfunction="A0" pintype="bidirectional"/>
+      <node ref="U$2" pin="C11" pinfunction="A0" pintype="bidirectional"/>
+      <node ref="X1" pin="Y" pinfunction="A0" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="BA1">
+      <node ref="P1" pin="C22" pinfunction="A1" pintype="bidirectional"/>
+      <node ref="P2" pin="C22" pinfunction="A1" pintype="bidirectional"/>
+      <node ref="P3" pin="C22" pinfunction="A1" pintype="bidirectional"/>
+      <node ref="P4" pin="C22" pinfunction="A1" pintype="bidirectional"/>
+      <node ref="SLOT3" pin="3" pinfunction="A1" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="3" pinfunction="A1" pintype="bidirectional"/>
+      <node ref="SLOT6.1" pin="15" pinfunction="A1" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="15" pinfunction="A1" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="3" pinfunction="A1" pintype="bidirectional"/>
+      <node ref="U$1" pin="B10" pinfunction="A1" pintype="bidirectional"/>
+      <node ref="U$2" pin="B10" pinfunction="A1" pintype="bidirectional"/>
+      <node ref="X1" pin="X" pinfunction="A1" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="BA2">
+      <node ref="P1" pin="C21" pinfunction="A2" pintype="bidirectional"/>
+      <node ref="P2" pin="C21" pinfunction="A2" pintype="bidirectional"/>
+      <node ref="P3" pin="C21" pinfunction="A2" pintype="bidirectional"/>
+      <node ref="P4" pin="C21" pinfunction="A2" pintype="bidirectional"/>
+      <node ref="SLOT3" pin="4" pinfunction="A2" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="4" pinfunction="A2" pintype="bidirectional"/>
+      <node ref="SLOT6.1" pin="14" pinfunction="A2" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="14" pinfunction="A2" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="4" pinfunction="A2" pintype="bidirectional"/>
+      <node ref="U$1" pin="C10" pinfunction="A2" pintype="bidirectional"/>
+      <node ref="U$2" pin="C10" pinfunction="A2" pintype="bidirectional"/>
+      <node ref="X1" pin="W" pinfunction="A2" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="BA3">
+      <node ref="P1" pin="C20" pinfunction="A3" pintype="bidirectional"/>
+      <node ref="P2" pin="C20" pinfunction="A3" pintype="bidirectional"/>
+      <node ref="P3" pin="C20" pinfunction="A3" pintype="bidirectional"/>
+      <node ref="P4" pin="C20" pinfunction="A3" pintype="bidirectional"/>
+      <node ref="SLOT3" pin="5" pinfunction="A3" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="5" pinfunction="A3" pintype="bidirectional"/>
+      <node ref="SLOT6.1" pin="13" pinfunction="A3" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="13" pinfunction="A3" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="5" pinfunction="A3" pintype="bidirectional"/>
+      <node ref="U$1" pin="B9" pinfunction="A3" pintype="bidirectional"/>
+      <node ref="U$2" pin="B9" pinfunction="A3" pintype="bidirectional"/>
+      <node ref="X1" pin="V" pinfunction="A3" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="BA4">
+      <node ref="IC4" pin="1" pinfunction="A" pintype="input"/>
+      <node ref="P1" pin="C19" pinfunction="A4" pintype="bidirectional"/>
+      <node ref="P2" pin="C19" pinfunction="A4" pintype="bidirectional"/>
+      <node ref="P3" pin="C19" pinfunction="A4" pintype="bidirectional"/>
+      <node ref="P4" pin="C19" pinfunction="A4" pintype="bidirectional"/>
+      <node ref="SLOT3" pin="6" pinfunction="A4" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="6" pinfunction="A4" pintype="bidirectional"/>
+      <node ref="SLOT6.1" pin="12" pinfunction="A4" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="12" pinfunction="A4" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="6" pinfunction="A4" pintype="bidirectional"/>
+      <node ref="U$1" pin="C9" pinfunction="A4" pintype="bidirectional"/>
+      <node ref="U$2" pin="C9" pinfunction="A4" pintype="bidirectional"/>
+      <node ref="X1" pin="U" pinfunction="A4" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="BA5">
+      <node ref="IC4" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="P1" pin="C18" pinfunction="A5" pintype="bidirectional"/>
+      <node ref="P2" pin="C18" pinfunction="A5" pintype="bidirectional"/>
+      <node ref="P3" pin="C18" pinfunction="A5" pintype="bidirectional"/>
+      <node ref="P4" pin="C18" pinfunction="A5" pintype="bidirectional"/>
+      <node ref="SLOT3" pin="7" pinfunction="A5" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="7" pinfunction="A5" pintype="bidirectional"/>
+      <node ref="SLOT6.1" pin="11" pinfunction="A5" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="11" pinfunction="A5" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="7" pinfunction="A5" pintype="bidirectional"/>
+      <node ref="U$1" pin="B8" pinfunction="A5" pintype="bidirectional"/>
+      <node ref="U$2" pin="B8" pinfunction="A5" pintype="bidirectional"/>
+      <node ref="X1" pin="T" pinfunction="A5" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="BA6">
+      <node ref="IC4" pin="3" pinfunction="C" pintype="input"/>
+      <node ref="P1" pin="C17" pinfunction="A6" pintype="bidirectional"/>
+      <node ref="P2" pin="C17" pinfunction="A6" pintype="bidirectional"/>
+      <node ref="P3" pin="C17" pinfunction="A6" pintype="bidirectional"/>
+      <node ref="P4" pin="C17" pinfunction="A6" pintype="bidirectional"/>
+      <node ref="SLOT3" pin="8" pinfunction="A6" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="8" pinfunction="A6" pintype="bidirectional"/>
+      <node ref="SLOT6.1" pin="10" pinfunction="A6" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="10" pinfunction="A6" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="8" pinfunction="A6" pintype="bidirectional"/>
+      <node ref="U$1" pin="C8" pinfunction="A6" pintype="bidirectional"/>
+      <node ref="U$2" pin="C8" pinfunction="A6" pintype="bidirectional"/>
+      <node ref="X1" pin="S" pinfunction="A6" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="BA7">
+      <node ref="IC4" pin="6" pinfunction="G1" pintype="input"/>
+      <node ref="P1" pin="C16" pinfunction="A7" pintype="bidirectional"/>
+      <node ref="P2" pin="C16" pinfunction="A7" pintype="bidirectional"/>
+      <node ref="P3" pin="C16" pinfunction="A7" pintype="bidirectional"/>
+      <node ref="P4" pin="C16" pinfunction="A7" pintype="bidirectional"/>
+      <node ref="SLOT3" pin="9" pinfunction="A7" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="9" pinfunction="A7" pintype="bidirectional"/>
+      <node ref="SLOT6.1" pin="9" pinfunction="A7" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="9" pinfunction="A7" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="9" pinfunction="A7" pintype="bidirectional"/>
+      <node ref="U$1" pin="B7" pinfunction="A7" pintype="bidirectional"/>
+      <node ref="U$2" pin="B7" pinfunction="A7" pintype="bidirectional"/>
+      <node ref="X1" pin="R" pinfunction="A7" pintype="bidirectional"/>
+    </net>
+    <net code="62" name="BA8">
+      <node ref="IC3" pin="1" pinfunction="A" pintype="input"/>
+      <node ref="P1" pin="C15" pinfunction="A8" pintype="bidirectional"/>
+      <node ref="P2" pin="C15" pinfunction="A8" pintype="bidirectional"/>
+      <node ref="P3" pin="C15" pinfunction="A8" pintype="bidirectional"/>
+      <node ref="P4" pin="C15" pinfunction="A8" pintype="bidirectional"/>
+      <node ref="SLOT3" pin="10" pinfunction="A8" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="10" pinfunction="A8" pintype="bidirectional"/>
+      <node ref="SLOT6.1" pin="8" pinfunction="A8" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="8" pinfunction="A8" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="10" pinfunction="A8" pintype="bidirectional"/>
+      <node ref="U$1" pin="C7" pinfunction="A8" pintype="bidirectional"/>
+      <node ref="U$2" pin="C7" pinfunction="A8" pintype="bidirectional"/>
+      <node ref="X1" pin="P" pinfunction="A8" pintype="bidirectional"/>
+    </net>
+    <net code="63" name="BA9">
+      <node ref="IC3" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="P1" pin="C14" pinfunction="A9" pintype="bidirectional"/>
+      <node ref="P2" pin="C14" pinfunction="A9" pintype="bidirectional"/>
+      <node ref="P3" pin="C14" pinfunction="A9" pintype="bidirectional"/>
+      <node ref="P4" pin="C14" pinfunction="A9" pintype="bidirectional"/>
+      <node ref="SLOT3" pin="11" pinfunction="A9" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="11" pinfunction="A9" pintype="bidirectional"/>
+      <node ref="SLOT6.1" pin="7" pinfunction="A9" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="7" pinfunction="A9" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="11" pinfunction="A9" pintype="bidirectional"/>
+      <node ref="U$1" pin="B6" pinfunction="A9" pintype="bidirectional"/>
+      <node ref="U$2" pin="B6" pinfunction="A9" pintype="bidirectional"/>
+      <node ref="X1" pin="N" pinfunction="A9" pintype="bidirectional"/>
+    </net>
+    <net code="64" name="BA10">
+      <node ref="IC3" pin="3" pinfunction="C" pintype="input"/>
+      <node ref="P1" pin="C13" pinfunction="A10" pintype="bidirectional"/>
+      <node ref="P2" pin="C13" pinfunction="A10" pintype="bidirectional"/>
+      <node ref="P3" pin="C13" pinfunction="A10" pintype="bidirectional"/>
+      <node ref="P4" pin="C13" pinfunction="A10" pintype="bidirectional"/>
+      <node ref="SLOT3" pin="12" pinfunction="A10" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="12" pinfunction="A10" pintype="bidirectional"/>
+      <node ref="SLOT6.1" pin="6" pinfunction="A10" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="6" pinfunction="A10" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="12" pinfunction="A10" pintype="bidirectional"/>
+      <node ref="U$1" pin="C6" pinfunction="A10" pintype="bidirectional"/>
+      <node ref="U$2" pin="C6" pinfunction="A10" pintype="bidirectional"/>
+      <node ref="X1" pin="M" pinfunction="A10" pintype="bidirectional"/>
+    </net>
+    <net code="65" name="BA11">
+      <node ref="IC5" pin="1" pinfunction="A" pintype="input"/>
+      <node ref="P1" pin="C12" pinfunction="A11" pintype="bidirectional"/>
+      <node ref="P2" pin="C12" pinfunction="A11" pintype="bidirectional"/>
+      <node ref="P3" pin="C12" pinfunction="A11" pintype="bidirectional"/>
+      <node ref="P4" pin="C12" pinfunction="A11" pintype="bidirectional"/>
+      <node ref="SLOT3" pin="13" pinfunction="A11" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="13" pinfunction="A11" pintype="bidirectional"/>
+      <node ref="SLOT6.1" pin="5" pinfunction="A11" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="5" pinfunction="A11" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="13" pinfunction="A11" pintype="bidirectional"/>
+      <node ref="U$1" pin="B5" pinfunction="A11" pintype="bidirectional"/>
+      <node ref="U$2" pin="B5" pinfunction="A11" pintype="bidirectional"/>
+      <node ref="X1" pin="L" pinfunction="A11" pintype="bidirectional"/>
+    </net>
+    <net code="66" name="BA12">
+      <node ref="IC5" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="P1" pin="C11" pinfunction="A12" pintype="bidirectional"/>
+      <node ref="P2" pin="C11" pinfunction="A12" pintype="bidirectional"/>
+      <node ref="P3" pin="C11" pinfunction="A12" pintype="bidirectional"/>
+      <node ref="P4" pin="C11" pinfunction="A12" pintype="bidirectional"/>
+      <node ref="SLOT3" pin="14" pinfunction="A12" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="14" pinfunction="A12" pintype="bidirectional"/>
+      <node ref="SLOT6.1" pin="4" pinfunction="A12" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="4" pinfunction="A12" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="14" pinfunction="A12" pintype="bidirectional"/>
+      <node ref="U$1" pin="C5" pinfunction="A12" pintype="bidirectional"/>
+      <node ref="U$2" pin="C5" pinfunction="A12" pintype="bidirectional"/>
+      <node ref="X1" pin="K" pinfunction="A12" pintype="bidirectional"/>
+    </net>
+    <net code="67" name="BA13">
+      <node ref="IC5" pin="4" pinfunction="G2A" pintype="input"/>
+      <node ref="IC9" pin="1" pinfunction="A" pintype="input"/>
+      <node ref="P1" pin="C10" pinfunction="A13" pintype="bidirectional"/>
+      <node ref="P2" pin="C10" pinfunction="A13" pintype="bidirectional"/>
+      <node ref="P3" pin="C10" pinfunction="A13" pintype="bidirectional"/>
+      <node ref="P4" pin="C10" pinfunction="A13" pintype="bidirectional"/>
+      <node ref="SLOT3" pin="15" pinfunction="A13" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="15" pinfunction="A13" pintype="bidirectional"/>
+      <node ref="SLOT6.1" pin="3" pinfunction="A13" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="3" pinfunction="A13" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="15" pinfunction="A13" pintype="bidirectional"/>
+      <node ref="U$1" pin="B4" pinfunction="A13" pintype="bidirectional"/>
+      <node ref="U$2" pin="B4" pinfunction="A13" pintype="bidirectional"/>
+      <node ref="X1" pin="J" pinfunction="A13" pintype="bidirectional"/>
+    </net>
+    <net code="68" name="BA14">
+      <node ref="IC5" pin="3" pinfunction="C" pintype="input"/>
+      <node ref="IC9" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="P1" pin="C9" pinfunction="A14" pintype="bidirectional"/>
+      <node ref="P2" pin="C9" pinfunction="A14" pintype="bidirectional"/>
+      <node ref="P3" pin="C9" pinfunction="A14" pintype="bidirectional"/>
+      <node ref="P4" pin="C9" pinfunction="A14" pintype="bidirectional"/>
+      <node ref="SLOT3" pin="16" pinfunction="A14" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="16" pinfunction="A14" pintype="bidirectional"/>
+      <node ref="SLOT6.1" pin="2" pinfunction="A14" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="2" pinfunction="A14" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="16" pinfunction="A14" pintype="bidirectional"/>
+      <node ref="U$1" pin="C4" pinfunction="A14" pintype="bidirectional"/>
+      <node ref="U$2" pin="C4" pinfunction="A14" pintype="bidirectional"/>
+      <node ref="X1" pin="H" pinfunction="A14" pintype="bidirectional"/>
+    </net>
+    <net code="69" name="BA15">
+      <node ref="IC5" pin="6" pinfunction="G1" pintype="input"/>
+      <node ref="IC9" pin="3" pinfunction="C" pintype="input"/>
+      <node ref="P1" pin="C8" pinfunction="A15" pintype="bidirectional"/>
+      <node ref="P2" pin="C8" pinfunction="A15" pintype="bidirectional"/>
+      <node ref="P3" pin="C8" pinfunction="A15" pintype="bidirectional"/>
+      <node ref="P4" pin="C8" pinfunction="A15" pintype="bidirectional"/>
+      <node ref="SLOT3" pin="17" pinfunction="A15" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="17" pinfunction="A15" pintype="bidirectional"/>
+      <node ref="SLOT6.1" pin="1" pinfunction="A15" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="1" pinfunction="A15" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="17" pinfunction="A15" pintype="bidirectional"/>
+      <node ref="U$1" pin="B3" pinfunction="A15" pintype="bidirectional"/>
+      <node ref="U$2" pin="B3" pinfunction="A15" pintype="bidirectional"/>
+      <node ref="X1" pin="F" pinfunction="A15" pintype="bidirectional"/>
+    </net>
+    <net code="70" name="BA16">
+      <node ref="IC2" pin="1" pinfunction="A" pintype="input"/>
+      <node ref="IC7" pin="3" pinfunction="O" pintype="tri_state"/>
+      <node ref="P1" pin="C7" pinfunction="A16" pintype="bidirectional"/>
+      <node ref="P2" pin="C7" pinfunction="A16" pintype="bidirectional"/>
+      <node ref="P3" pin="C7" pinfunction="A16" pintype="bidirectional"/>
+      <node ref="P4" pin="C7" pinfunction="A16" pintype="bidirectional"/>
+      <node ref="U$1" pin="C3" pinfunction="A16" pintype="bidirectional"/>
+      <node ref="U$2" pin="C3" pinfunction="A16" pintype="bidirectional"/>
+    </net>
+    <net code="71" name="BA17">
+      <node ref="IC2" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="IC7" pin="11" pinfunction="O" pintype="tri_state"/>
+      <node ref="P1" pin="C6" pinfunction="A17" pintype="bidirectional"/>
+      <node ref="P2" pin="C6" pinfunction="A17" pintype="bidirectional"/>
+      <node ref="P3" pin="C6" pinfunction="A17" pintype="bidirectional"/>
+      <node ref="P4" pin="C6" pinfunction="A17" pintype="bidirectional"/>
+      <node ref="U$1" pin="B2" pinfunction="A17" pintype="bidirectional"/>
+      <node ref="U$2" pin="B2" pinfunction="A17" pintype="bidirectional"/>
+    </net>
+    <net code="72" name="BA18">
+      <node ref="IC2" pin="3" pinfunction="C" pintype="input"/>
+      <node ref="IC7" pin="6" pinfunction="O" pintype="tri_state"/>
+      <node ref="P1" pin="C5" pinfunction="A18" pintype="bidirectional"/>
+      <node ref="P2" pin="C5" pinfunction="A18" pintype="bidirectional"/>
+      <node ref="P3" pin="C5" pinfunction="A18" pintype="bidirectional"/>
+      <node ref="P4" pin="C5" pinfunction="A18" pintype="bidirectional"/>
+      <node ref="U$1" pin="C2" pinfunction="A18" pintype="bidirectional"/>
+      <node ref="U$2" pin="C2" pinfunction="A18" pintype="bidirectional"/>
+    </net>
+    <net code="73" name="BA19">
+      <node ref="IC2" pin="4" pinfunction="G2A" pintype="input"/>
+      <node ref="IC7" pin="8" pinfunction="O" pintype="tri_state"/>
+      <node ref="P1" pin="C4" pinfunction="A19" pintype="bidirectional"/>
+      <node ref="P2" pin="C4" pinfunction="A19" pintype="bidirectional"/>
+      <node ref="P3" pin="C4" pinfunction="A19" pintype="bidirectional"/>
+      <node ref="P4" pin="C4" pinfunction="A19" pintype="bidirectional"/>
+      <node ref="U$1" pin="B1" pinfunction="A19" pintype="bidirectional"/>
+      <node ref="U$2" pin="B1" pinfunction="A19" pintype="bidirectional"/>
+    </net>
+    <net code="74" name="BD0">
+      <node ref="P1" pin="A22" pinfunction="D0" pintype="bidirectional"/>
+      <node ref="P2" pin="A22" pinfunction="D0" pintype="bidirectional"/>
+      <node ref="P3" pin="A22" pinfunction="D0" pintype="bidirectional"/>
+      <node ref="P4" pin="A22" pinfunction="D0" pintype="bidirectional"/>
+      <node ref="SLOT3" pin="B" pinfunction="D0" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="B" pinfunction="D0" pintype="bidirectional"/>
+      <node ref="SLOT6.1" pin="27" pinfunction="D0" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="27" pinfunction="D0" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="B" pinfunction="D0" pintype="bidirectional"/>
+      <node ref="U$1" pin="A12" pinfunction="D0" pintype="bidirectional"/>
+      <node ref="U$2" pin="A12" pinfunction="D0" pintype="bidirectional"/>
+      <node ref="X1" pin="21" pinfunction="D0" pintype="bidirectional"/>
+    </net>
+    <net code="75" name="BD1">
+      <node ref="P1" pin="A21" pinfunction="D1" pintype="bidirectional"/>
+      <node ref="P2" pin="A21" pinfunction="D1" pintype="bidirectional"/>
+      <node ref="P3" pin="A21" pinfunction="D1" pintype="bidirectional"/>
+      <node ref="P4" pin="A21" pinfunction="D1" pintype="bidirectional"/>
+      <node ref="SLOT3" pin="C" pinfunction="D1" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="C" pinfunction="D1" pintype="bidirectional"/>
+      <node ref="SLOT6.1" pin="28" pinfunction="D1" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="28" pinfunction="D1" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="C" pinfunction="D1" pintype="bidirectional"/>
+      <node ref="U$1" pin="A11" pinfunction="D1" pintype="bidirectional"/>
+      <node ref="U$2" pin="A11" pinfunction="D1" pintype="bidirectional"/>
+      <node ref="X1" pin="20" pinfunction="D1" pintype="bidirectional"/>
+    </net>
+    <net code="76" name="BD2">
+      <node ref="P1" pin="A20" pinfunction="D2" pintype="bidirectional"/>
+      <node ref="P2" pin="A20" pinfunction="D2" pintype="bidirectional"/>
+      <node ref="P3" pin="A20" pinfunction="D2" pintype="bidirectional"/>
+      <node ref="P4" pin="A20" pinfunction="D2" pintype="bidirectional"/>
+      <node ref="SLOT3" pin="D" pinfunction="D2" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="D" pinfunction="D2" pintype="bidirectional"/>
+      <node ref="SLOT6.1" pin="29" pinfunction="D2" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="29" pinfunction="D2" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="D" pinfunction="D2" pintype="bidirectional"/>
+      <node ref="U$1" pin="A10" pinfunction="D2" pintype="bidirectional"/>
+      <node ref="U$2" pin="A10" pinfunction="D2" pintype="bidirectional"/>
+      <node ref="X1" pin="19" pinfunction="D2" pintype="bidirectional"/>
+    </net>
+    <net code="77" name="BD3">
+      <node ref="P1" pin="A19" pinfunction="D3" pintype="bidirectional"/>
+      <node ref="P2" pin="A19" pinfunction="D3" pintype="bidirectional"/>
+      <node ref="P3" pin="A19" pinfunction="D3" pintype="bidirectional"/>
+      <node ref="P4" pin="A19" pinfunction="D3" pintype="bidirectional"/>
+      <node ref="SLOT3" pin="E" pinfunction="D3" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="E" pinfunction="D3" pintype="bidirectional"/>
+      <node ref="SLOT6.1" pin="30" pinfunction="D3" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="30" pinfunction="D3" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="E" pinfunction="D3" pintype="bidirectional"/>
+      <node ref="U$1" pin="A9" pinfunction="D3" pintype="bidirectional"/>
+      <node ref="U$2" pin="A9" pinfunction="D3" pintype="bidirectional"/>
+      <node ref="X1" pin="18" pinfunction="D3" pintype="bidirectional"/>
+    </net>
+    <net code="78" name="BD4">
+      <node ref="P1" pin="A18" pinfunction="D4" pintype="bidirectional"/>
+      <node ref="P2" pin="A18" pinfunction="D4" pintype="bidirectional"/>
+      <node ref="P3" pin="A18" pinfunction="D4" pintype="bidirectional"/>
+      <node ref="P4" pin="A18" pinfunction="D4" pintype="bidirectional"/>
+      <node ref="SLOT3" pin="F" pinfunction="D4" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="F" pinfunction="D4" pintype="bidirectional"/>
+      <node ref="SLOT6.1" pin="31" pinfunction="D4" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="31" pinfunction="D4" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="F" pinfunction="D4" pintype="bidirectional"/>
+      <node ref="U$1" pin="A8" pinfunction="D4" pintype="bidirectional"/>
+      <node ref="U$2" pin="A8" pinfunction="D4" pintype="bidirectional"/>
+      <node ref="X1" pin="17" pinfunction="D4" pintype="bidirectional"/>
+    </net>
+    <net code="79" name="BD5">
+      <node ref="P1" pin="A17" pinfunction="D5" pintype="bidirectional"/>
+      <node ref="P2" pin="A17" pinfunction="D5" pintype="bidirectional"/>
+      <node ref="P3" pin="A17" pinfunction="D5" pintype="bidirectional"/>
+      <node ref="P4" pin="A17" pinfunction="D5" pintype="bidirectional"/>
+      <node ref="SLOT3" pin="G" pinfunction="D5" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="G" pinfunction="D5" pintype="bidirectional"/>
+      <node ref="SLOT6.1" pin="32" pinfunction="D5" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="32" pinfunction="D5" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="G" pinfunction="D5" pintype="bidirectional"/>
+      <node ref="U$1" pin="A7" pinfunction="D5" pintype="bidirectional"/>
+      <node ref="U$2" pin="A7" pinfunction="D5" pintype="bidirectional"/>
+      <node ref="X1" pin="16" pinfunction="D5" pintype="bidirectional"/>
+    </net>
+    <net code="80" name="BD6">
+      <node ref="P1" pin="A16" pinfunction="D6" pintype="bidirectional"/>
+      <node ref="P2" pin="A16" pinfunction="D6" pintype="bidirectional"/>
+      <node ref="P3" pin="A16" pinfunction="D6" pintype="bidirectional"/>
+      <node ref="P4" pin="A16" pinfunction="D6" pintype="bidirectional"/>
+      <node ref="SLOT3" pin="H" pinfunction="D6" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="H" pinfunction="D6" pintype="bidirectional"/>
+      <node ref="SLOT6.1" pin="33" pinfunction="D6" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="33" pinfunction="D6" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="H" pinfunction="D6" pintype="bidirectional"/>
+      <node ref="U$1" pin="A6" pinfunction="D6" pintype="bidirectional"/>
+      <node ref="U$2" pin="A6" pinfunction="D6" pintype="bidirectional"/>
+      <node ref="X1" pin="15" pinfunction="D6" pintype="bidirectional"/>
+    </net>
+    <net code="81" name="BD7">
+      <node ref="P1" pin="A15" pinfunction="D7" pintype="bidirectional"/>
+      <node ref="P2" pin="A15" pinfunction="D7" pintype="bidirectional"/>
+      <node ref="P3" pin="A15" pinfunction="D7" pintype="bidirectional"/>
+      <node ref="P4" pin="A15" pinfunction="D7" pintype="bidirectional"/>
+      <node ref="SLOT3" pin="J" pinfunction="D7" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="J" pinfunction="D7" pintype="bidirectional"/>
+      <node ref="SLOT6.1" pin="34" pinfunction="D7" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="34" pinfunction="D7" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="J" pinfunction="D7" pintype="bidirectional"/>
+      <node ref="U$1" pin="A5" pinfunction="D7" pintype="bidirectional"/>
+      <node ref="U$2" pin="A5" pinfunction="D7" pintype="bidirectional"/>
+      <node ref="X1" pin="14" pinfunction="D7" pintype="bidirectional"/>
+    </net>
+    <net code="82" name="BPHI0">
+      <node ref="P1" pin="C28" pinfunction="PHI0" pintype="bidirectional"/>
+      <node ref="P2" pin="C28" pinfunction="PHI0" pintype="bidirectional"/>
+      <node ref="P3" pin="C28" pinfunction="PHI0" pintype="bidirectional"/>
+      <node ref="P4" pin="C28" pinfunction="PHI0" pintype="bidirectional"/>
+      <node ref="U$1" pin="C14" pinfunction="PHI0" pintype="bidirectional"/>
+      <node ref="U$2" pin="C14" pinfunction="PHI0" pintype="bidirectional"/>
+    </net>
+    <net code="83" name="BPHI1">
+      <node ref="P1" pin="C27" pinfunction="PHI1" pintype="bidirectional"/>
+      <node ref="P2" pin="C27" pinfunction="PHI1" pintype="bidirectional"/>
+      <node ref="P3" pin="C27" pinfunction="PHI1" pintype="bidirectional"/>
+      <node ref="P4" pin="C27" pinfunction="PHI1" pintype="bidirectional"/>
+      <node ref="SLOT3" pin="N" pinfunction="PHI1" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="N" pinfunction="PHI1" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="N" pinfunction="PHI1" pintype="bidirectional"/>
+      <node ref="U$1" pin="C13" pinfunction="PHI1" pintype="bidirectional"/>
+      <node ref="U$2" pin="C13" pinfunction="PHI1" pintype="bidirectional"/>
+    </net>
+    <net code="84" name="BPHI2">
+      <node ref="IC6" pin="12" pinfunction="I0" pintype="input"/>
+      <node ref="IC6" pin="2" pinfunction="I1" pintype="input"/>
+      <node ref="IC6" pin="4" pinfunction="I0" pintype="input"/>
+      <node ref="IC6" pin="9" pinfunction="I0" pintype="input"/>
+      <node ref="P1" pin="C26" pinfunction="PHI2" pintype="bidirectional"/>
+      <node ref="P2" pin="C26" pinfunction="PHI2" pintype="bidirectional"/>
+      <node ref="P3" pin="C26" pinfunction="PHI2" pintype="bidirectional"/>
+      <node ref="P4" pin="C26" pinfunction="PHI2" pintype="bidirectional"/>
+      <node ref="SLOT3" pin="L" pinfunction="PHI0" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="L" pinfunction="PHI0" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="L" pinfunction="PHI0" pintype="bidirectional"/>
+      <node ref="U$1" pin="C12" pinfunction="PHI2" pintype="bidirectional"/>
+      <node ref="U$2" pin="C12" pinfunction="PHI2" pintype="bidirectional"/>
+      <node ref="X1" pin="E" pinfunction="PHI2" pintype="input"/>
+    </net>
+    <net code="85" name="GND">
+      <node ref="C1" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C13" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C14" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C15" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C16" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C17" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C18" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C19" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C20" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C21" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C22" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C23" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C24" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C3" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C4" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C5" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C6" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="IC1" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC2" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC3" pin="5" pinfunction="G2B" pintype="input"/>
+      <node ref="IC3" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC4" pin="5" pinfunction="G2B" pintype="input"/>
+      <node ref="IC4" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC5" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC6" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC7" pin="12" pinfunction="I" pintype="input"/>
+      <node ref="IC7" pin="2" pinfunction="I" pintype="input"/>
+      <node ref="IC7" pin="5" pinfunction="I" pintype="input"/>
+      <node ref="IC7" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC7" pin="9" pinfunction="I" pintype="input"/>
+      <node ref="IC8" pin="2" pinfunction="I" pintype="input"/>
+      <node ref="IC8" pin="5" pinfunction="I" pintype="input"/>
+      <node ref="IC8" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC9" pin="5" pinfunction="G2B" pintype="input"/>
+      <node ref="IC9" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="JP1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="JP9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P1" pin="A1" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="P1" pin="A28" pinfunction="GND2" pintype="bidirectional"/>
+      <node ref="P1" pin="A29" pinfunction="GND3" pintype="bidirectional"/>
+      <node ref="P1" pin="A30" pinfunction="GND4" pintype="bidirectional"/>
+      <node ref="P1" pin="A31" pinfunction="GND5" pintype="bidirectional"/>
+      <node ref="P1" pin="A32" pinfunction="GND6" pintype="bidirectional"/>
+      <node ref="P1" pin="C1" pinfunction="GND7" pintype="bidirectional"/>
+      <node ref="P1" pin="C32" pinfunction="GND8" pintype="bidirectional"/>
+      <node ref="P2" pin="A1" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="P2" pin="A28" pinfunction="GND2" pintype="bidirectional"/>
+      <node ref="P2" pin="A29" pinfunction="GND3" pintype="bidirectional"/>
+      <node ref="P2" pin="A30" pinfunction="GND4" pintype="bidirectional"/>
+      <node ref="P2" pin="A31" pinfunction="GND5" pintype="bidirectional"/>
+      <node ref="P2" pin="A32" pinfunction="GND6" pintype="bidirectional"/>
+      <node ref="P2" pin="C1" pinfunction="GND7" pintype="bidirectional"/>
+      <node ref="P2" pin="C32" pinfunction="GND8" pintype="bidirectional"/>
+      <node ref="P3" pin="A1" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="P3" pin="A28" pinfunction="GND2" pintype="bidirectional"/>
+      <node ref="P3" pin="A29" pinfunction="GND3" pintype="bidirectional"/>
+      <node ref="P3" pin="A30" pinfunction="GND4" pintype="bidirectional"/>
+      <node ref="P3" pin="A31" pinfunction="GND5" pintype="bidirectional"/>
+      <node ref="P3" pin="A32" pinfunction="GND6" pintype="bidirectional"/>
+      <node ref="P3" pin="C1" pinfunction="GND7" pintype="bidirectional"/>
+      <node ref="P3" pin="C32" pinfunction="GND8" pintype="bidirectional"/>
+      <node ref="P4" pin="A1" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="P4" pin="A28" pinfunction="GND2" pintype="bidirectional"/>
+      <node ref="P4" pin="A29" pinfunction="GND3" pintype="bidirectional"/>
+      <node ref="P4" pin="A30" pinfunction="GND4" pintype="bidirectional"/>
+      <node ref="P4" pin="A31" pinfunction="GND5" pintype="bidirectional"/>
+      <node ref="P4" pin="A32" pinfunction="GND6" pintype="bidirectional"/>
+      <node ref="P4" pin="C1" pinfunction="GND7" pintype="bidirectional"/>
+      <node ref="P4" pin="C32" pinfunction="GND8" pintype="bidirectional"/>
+      <node ref="SLOT3" pin="Z" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="Z" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="SLOT6.1" pin="17" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="17" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="Z" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U$1" pin="A1" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U$1" pin="A16" pinfunction="GND2" pintype="bidirectional"/>
+      <node ref="U$2" pin="A1" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U$2" pin="A16" pinfunction="GND2" pintype="bidirectional"/>
+      <node ref="X1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="X1" pin="22" pinfunction="GND@1" pintype="power_in"/>
+      <node ref="X1" pin="A" pinfunction="GND@2" pintype="power_in"/>
+      <node ref="X1" pin="Z" pinfunction="GND@3" pintype="power_in"/>
+    </net>
+    <net code="86" name="Net-(IC1C-O)">
+      <node ref="IC1" pin="6" pinfunction="O" pintype="output"/>
+      <node ref="IC6" pin="1" pinfunction="I0" pintype="input"/>
+    </net>
+    <net code="87" name="Net-(IC1D-O)">
+      <node ref="IC1" pin="8" pinfunction="O" pintype="output"/>
+      <node ref="IC6" pin="13" pinfunction="I1" pintype="input"/>
+    </net>
+    <net code="88" name="Net-(IC1E-O)">
+      <node ref="IC1" pin="10" pinfunction="O" pintype="output"/>
+      <node ref="IC6" pin="10" pinfunction="I1" pintype="input"/>
+    </net>
+    <net code="89" name="Net-(IC4A-G2A)">
+      <node ref="IC4" pin="4" pinfunction="G2A" pintype="input"/>
+      <node ref="JP16" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="90" name="Net-(IC5A-G2B)">
+      <node ref="IC5" pin="5" pinfunction="G2B" pintype="input"/>
+      <node ref="JP15" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="91" name="Net-(IC5A-Y2)">
+      <node ref="IC5" pin="13" pinfunction="Y2" pintype="output"/>
+      <node ref="JP11" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="92" name="Net-(IC5A-Y3)">
+      <node ref="IC5" pin="12" pinfunction="Y3" pintype="output"/>
+      <node ref="JP10" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="93" name="Net-(IC5A-Y4)">
+      <node ref="IC5" pin="11" pinfunction="Y4" pintype="output"/>
+      <node ref="JP11" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="94" name="Net-(IC5A-Y5)">
+      <node ref="IC5" pin="10" pinfunction="Y5" pintype="output"/>
+      <node ref="JP10" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="95" name="Net-(IC7A-OE)">
+      <node ref="IC7" pin="1" pinfunction="OE" pintype="input"/>
+      <node ref="IC7" pin="10" pinfunction="OE" pintype="input"/>
+      <node ref="IC7" pin="13" pinfunction="OE" pintype="input"/>
+      <node ref="IC7" pin="4" pinfunction="OE" pintype="input"/>
+      <node ref="IC8" pin="1" pinfunction="OE" pintype="input"/>
+      <node ref="IC8" pin="4" pinfunction="OE" pintype="input"/>
+      <node ref="JP9" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="96" name="Net-(IC9A-G2A)">
+      <node ref="IC9" pin="4" pinfunction="G2A" pintype="input"/>
+      <node ref="JP2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="97" name="Net-(IC9A-Y4)">
+      <node ref="IC9" pin="11" pinfunction="Y4" pintype="output"/>
+      <node ref="X1" pin="11" pinfunction="~{ROML}" pintype="input"/>
+    </net>
+    <net code="98" name="Net-(IC9A-Y7)">
+      <node ref="IC9" pin="7" pinfunction="Y7" pintype="output"/>
+      <node ref="X1" pin="B" pinfunction="~{ROMH}" pintype="input"/>
+    </net>
+    <net code="99" name="Net-(SLOT3-DMA_OUT)">
+      <node ref="SLOT3" pin="24" pinfunction="DMA_OUT" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="Y" pinfunction="DMA_IN" pintype="bidirectional"/>
+    </net>
+    <net code="100" name="Net-(SLOT3-INT_OUT)">
+      <node ref="SLOT3" pin="23" pinfunction="INT_OUT" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="X" pinfunction="INT_IN" pintype="bidirectional"/>
+    </net>
+    <net code="101" name="Net-(SLOT5-DMA_OUT)">
+      <node ref="SLOT5" pin="24" pinfunction="DMA_OUT" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="Y" pinfunction="DMA_IN" pintype="bidirectional"/>
+    </net>
+    <net code="102" name="Net-(SLOT5-INT_OUT)">
+      <node ref="SLOT5" pin="23" pinfunction="INT_OUT" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="X" pinfunction="INT_IN" pintype="bidirectional"/>
+    </net>
+    <net code="103" name="RDY">
+      <node ref="P1" pin="A26" pinfunction="RDY" pintype="bidirectional"/>
+      <node ref="P2" pin="A26" pinfunction="RDY" pintype="bidirectional"/>
+      <node ref="P3" pin="A26" pinfunction="RDY" pintype="bidirectional"/>
+      <node ref="P4" pin="A26" pinfunction="RDY" pintype="bidirectional"/>
+      <node ref="SLOT3" pin="21" pinfunction="RDY" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="21" pinfunction="RDY" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="21" pinfunction="RDY" pintype="bidirectional"/>
+      <node ref="U$1" pin="B13" pinfunction="RDY" pintype="bidirectional"/>
+      <node ref="U$2" pin="B13" pinfunction="RDY" pintype="bidirectional"/>
+    </net>
+    <net code="104" name="R{slash}-W">
+      <node ref="IC1" pin="5" pinfunction="I" pintype="input"/>
+      <node ref="IC6" pin="5" pinfunction="I1" pintype="input"/>
+      <node ref="P1" pin="C25" pinfunction="R/-W" pintype="bidirectional"/>
+      <node ref="P2" pin="C25" pinfunction="R/-W" pintype="bidirectional"/>
+      <node ref="P3" pin="C25" pinfunction="R/-W" pintype="bidirectional"/>
+      <node ref="P4" pin="C25" pinfunction="R/-W" pintype="bidirectional"/>
+      <node ref="SLOT3" pin="18" pinfunction="R/-W" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="18" pinfunction="R/-W" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="18" pinfunction="R/-W" pintype="bidirectional"/>
+      <node ref="U$1" pin="B12" pinfunction="R/-W" pintype="bidirectional"/>
+      <node ref="U$2" pin="B12" pinfunction="R/-W" pintype="bidirectional"/>
+      <node ref="X1" pin="5" pinfunction="R/~{W}" pintype="bidirectional"/>
+    </net>
+    <net code="105" name="SYNC">
+      <node ref="IC1" pin="3" pinfunction="I" pintype="input"/>
+      <node ref="P1" pin="C24" pinfunction="SYNC" pintype="bidirectional"/>
+      <node ref="P2" pin="C24" pinfunction="SYNC" pintype="bidirectional"/>
+      <node ref="P3" pin="C24" pinfunction="SYNC" pintype="bidirectional"/>
+      <node ref="P4" pin="C24" pinfunction="SYNC" pintype="bidirectional"/>
+      <node ref="SLOT3" pin="19" pinfunction="SYNC" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="19" pinfunction="SYNC" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="19" pinfunction="SYNC" pintype="bidirectional"/>
+      <node ref="U$1" pin="B11" pinfunction="SYNC" pintype="bidirectional"/>
+      <node ref="U$2" pin="B11" pinfunction="SYNC" pintype="bidirectional"/>
+    </net>
+    <net code="106" name="VBUF">
+      <node ref="P1" pin="A2" pinfunction="VBUF" pintype="bidirectional"/>
+      <node ref="P2" pin="A2" pinfunction="VBUF" pintype="bidirectional"/>
+      <node ref="P3" pin="A2" pinfunction="VBUF" pintype="bidirectional"/>
+      <node ref="P4" pin="A2" pinfunction="VBUF" pintype="bidirectional"/>
+      <node ref="U$1" pin="B15" pinfunction="VBUF" pintype="bidirectional"/>
+      <node ref="U$2" pin="B15" pinfunction="VBUF" pintype="bidirectional"/>
+    </net>
+    <net code="107" name="VCC">
+      <node ref="C10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C13" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="C14" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="C15" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="C16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C17" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="C18" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C22" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C23" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="C24" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="C3" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="C5" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="C7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="IC1" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="IC2" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="IC2" pin="6" pinfunction="G1" pintype="input"/>
+      <node ref="IC3" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="IC3" pin="6" pinfunction="G1" pintype="input"/>
+      <node ref="IC4" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="IC5" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="IC6" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="IC7" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="IC8" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="IC9" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="IC9" pin="6" pinfunction="G1" pintype="input"/>
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="P1" pin="C2" pinfunction="VCC" pintype="bidirectional"/>
+      <node ref="P1" pin="C3" pinfunction="VCC2" pintype="bidirectional"/>
+      <node ref="P2" pin="C2" pinfunction="VCC" pintype="bidirectional"/>
+      <node ref="P2" pin="C3" pinfunction="VCC2" pintype="bidirectional"/>
+      <node ref="P3" pin="C2" pinfunction="VCC" pintype="bidirectional"/>
+      <node ref="P3" pin="C3" pinfunction="VCC2" pintype="bidirectional"/>
+      <node ref="P4" pin="C2" pinfunction="VCC" pintype="bidirectional"/>
+      <node ref="P4" pin="C3" pinfunction="VCC2" pintype="bidirectional"/>
+      <node ref="SLOT3" pin="25" pinfunction="5V" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="25" pinfunction="5V" pintype="bidirectional"/>
+      <node ref="SLOT6.1" pin="18" pinfunction="VCC" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="18" pinfunction="VCC" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="25" pinfunction="5V" pintype="bidirectional"/>
+      <node ref="U$1" pin="C1" pinfunction="VCC" pintype="bidirectional"/>
+      <node ref="U$1" pin="C16" pinfunction="VCC2" pintype="bidirectional"/>
+      <node ref="U$2" pin="C1" pinfunction="VCC" pintype="bidirectional"/>
+      <node ref="U$2" pin="C16" pinfunction="VCC2" pintype="bidirectional"/>
+      <node ref="X1" pin="2" pinfunction="VCC" pintype="power_in"/>
+      <node ref="X1" pin="3" pinfunction="VCC@1" pintype="power_in"/>
+    </net>
+    <net code="108" name="VCC33">
+      <node ref="C1" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="C4" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="C6" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="P1" pin="A9" pinfunction="VCC33" pintype="bidirectional"/>
+      <node ref="P2" pin="A9" pinfunction="VCC33" pintype="bidirectional"/>
+      <node ref="P3" pin="A9" pinfunction="VCC33" pintype="bidirectional"/>
+      <node ref="P4" pin="A9" pinfunction="VCC33" pintype="bidirectional"/>
+      <node ref="U$1" pin="B14" pinfunction="VCC33" pintype="bidirectional"/>
+      <node ref="U$2" pin="B14" pinfunction="VCC33" pintype="bidirectional"/>
+    </net>
+    <net code="109" name="unconnected-(IC2A-Y7-Pad7)">
+      <node ref="IC2" pin="7" pinfunction="Y7" pintype="output"/>
+    </net>
+    <net code="110" name="unconnected-(IC4A-Y1-Pad14)">
+      <node ref="IC4" pin="14" pinfunction="Y1" pintype="output"/>
+    </net>
+    <net code="111" name="unconnected-(IC4A-Y2-Pad13)">
+      <node ref="IC4" pin="13" pinfunction="Y2" pintype="output"/>
+    </net>
+    <net code="112" name="unconnected-(IC4A-Y4-Pad11)">
+      <node ref="IC4" pin="11" pinfunction="Y4" pintype="output"/>
+    </net>
+    <net code="113" name="unconnected-(IC5A-Y0-Pad15)">
+      <node ref="IC5" pin="15" pinfunction="Y0" pintype="output"/>
+    </net>
+    <net code="114" name="unconnected-(IC5A-Y1-Pad14)">
+      <node ref="IC5" pin="14" pinfunction="Y1" pintype="output"/>
+    </net>
+    <net code="115" name="unconnected-(IC5A-Y6-Pad9)">
+      <node ref="IC5" pin="9" pinfunction="Y6" pintype="output"/>
+    </net>
+    <net code="116" name="unconnected-(IC5A-Y7-Pad7)">
+      <node ref="IC5" pin="7" pinfunction="Y7" pintype="output"/>
+    </net>
+    <net code="117" name="unconnected-(IC9A-Y0-Pad15)">
+      <node ref="IC9" pin="15" pinfunction="Y0" pintype="output"/>
+    </net>
+    <net code="118" name="unconnected-(IC9A-Y1-Pad14)">
+      <node ref="IC9" pin="14" pinfunction="Y1" pintype="output"/>
+    </net>
+    <net code="119" name="unconnected-(IC9A-Y2-Pad13)">
+      <node ref="IC9" pin="13" pinfunction="Y2" pintype="output"/>
+    </net>
+    <net code="120" name="unconnected-(IC9A-Y3-Pad12)">
+      <node ref="IC9" pin="12" pinfunction="Y3" pintype="output"/>
+    </net>
+    <net code="121" name="unconnected-(IC9A-Y5-Pad10)">
+      <node ref="IC9" pin="10" pinfunction="Y5" pintype="output"/>
+    </net>
+    <net code="122" name="unconnected-(IC9A-Y6-Pad9)">
+      <node ref="IC9" pin="9" pinfunction="Y6" pintype="output"/>
+    </net>
+    <net code="123" name="unconnected-(SLOT3--5V-PadR)">
+      <node ref="SLOT3" pin="R" pinfunction="-5V" pintype="bidirectional"/>
+    </net>
+    <net code="124" name="unconnected-(SLOT3--12V-PadS)">
+      <node ref="SLOT3" pin="S" pinfunction="-12V" pintype="bidirectional"/>
+    </net>
+    <net code="125" name="unconnected-(SLOT3-DMA_IN-PadY)">
+      <node ref="SLOT3" pin="Y" pinfunction="DMA_IN" pintype="bidirectional"/>
+    </net>
+    <net code="126" name="unconnected-(SLOT3-INT_IN-PadX)">
+      <node ref="SLOT3" pin="X" pinfunction="INT_IN" pintype="bidirectional"/>
+    </net>
+    <net code="127" name="unconnected-(SLOT3-{slash}INH-PadT)">
+      <node ref="SLOT3" pin="T" pinfunction="/INH" pintype="bidirectional"/>
+    </net>
+    <net code="128" name="unconnected-(SLOT5--5V-PadR)">
+      <node ref="SLOT5" pin="R" pinfunction="-5V" pintype="bidirectional"/>
+    </net>
+    <net code="129" name="unconnected-(SLOT5--12V-PadS)">
+      <node ref="SLOT5" pin="S" pinfunction="-12V" pintype="bidirectional"/>
+    </net>
+    <net code="130" name="unconnected-(SLOT5-{slash}INH-PadT)">
+      <node ref="SLOT5" pin="T" pinfunction="/INH" pintype="bidirectional"/>
+    </net>
+    <net code="131" name="unconnected-(SLOT7--5V-PadR)">
+      <node ref="SLOT7" pin="R" pinfunction="-5V" pintype="bidirectional"/>
+    </net>
+    <net code="132" name="unconnected-(SLOT7--12V-PadS)">
+      <node ref="SLOT7" pin="S" pinfunction="-12V" pintype="bidirectional"/>
+    </net>
+    <net code="133" name="unconnected-(SLOT7-DMA_OUT-Pad24)">
+      <node ref="SLOT7" pin="24" pinfunction="DMA_OUT" pintype="bidirectional"/>
+    </net>
+    <net code="134" name="unconnected-(SLOT7-INT_OUT-Pad23)">
+      <node ref="SLOT7" pin="23" pinfunction="INT_OUT" pintype="bidirectional"/>
+    </net>
+    <net code="135" name="unconnected-(SLOT7-{slash}INH-PadT)">
+      <node ref="SLOT7" pin="T" pinfunction="/INH" pintype="bidirectional"/>
+    </net>
+    <net code="136" name="unconnected-(X1A-BA-Pad12)">
+      <node ref="X1" pin="12" pinfunction="BA" pintype="input"/>
+    </net>
+    <net code="137" name="unconnected-(X1A-DMA-Pad13)">
+      <node ref="X1" pin="13" pinfunction="DMA" pintype="bidirectional"/>
+    </net>
+    <net code="138" name="unconnected-(X1A-~{EXROM}-Pad9)">
+      <node ref="X1" pin="9" pinfunction="~{EXROM}" pintype="input"/>
+    </net>
+    <net code="139" name="unconnected-(X1A-~{GAME}-Pad8)">
+      <node ref="X1" pin="8" pinfunction="~{GAME}" pintype="input"/>
+    </net>
+    <net code="140" name="{slash}BANK0">
+      <node ref="IC2" pin="15" pinfunction="Y0" pintype="output"/>
+      <node ref="JP14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="JP15" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="141" name="{slash}BANK1">
+      <node ref="IC2" pin="14" pinfunction="Y1" pintype="output"/>
+      <node ref="JP2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="142" name="{slash}BANK3">
+      <node ref="IC2" pin="12" pinfunction="Y3" pintype="output"/>
+      <node ref="JP2" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="143" name="{slash}BANK6">
+      <node ref="IC2" pin="9" pinfunction="Y6" pintype="output"/>
+      <node ref="JP14" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="144" name="{slash}BE">
+      <node ref="IC8" pin="3" pinfunction="O" pintype="tri_state"/>
+      <node ref="P1" pin="A8" pinfunction="/BE" pintype="bidirectional"/>
+      <node ref="P2" pin="A8" pinfunction="/BE" pintype="bidirectional"/>
+      <node ref="P3" pin="A8" pinfunction="/BE" pintype="bidirectional"/>
+      <node ref="P4" pin="A8" pinfunction="/BE" pintype="bidirectional"/>
+      <node ref="U$1" pin="A4" pinfunction="/BE" pintype="bidirectional"/>
+      <node ref="U$2" pin="A4" pinfunction="/BE" pintype="bidirectional"/>
+    </net>
+    <net code="145" name="{slash}IOINH">
+      <node ref="JP8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P1" pin="A4" pinfunction="/IOINH" pintype="bidirectional"/>
+      <node ref="P2" pin="A4" pinfunction="/IOINH" pintype="bidirectional"/>
+      <node ref="P3" pin="A4" pinfunction="/IOINH" pintype="bidirectional"/>
+      <node ref="P4" pin="A4" pinfunction="/IOINH" pintype="bidirectional"/>
+    </net>
+    <net code="146" name="{slash}IOSEL">
+      <node ref="JP16" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="JP17" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="P1" pin="A7" pinfunction="/IOSEL" pintype="bidirectional"/>
+      <node ref="P2" pin="A7" pinfunction="/IOSEL" pintype="bidirectional"/>
+      <node ref="P3" pin="A7" pinfunction="/IOSEL" pintype="bidirectional"/>
+      <node ref="P4" pin="A7" pinfunction="/IOSEL" pintype="bidirectional"/>
+      <node ref="U$1" pin="A3" pinfunction="/IOSEL" pintype="bidirectional"/>
+      <node ref="U$2" pin="A3" pinfunction="/IOSEL" pintype="bidirectional"/>
+    </net>
+    <net code="147" name="{slash}IRQ">
+      <node ref="P1" pin="A24" pinfunction="/IRQ" pintype="bidirectional"/>
+      <node ref="P2" pin="A24" pinfunction="/IRQ" pintype="bidirectional"/>
+      <node ref="P3" pin="A24" pinfunction="/IRQ" pintype="bidirectional"/>
+      <node ref="P4" pin="A24" pinfunction="/IRQ" pintype="bidirectional"/>
+      <node ref="SLOT3" pin="V" pinfunction="/IRQ" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="V" pinfunction="/IRQ" pintype="bidirectional"/>
+      <node ref="SLOT6.1" pin="22" pinfunction="/IRQ" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="22" pinfunction="/IRQ" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="V" pinfunction="/IRQ" pintype="bidirectional"/>
+      <node ref="U$1" pin="A14" pinfunction="/IRQ" pintype="bidirectional"/>
+      <node ref="U$2" pin="A14" pinfunction="/IRQ" pintype="bidirectional"/>
+      <node ref="X1" pin="4" pinfunction="~{IRQ}" pintype="bidirectional"/>
+    </net>
+    <net code="148" name="{slash}MEMSEL">
+      <node ref="IC2" pin="5" pinfunction="G2B" pintype="input"/>
+      <node ref="IC8" pin="6" pinfunction="O" pintype="tri_state"/>
+      <node ref="P1" pin="A6" pinfunction="/MEMSEL" pintype="bidirectional"/>
+      <node ref="P2" pin="A6" pinfunction="/MEMSEL" pintype="bidirectional"/>
+      <node ref="P3" pin="A6" pinfunction="/MEMSEL" pintype="bidirectional"/>
+      <node ref="P4" pin="A6" pinfunction="/MEMSEL" pintype="bidirectional"/>
+      <node ref="U$1" pin="A2" pinfunction="/MEMSEL" pintype="bidirectional"/>
+      <node ref="U$2" pin="A2" pinfunction="/MEMSEL" pintype="bidirectional"/>
+    </net>
+    <net code="149" name="{slash}NMI">
+      <node ref="P1" pin="A23" pinfunction="/NMI" pintype="bidirectional"/>
+      <node ref="P2" pin="A23" pinfunction="/NMI" pintype="bidirectional"/>
+      <node ref="P3" pin="A23" pinfunction="/NMI" pintype="bidirectional"/>
+      <node ref="P4" pin="A23" pinfunction="/NMI" pintype="bidirectional"/>
+      <node ref="SLOT3" pin="W" pinfunction="/NMI" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="W" pinfunction="/NMI" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="W" pinfunction="/NMI" pintype="bidirectional"/>
+      <node ref="U$1" pin="A13" pinfunction="/NMI" pintype="bidirectional"/>
+      <node ref="U$2" pin="A13" pinfunction="/NMI" pintype="bidirectional"/>
+      <node ref="X1" pin="D" pinfunction="~{NMI}" pintype="bidirectional"/>
+    </net>
+    <net code="150" name="{slash}RES">
+      <node ref="P1" pin="A27" pinfunction="/RES" pintype="bidirectional"/>
+      <node ref="P2" pin="A27" pinfunction="/RES" pintype="bidirectional"/>
+      <node ref="P3" pin="A27" pinfunction="/RES" pintype="bidirectional"/>
+      <node ref="P4" pin="A27" pinfunction="/RES" pintype="bidirectional"/>
+      <node ref="SLOT3" pin="U" pinfunction="/RES" pintype="bidirectional"/>
+      <node ref="SLOT5" pin="U" pinfunction="/RES" pintype="bidirectional"/>
+      <node ref="SLOT6.1" pin="20" pinfunction="/RES" pintype="bidirectional"/>
+      <node ref="SLOT6.2" pin="20" pinfunction="/RES" pintype="bidirectional"/>
+      <node ref="SLOT7" pin="U" pinfunction="/RES" pintype="bidirectional"/>
+      <node ref="U$1" pin="A15" pinfunction="/RES" pintype="bidirectional"/>
+      <node ref="U$2" pin="A15" pinfunction="/RES" pintype="bidirectional"/>
+      <node ref="X1" pin="C" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="151" name="{slash}SLOT1IO">
+      <node ref="IC3" pin="14" pinfunction="Y1" pintype="output"/>
+      <node ref="X1" pin="7" pinfunction="~{IO1}" pintype="input"/>
+    </net>
+    <net code="152" name="{slash}SLOT4IO">
+      <node ref="IC3" pin="11" pinfunction="Y4" pintype="output"/>
+      <node ref="X1" pin="10" pinfunction="~{IO2}" pintype="input"/>
+    </net>
+    <net code="153" name="{slash}SLOT6IO">
+      <node ref="IC1" pin="9" pinfunction="I" pintype="input"/>
+      <node ref="IC3" pin="9" pinfunction="Y6" pintype="output"/>
+    </net>
+  </nets>
+</export>

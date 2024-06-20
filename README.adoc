@@ -17,6 +17,9 @@ CS/A65 bus::
 	busses. A second select line /IOSEL selects a separate I/O space.
 	It is 2k in size, but cards should preferrably be in the first
 	256 byte.
+	The rev 2 boards now have the long CS/A connectors, as well as 
+	the short CS/A connectors. They are also specifically made to be
+	used as extension bus to the [Ulti-PET](https://github.com/fachat/cbm_ultipet) machine.
 
 Apple II::
 	Apple II expansion slots are also 6502-based. The Apple II uses
@@ -113,4 +116,7 @@ when the Apple II CPU is a bus master.
 
 Using an RC2014 CPU is NOT possible on this board.
 
+== Revision History
+
+- [R1.0A](https://github.com/fachat/csa_ultrabus/tree/r1.0a): the original Euro-PCB board. Built with Eagle
 
