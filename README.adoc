@@ -1,6 +1,8 @@
 = csa_ultrabus
 A backplane for CS/A, Apple II and RC2014 boards
 
+Note: this can be used stand-alone, but is also a part of a larger set of repositories, with [upet_family[() as the main repository.
+
 The purpose of this backplane is to cross-enable the use of Apple II expansion cards and RC2014 boards 
 on the CS/A65 bus http://www.6502.org/users/andre/csa/bus-1.1.html 
 
@@ -119,4 +121,16 @@ Using an RC2014 CPU is NOT possible on this board.
 == Revision History
 
 - [R1.0A](https://github.com/fachat/csa_ultrabus/tree/r1.0a): the original Euro-PCB board. Built with Eagle
+
+== Gallery
+
+image::images/rev20a.jpg[Revision 2.0A] 
+
+image::images/rev20a_layoutprobs.jpg[Layout problems with revision 2.0A - fixed in 2.0B] 
+
+=== Rev 1.0
+
+image::images/rev1_build.jpg[Partially populated pcb during build] 
+
+image::images/rev1_test.jpg[PCB during test] 
 
