@@ -1,7 +1,7 @@
 = csa_ultrabus
 A backplane for CS/A, Apple II and RC2014 boards
 
-Note: this can be used stand-alone, but is also a part of a larger set of repositories, with [upet_family[() as the main repository.
+Note: this can be used stand-alone, but is also a part of a larger set of repositories, with https://github.com/fachat/upet_family[upet_family] as the main repository.
 
 The purpose of this backplane is to cross-enable the use of Apple II expansion cards and RC2014 boards 
 on the CS/A65 bus http://www.6502.org/users/andre/csa/bus-1.1.html 
