@@ -1,8 +1,9 @@
 Comment,Designator,Footprint,LCSC,Quantity
 0.01uF low ESR,C13,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,C57112,1
-1.13k,R10,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C5154019,1
-100k,"R3,R8,R9",R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C25803,3
+1.1k,R10,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C22764,1
+100k,"R3,R8",R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C25803,2
 100n,"C10,C15,C18,C2,C7",C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,C14663,5
+10k,R9,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C25804,1
 10u,"C1,C11,C12,C17,C5,C8",C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,C33546014,6
 15uH,L2,L_APV_APH0630,C5189959,1
 1u,C9,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,C1848,1

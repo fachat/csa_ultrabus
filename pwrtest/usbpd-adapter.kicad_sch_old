@@ -2066,7 +2066,7 @@
 		)
 		(uuid "044444de-56e9-4bfa-b660-6154137dfb52")
 	)
-	(text "USB-C-PWR-V1.0A-20260301"
+	(text "USB-C-PWR-V1.1A-20260425"
 		(exclude_from_sim no)
 		(at 207.01 177.8 0)
 		(effects

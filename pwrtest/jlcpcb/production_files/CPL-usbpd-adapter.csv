@@ -4,7 +4,7 @@ C10,100n,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,90.25,-81.0,90.0,top
 C11,10u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,90.25,-70.75,180.0,top
 C12,10u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,90.25,-67.25,0.0,top
 C13,0.01uF low ESR,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,105.75,-71.25,180.0,top
-C14,220u,CP_Elec_10x10,128.0,-66.75,90.0,top
+C14,220u,CP_Elec_10x10,128.0,-66.75,270.0,top
 C15,100n,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,94.5,-69.0,90.0,top
 C16,22u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,123.5,-58.25,180.0,top
 C17,10u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,119.0,-71.25,180.0,top
@@ -27,11 +27,12 @@ J1,Conn_01x04,TE_MATE-N-LOK_350211-1_1x04_P5.08mm_Vertical,139.805,-87.25,-90.0,
 J2,Conn_01x04,Samtec_HPM-04-05-x-S_Straight_1x04_Pitch5.08mm,130.25,-87.25,0.0,top
 J3,USB_C_Receptacle_USB2.0_16P,USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,89.89,-88.25,-90.0,top
 J5,Screw_Terminal_01x03,TerminalBlock_CUI_TB007-508-03_1x03_P5.08mm_Horizontal,139.8925,-64.55,90.0,top
+JP1,Jumper_2_Open,SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,88.0,-76.75,180.0,top
 L1,4.7uH,L_APV_ANR4030,110.9,-96.0,90.0,top
 L2,15uH,L_APV_APH0630,99.25,-61.5,180.0,top
-Q1,AO3400A,SOT-23,97.5,-88.75,180.0,top
+Q1,AO3400A,SOT-23,97.5,-88.75,90.0,top
 R1,5.1k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,95.25,-91.25,-90.0,top
-R10,1.13k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,110.0,-71.25,0.0,top
+R10,1.1k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,110.0,-71.25,0.0,top
 R12,620,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,91.8,-58.2,-90.0,top
 R13,2k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,91.75,-62.0,-90.0,top
 R2,5.1k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,95.0,-86.25,90.0,top
@@ -41,9 +42,9 @@ R5,420,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,112.25,-90.0,90.0,top
 R6,2k2,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,116.75,-90.0,90.0,top
 R7,5.1k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,88.0,-81.0,90.0,top
 R8,100k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,104.75,-93.0,0.0,top
-R9,100k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,114.0,-71.25,0.0,top
-U1,AP63205WU,TSOT-23-6,104.9,-96.0,-90.0,top
+R9,10k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,114.0,-71.25,0.0,top
+U1,AP63205WU,TSOT-23-6,104.9,-96.0,90.0,top
 U2,L7812,TO-252-2,111.76,-80.8,0.0,top
-U3,IP2721,TSSOP-16_4.4x5mm_P0.65mm,96.75,-79.0,0.0,top
+U3,IP2721,TSSOP-16_4.4x5mm_P0.65mm,96.75,-79.0,270.0,top
 U4,TPS5430DDA,TI_SO-PowerPAD-8_ThermalVias,99.25,-69.0,180.0,top
 U5,L7905,TO-252-3_TabPin2,116.5,-63.59,90.0,top
