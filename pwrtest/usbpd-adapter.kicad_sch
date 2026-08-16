@@ -2182,9 +2182,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "USB-C Power Delivery Adapter\n"
+	(text "USB-C Power Delivery Adapter 1.2A\n"
 		(exclude_from_sim no)
-		(at 213.995 170.18 0)
+		(at 218.44 171.45 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -4196,6 +4196,52 @@
 			(project "usbpd-adapter"
 				(path "/4a647462-7ef8-4ca9-abe7-1697e001dd97"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 90.17 172.72)
+		(size 13.97 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1e6cf605-d6b5-4501-a2b9-c25342c5e2fe")
+		(property "Sheetname" "Power Detection and LEDs"
+			(at 90.17 172.0084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pwrdetect.kicad_sch"
+			(at 90.17 180.9246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "usbpd-adapter"
+				(path "/4a647462-7ef8-4ca9-abe7-1697e001dd97"
+					(page "4")
 				)
 			)
 		)

@@ -1830,7 +1830,7 @@
 		)
 		(uuid "1531cadd-89cf-42bc-8484-63a8abbf5b63")
 	)
-	(text "R=U/I = (Vin-1.9V)/5mA"
+	(text "R=U/I = (Vin-3V)/5mA"
 		(exclude_from_sim no)
 		(at 73.025 177.8 0)
 		(effects
@@ -1840,7 +1840,7 @@
 		)
 		(uuid "253bfde6-2099-4d10-b2d8-cbf7118a2609")
 	)
-	(text "USB-C Power Delivery Adapter\n"
+	(text "USB-C Power Delivery Adapter 1.2A\n"
 		(exclude_from_sim no)
 		(at 226.695 170.815 0)
 		(effects
@@ -1850,7 +1850,7 @@
 		)
 		(uuid "33d99ecb-4fd7-4819-b2e5-78fd756e3d96")
 	)
-	(text "Fwd Voltage: 1.9V\nWorking current: 5mA"
+	(text "Fwd Voltage: 2.5-3V\nWorking current: 5mA"
 		(exclude_from_sim no)
 		(at 74.93 172.085 0)
 		(effects
@@ -3025,7 +3025,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "1.8k"
 			(at 106.68 165.7349 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3069,7 +3069,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22975"
+		(property "LCSC" ""
 			(at 107.315 163.1949 0)
 			(hide yes)
 			(show_name no)
@@ -3251,7 +3251,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C7496820"
+		(property "LCSC" "C12065"
 			(at 100.965 174.9426 0)
 			(hide yes)
 			(show_name no)
@@ -3448,7 +3448,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C7496820"
+		(property "LCSC" "C12065"
 			(at 87.63 174.9426 0)
 			(hide yes)
 			(show_name no)
@@ -4214,7 +4214,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "620"
+		(property "Value" "390"
 			(at 93.98 165.7349 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4258,7 +4258,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23220"
+		(property "LCSC" ""
 			(at 93.98 163.1949 0)
 			(hide yes)
 			(show_name no)

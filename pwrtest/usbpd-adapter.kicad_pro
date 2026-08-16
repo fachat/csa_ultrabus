@@ -50,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.5,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -664,7 +680,7 @@
         "uuid": "4a647462-7ef8-4ca9-abe7-1697e001dd97"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D8-12,#PWR14-19,R11,R14-34,Q2-6,U6-10",
     "variants": []
   },
   "sheets": [
@@ -679,6 +695,10 @@
     [
       "4b3bd0bf-8595-4623-908a-74aea437f66f",
       "Positive Voltages"
+    ],
+    [
+      "1e6cf605-d6b5-4501-a2b9-c25342c5e2fe",
+      "Power Detection and LEDs"
     ]
   ],
   "text_variables": {},
