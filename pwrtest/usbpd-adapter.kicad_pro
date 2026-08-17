@@ -76,7 +76,28 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|92005000|85200000|1e718eb3-c2cf-43fe-8d32-1abcd56c86c3|eb80e991-1136-45b6-8edb-022c89c7eecc",
+          ""
+        ],
+        [
+          "hole_clearance|92005000|85200000|4a54fb8f-9a0d-4efc-a78c-0632a5cfb1b0|eb80e991-1136-45b6-8edb-022c89c7eecc",
+          ""
+        ],
+        [
+          "hole_clearance|92005000|91300000|0e45050c-ad84-4d28-886b-5f2e7aa0ba01|1f253e53-1ee7-4861-ba86-f7bd39c2b3e7",
+          ""
+        ],
+        [
+          "hole_clearance|92005000|91300000|1d276783-3ca1-45e6-b9e7-a89d26156098|1f253e53-1ee7-4861-ba86-f7bd39c2b3e7",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|88977500|99200000|1d6c20e1-2361-478b-b17e-e05f60659f5b|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -680,7 +701,7 @@
         "uuid": "4a647462-7ef8-4ca9-abe7-1697e001dd97"
       }
     ],
-    "used_designators": "D8-12,#PWR14-19,R11,R14-34,Q2-6,U6-10",
+    "used_designators": "D5,D8-14,#PWR14-21,R11,R14-44,Q2-8,U6-12",
     "variants": []
   },
   "sheets": [
