@@ -2802,7 +2802,7 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "5VP"
 		(shape input)
 		(at 52.07 90.17 180)
 		(fields_autoplaced yes)
@@ -2814,7 +2814,7 @@
 		)
 		(uuid "97ce1102-1ae1-4143-b91a-689209c6074d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.7867 90.17 0)
+			(at 45.5167 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3220,11 +3220,13 @@
 		)
 		(property "LCSC" "C7420337"
 			(at 100.33 115.5699 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -3984,11 +3986,13 @@
 		)
 		(property "LCSC" "C7420337"
 			(at 99.06 176.5299 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -4297,11 +4301,13 @@
 		)
 		(property "LCSC" "C7420337"
 			(at 233.68 118.1099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -6097,11 +6103,13 @@
 		)
 		(property "LCSC" "C7420337"
 			(at 232.41 43.1799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -6676,11 +6684,13 @@
 		)
 		(property "LCSC" "C7420337"
 			(at 97.79 55.8799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "3"

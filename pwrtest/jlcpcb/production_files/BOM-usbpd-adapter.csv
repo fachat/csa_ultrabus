@@ -1,4 +1,5 @@
 Comment,Designator,Footprint,LCSC,Quantity
+0,"R25,R26,R27,R28",R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C21189,4
 0.01uF low ESR,C13,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,C57112,1
 1.1k,R10,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C22764,1
 1.8k,R13,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C4177,1
