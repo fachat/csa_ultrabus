@@ -1820,7 +1820,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "USB-C-PWR-V1.1A-20260425"
+	(text "USB-C-PWR-V1.3A-20260830"
 		(exclude_from_sim no)
 		(at 219.71 178.435 0)
 		(effects
@@ -1829,6 +1829,16 @@
 			)
 		)
 		(uuid "1531cadd-89cf-42bc-8484-63a8abbf5b63")
+	)
+	(text "Fwd Voltage: 2.5-3.1V\nWorking current: 5mA"
+		(exclude_from_sim no)
+		(at 73.152 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1a8e5147-5d3e-4059-afd8-adbb1a55bdc0")
 	)
 	(text "R=U/I = (Vin-3V)/5mA"
 		(exclude_from_sim no)
@@ -1840,7 +1850,7 @@
 		)
 		(uuid "253bfde6-2099-4d10-b2d8-cbf7118a2609")
 	)
-	(text "USB-C Power Delivery Adapter 1.2A\n"
+	(text "USB-C Power Delivery Adapter 1.3A\n"
 		(exclude_from_sim no)
 		(at 226.695 170.815 0)
 		(effects
@@ -1849,16 +1859,6 @@
 			)
 		)
 		(uuid "33d99ecb-4fd7-4819-b2e5-78fd756e3d96")
-	)
-	(text "Fwd Voltage: 2.5-3V\nWorking current: 5mA"
-		(exclude_from_sim no)
-		(at 74.93 172.085 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4cdc6198-3a3b-4ace-9a5b-3608bf722495")
 	)
 	(text "Low ESR\nClose to\nU4 Package"
 		(exclude_from_sim no)
@@ -3131,7 +3131,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.8k"
+		(property "Value" "2k2"
 			(at 106.68 165.7349 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3175,7 +3175,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4177"
+		(property "LCSC" "C4190"
 			(at 107.315 163.1949 0)
 			(hide yes)
 			(show_name no)
@@ -3357,7 +3357,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C7496820"
+		(property "LCSC" "C12065"
 			(at 100.965 174.9426 0)
 			(hide yes)
 			(show_name no)
@@ -3554,7 +3554,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C7496820"
+		(property "LCSC" "C12065"
 			(at 87.63 174.9426 0)
 			(hide yes)
 			(show_name no)
@@ -4421,7 +4421,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "390"
+		(property "Value" "420"
 			(at 93.98 165.7349 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4465,7 +4465,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23151"
+		(property "LCSC" "C23057"
 			(at 93.98 163.1949 0)
 			(hide yes)
 			(show_name no)
