@@ -1187,12 +1187,12 @@
 		)
 		(uuid "4d6fb18d-f8c3-4cfd-a306-f41f453437cc")
 	)
-	(text "NOTE:\nALL TL431 have \nREF and Cathode\nswapped in pinout!"
+	(text "NOTE:\nALL TL431 have \nREF and Cathode\nswapped in pinout\nas the BOM part\nis a TL431A-MS"
 		(exclude_from_sim no)
-		(at 144.78 64.77 0)
+		(at 143.51 67.564 0)
 		(effects
 			(font
-				(size 4.445 4.445)
+				(size 3.175 3.175)
 				(thickness 0.889)
 				(bold yes)
 				(color 255 0 45 1)
@@ -1221,6 +1221,19 @@
 		)
 		(uuid "7a0cc66a-96a7-4960-b477-61099109b852")
 	)
+	(text "Also, TL431 needs\nat approx 1mA Ika\nto regulate"
+		(exclude_from_sim no)
+		(at 140.716 178.308 0)
+		(effects
+			(font
+				(size 3.175 3.175)
+				(thickness 0.889)
+				(bold yes)
+				(color 255 0 45 1)
+			)
+		)
+		(uuid "7c1ef2ca-7fd0-4a31-8317-19fac0e95ef3")
+	)
 	(text "Red LED Fwd Voltage: 1.9V\nWorking current: 5mA\nBC847 C-E saturation \nVoltage: 0.5V"
 		(exclude_from_sim no)
 		(at 123.19 36.83 0)
@@ -1240,6 +1253,19 @@
 			)
 		)
 		(uuid "853d4434-2be6-4f77-8815-f9ca57a850d2")
+	)
+	(text "All the pos voltage \ncomparators (5V, 12V, Vbus)\nwon't work\nas the TL431 pulls to \n2V only. Requires an\nPNP setup instead."
+		(exclude_from_sim no)
+		(at 142.748 127.762 0)
+		(effects
+			(font
+				(size 3.175 3.175)
+				(thickness 0.889)
+				(bold yes)
+				(color 255 0 45 1)
+			)
+		)
+		(uuid "89a99198-39ef-4373-9884-b92198d3d38f")
 	)
 	(text "R17 = R18 * (11.5/2.495) ~= 46k"
 		(exclude_from_sim no)
