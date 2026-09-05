@@ -92,10 +92,6 @@
         [
           "hole_clearance|92005000|91300000|1d276783-3ca1-45e6-b9e7-a89d26156098|1f253e53-1ee7-4861-ba86-f7bd39c2b3e7",
           ""
-        ],
-        [
-          "lib_footprint_mismatch|88977500|99200000|1d6c20e1-2361-478b-b17e-e05f60659f5b|00000000-0000-0000-0000-000000000000",
-          ""
         ]
       ],
       "meta": {
@@ -128,7 +124,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",

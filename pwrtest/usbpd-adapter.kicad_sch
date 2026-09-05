@@ -1768,7 +1768,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "USB-C Power Delivery Adapter 1.3A\n"
+	(text "USB-C Power Delivery Adapter 1.3B"
 		(exclude_from_sim no)
 		(at 218.44 171.45 0)
 		(effects

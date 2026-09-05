@@ -1850,7 +1850,7 @@
 		)
 		(uuid "253bfde6-2099-4d10-b2d8-cbf7118a2609")
 	)
-	(text "USB-C Power Delivery Adapter 1.3A\n"
+	(text "USB-C Power Delivery Adapter 1.3B\n"
 		(exclude_from_sim no)
 		(at 226.695 170.815 0)
 		(effects
