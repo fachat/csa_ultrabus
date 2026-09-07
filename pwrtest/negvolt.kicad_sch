@@ -1820,7 +1820,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "USB-C-PWR-V1.3A-20260830"
+	(text "USB-C-PWR-V1.4A-20260907"
 		(exclude_from_sim no)
 		(at 219.71 178.435 0)
 		(effects
@@ -1850,7 +1850,7 @@
 		)
 		(uuid "253bfde6-2099-4d10-b2d8-cbf7118a2609")
 	)
-	(text "USB-C Power Delivery Adapter 1.3B\n"
+	(text "USB-C Power Delivery Adapter 1.4A\n"
 		(exclude_from_sim no)
 		(at 226.695 170.815 0)
 		(effects
@@ -1869,6 +1869,17 @@
 			)
 		)
 		(uuid "6d6062d8-8b00-409e-bc5f-dea7cae698b2")
+	)
+	(text "1.4A:\n- proper terminal blocks"
+		(exclude_from_sim no)
+		(at 188.595 153.67 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "bafc9c42-e37e-40f6-abeb-463ef917f1ac")
 	)
 	(junction
 		(at 154.94 116.84)
@@ -5067,7 +5078,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_CUI:TerminalBlock_CUI_TB007-508-03_1x03_P5.08mm_Horizontal"
+		(property "Footprint" "TermBlock:TermBlock HB9500-3P"
 			(at 238.125 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -5090,6 +5101,17 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 238.125 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C60786"
 			(at 238.125 111.76 0)
 			(hide yes)
 			(show_name no)

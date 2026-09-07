@@ -138,8 +138,8 @@
         "pth_inside_courtyard": "warning",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -263,8 +263,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.4,
-          "drill": 0.25
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -697,7 +697,7 @@
         "uuid": "4a647462-7ef8-4ca9-abe7-1697e001dd97"
       }
     ],
-    "used_designators": "D5,D8-14,#PWR14-21,JP2,R11,R14-48,Q1-8,U6-12",
+    "used_designators": "J6-7,UX3,#V4,L3,#GND25,C19,C43,C45-50,D5,D8-18,#PWR14-22,JP2,R11,R14-57,Q1-8,U3,U6-13",
     "variants": []
   },
   "sheets": [
