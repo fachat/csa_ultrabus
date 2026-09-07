@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(uuid "ceb23771-0bfd-4690-8b2c-f2fde9580fe8")
 	(paper "User" 426.872 254.152)
 	(lib_symbols
@@ -9,8 +9,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "IC"
 				(at -0.635 -0.635 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -20,43 +24,53 @@
 			)
 			(property "Value" ""
 				(at 2.54 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.778 1.5113)
 					)
 					(justify left bottom)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "csa_ultrabus_v2:SO14"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -65,9 +79,9 @@
 			)
 			(symbol "7400D_1_0"
 				(arc
-					(start -2.54 -5.08)
+					(start -2.54 5.08)
 					(mid 2.5179 0)
-					(end -2.54 5.08)
+					(end -2.54 -5.08)
 					(stroke
 						(width 0.4064)
 						(type solid)
@@ -145,9 +159,9 @@
 			)
 			(symbol "7400D_2_0"
 				(arc
-					(start -2.54 -5.08)
+					(start -2.54 5.08)
 					(mid 2.5179 0)
-					(end -2.54 5.08)
+					(end -2.54 -5.08)
 					(stroke
 						(width 0.4064)
 						(type solid)
@@ -225,9 +239,9 @@
 			)
 			(symbol "7400D_3_0"
 				(arc
-					(start -2.54 -5.08)
+					(start -2.54 5.08)
 					(mid 2.5179 0)
-					(end -2.54 5.08)
+					(end -2.54 -5.08)
 					(stroke
 						(width 0.4064)
 						(type solid)
@@ -246,24 +260,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 5.08)
-					(name "I1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 				(pin output inverted
@@ -302,12 +298,30 @@
 						)
 					)
 				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 5.08)
+					(name "I1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "7400D_4_0"
 				(arc
-					(start -2.54 -5.08)
+					(start -2.54 5.08)
 					(mid 2.5179 0)
-					(end -2.54 5.08)
+					(end -2.54 -5.08)
 					(stroke
 						(width 0.4064)
 						(type solid)
@@ -384,15 +398,6 @@
 				)
 			)
 			(symbol "7400D_5_0"
-				(text "GND"
-					(at 1.905 -5.842 900)
-					(effects
-						(font
-							(size 1.27 1.0795)
-						)
-						(justify left bottom)
-					)
-				)
 				(text "VCC"
 					(at 1.905 2.54 900)
 					(effects
@@ -402,22 +407,13 @@
 						(justify left bottom)
 					)
 				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 0 0)
-							)
+				(text "GND"
+					(at 1.905 -5.842 900)
+					(effects
+						(font
+							(size 1.27 1.0795)
 						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+						(justify left bottom)
 					)
 				)
 				(pin power_in line
@@ -438,14 +434,37 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "csa_ultrabus_v2-eagle-import:7404D"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "IC"
 				(at -0.635 -0.635 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -455,43 +474,53 @@
 			)
 			(property "Value" ""
 				(at 2.54 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.778 1.5113)
 					)
 					(justify left bottom)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "csa_ultrabus_v2:SO14"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -501,7 +530,7 @@
 			(symbol "7404D_1_0"
 				(polyline
 					(pts
-						(xy -5.08 -5.08) (xy -5.08 5.08)
+						(xy -5.08 5.08) (xy 5.08 0)
 					)
 					(stroke
 						(width 0.4064)
@@ -513,7 +542,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 5.08) (xy 5.08 0)
+						(xy -5.08 -5.08) (xy -5.08 5.08)
 					)
 					(stroke
 						(width 0.4064)
@@ -575,7 +604,7 @@
 			(symbol "7404D_2_0"
 				(polyline
 					(pts
-						(xy -5.08 -5.08) (xy -5.08 5.08)
+						(xy -5.08 5.08) (xy 5.08 0)
 					)
 					(stroke
 						(width 0.4064)
@@ -587,7 +616,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 5.08) (xy 5.08 0)
+						(xy -5.08 -5.08) (xy -5.08 5.08)
 					)
 					(stroke
 						(width 0.4064)
@@ -649,7 +678,7 @@
 			(symbol "7404D_3_0"
 				(polyline
 					(pts
-						(xy -5.08 -5.08) (xy -5.08 5.08)
+						(xy -5.08 5.08) (xy 5.08 0)
 					)
 					(stroke
 						(width 0.4064)
@@ -661,7 +690,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 5.08) (xy 5.08 0)
+						(xy -5.08 -5.08) (xy -5.08 5.08)
 					)
 					(stroke
 						(width 0.4064)
@@ -723,7 +752,7 @@
 			(symbol "7404D_4_0"
 				(polyline
 					(pts
-						(xy -5.08 -5.08) (xy -5.08 5.08)
+						(xy -5.08 5.08) (xy 5.08 0)
 					)
 					(stroke
 						(width 0.4064)
@@ -735,7 +764,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 5.08) (xy 5.08 0)
+						(xy -5.08 -5.08) (xy -5.08 5.08)
 					)
 					(stroke
 						(width 0.4064)
@@ -797,7 +826,7 @@
 			(symbol "7404D_5_0"
 				(polyline
 					(pts
-						(xy -5.08 -5.08) (xy -5.08 5.08)
+						(xy -5.08 5.08) (xy 5.08 0)
 					)
 					(stroke
 						(width 0.4064)
@@ -809,7 +838,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 5.08) (xy 5.08 0)
+						(xy -5.08 -5.08) (xy -5.08 5.08)
 					)
 					(stroke
 						(width 0.4064)
@@ -871,7 +900,7 @@
 			(symbol "7404D_6_0"
 				(polyline
 					(pts
-						(xy -5.08 -5.08) (xy -5.08 5.08)
+						(xy -5.08 5.08) (xy 5.08 0)
 					)
 					(stroke
 						(width 0.4064)
@@ -883,7 +912,7 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 5.08) (xy 5.08 0)
+						(xy -5.08 -5.08) (xy -5.08 5.08)
 					)
 					(stroke
 						(width 0.4064)
@@ -943,15 +972,6 @@
 				)
 			)
 			(symbol "7404D_7_0"
-				(text "GND"
-					(at 1.905 -5.842 900)
-					(effects
-						(font
-							(size 1.27 1.0795)
-						)
-						(justify left bottom)
-					)
-				)
 				(text "VCC"
 					(at 1.905 2.54 900)
 					(effects
@@ -961,22 +981,13 @@
 						(justify left bottom)
 					)
 				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 0 0)
-							)
+				(text "GND"
+					(at 1.905 -5.842 900)
+					(effects
+						(font
+							(size 1.27 1.0795)
 						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+						(justify left bottom)
 					)
 				)
 				(pin power_in line
@@ -997,59 +1008,92 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "csa_ultrabus_v2-eagle-import:DOCFIELD"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#FRAME"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1059,7 +1103,7 @@
 			(symbol "DOCFIELD_1_0"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 5.08)
+						(xy 0 22.86) (xy 0 35.56)
 					)
 					(stroke
 						(width 0.1016)
@@ -1071,7 +1115,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 71.12 0)
+						(xy 0 22.86) (xy 101.6 22.86)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 15.24) (xy 0 22.86)
 					)
 					(stroke
 						(width 0.1016)
@@ -1107,7 +1163,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 15.24) (xy 0 22.86)
+						(xy 0 0) (xy 0 5.08)
 					)
 					(stroke
 						(width 0.1016)
@@ -1119,31 +1175,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 22.86) (xy 0 35.56)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 22.86) (xy 101.6 22.86)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 71.12 0) (xy 101.6 0)
+						(xy 0 0) (xy 71.12 0)
 					)
 					(stroke
 						(width 0.1016)
@@ -1179,7 +1211,7 @@
 				)
 				(polyline
 					(pts
-						(xy 87.63 5.08) (xy 101.6 5.08)
+						(xy 71.12 0) (xy 101.6 0)
 					)
 					(stroke
 						(width 0.1016)
@@ -1215,7 +1247,43 @@
 				)
 				(polyline
 					(pts
-						(xy 101.6 5.08) (xy 101.6 0)
+						(xy 87.63 5.08) (xy 101.6 5.08)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 101.6 35.56) (xy 0 35.56)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 101.6 35.56) (xy 101.6 22.86)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 101.6 22.86) (xy 101.6 15.24)
 					)
 					(stroke
 						(width 0.1016)
@@ -1251,7 +1319,7 @@
 				)
 				(polyline
 					(pts
-						(xy 101.6 22.86) (xy 101.6 15.24)
+						(xy 101.6 5.08) (xy 101.6 0)
 					)
 					(stroke
 						(width 0.1016)
@@ -1261,32 +1329,26 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 101.6 35.56) (xy 0 35.56)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
+				(text "TITLE:"
+					(at 1.27 19.05 0)
+					(effects
+						(font
+							(size 2.54 2.54)
+						)
+						(justify left bottom)
 					)
 				)
-				(polyline
-					(pts
-						(xy 101.6 35.56) (xy 101.6 22.86)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
+				(text "Document Number:"
+					(at 1.27 11.43 0)
+					(effects
+						(font
+							(size 2.54 2.54)
+						)
+						(justify left bottom)
 					)
 				)
-				(text "${#}/${##}"
-					(at 86.36 1.27 0)
+				(text "Date:"
+					(at 1.27 1.27 0)
 					(effects
 						(font
 							(size 2.54 2.54)
@@ -1312,8 +1374,8 @@
 						(justify left bottom)
 					)
 				)
-				(text "Date:"
-					(at 1.27 1.27 0)
+				(text "Sheet:"
+					(at 72.39 1.27 0)
 					(effects
 						(font
 							(size 2.54 2.54)
@@ -1321,8 +1383,8 @@
 						(justify left bottom)
 					)
 				)
-				(text "Document Number:"
-					(at 1.27 11.43 0)
+				(text "${#}/${##}"
+					(at 86.36 1.27 0)
 					(effects
 						(font
 							(size 2.54 2.54)
@@ -1339,42 +1401,31 @@
 						(justify left bottom)
 					)
 				)
-				(text "Sheet:"
-					(at 72.39 1.27 0)
-					(effects
-						(font
-							(size 2.54 2.54)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "TITLE:"
-					(at 1.27 19.05 0)
-					(effects
-						(font
-							(size 2.54 2.54)
-						)
-						(justify left bottom)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "csa_ultrabus_v2-eagle-import:GND"
-			(power)
+			(power global)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#GND"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "GND"
 				(at -2.54 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -1384,33 +1435,41 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1449,13 +1508,18 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "csa_ultrabus_v2-eagle-import:JP2E"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "JP"
 				(at -3.81 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -1465,6 +1529,8 @@
 			)
 			(property "Value" ""
 				(at 5.715 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -1474,33 +1540,41 @@
 			)
 			(property "Footprint" "csa_ultrabus_v2:JP2"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1508,6 +1582,18 @@
 				)
 			)
 			(symbol "JP2E_1_0"
+				(polyline
+					(pts
+						(xy -3.175 0.635) (xy -3.175 0)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy -3.175 0) (xy 3.175 0)
@@ -1522,7 +1608,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3.175 0.635) (xy -3.175 0)
+						(xy -2.54 2.54) (xy -2.54 1.27)
 					)
 					(stroke
 						(width 0.4064)
@@ -1546,7 +1632,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 2.54) (xy -2.54 1.27)
+						(xy 0 2.54) (xy 0 1.27)
 					)
 					(stroke
 						(width 0.4064)
@@ -1570,7 +1656,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0 1.27)
+						(xy 2.54 2.54) (xy 2.54 1.27)
 					)
 					(stroke
 						(width 0.4064)
@@ -1594,7 +1680,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy 2.54 1.27)
+						(xy 3.175 0.635) (xy -3.175 0.635)
 					)
 					(stroke
 						(width 0.4064)
@@ -1607,18 +1693,6 @@
 				(polyline
 					(pts
 						(xy 3.175 0) (xy 3.175 0.635)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 0.635) (xy -3.175 0.635)
 					)
 					(stroke
 						(width 0.4064)
@@ -1683,23 +1757,30 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "csa_ultrabus_v2-eagle-import:RC2014/6502"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" ""
 				(at -5.08 25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 2.1844 1.8567)
 					)
 					(justify left bottom)
-					(hide yes)
 				)
 			)
 			(property "Value" ""
 				(at -7.62 -63.5 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 2.1844 1.8567)
@@ -1709,33 +1790,41 @@
 			)
 			(property "Footprint" "csa_ultrabus_v2:SIL40"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1743,18 +1832,6 @@
 				)
 			)
 			(symbol "RC2014/6502_1_0"
-				(polyline
-					(pts
-						(xy -12.7 -60.96) (xy -12.7 25.4)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -12.7 25.4) (xy 10.16 25.4)
@@ -1769,7 +1846,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 -60.96) (xy -12.7 -60.96)
+						(xy -12.7 -60.96) (xy -12.7 25.4)
 					)
 					(stroke
 						(width 0.254)
@@ -1791,6 +1868,18 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 10.16 -60.96) (xy -12.7 -60.96)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin bidirectional line
 					(at -17.78 -48.26 0)
 					(length 5.08)
@@ -1802,6 +1891,150 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -45.72 0)
+					(length 5.08)
+					(name "A14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -43.18 0)
+					(length 5.08)
+					(name "A13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -40.64 0)
+					(length 5.08)
+					(name "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -38.1 0)
+					(length 5.08)
+					(name "A11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -35.56 0)
+					(length 5.08)
+					(name "A10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -33.02 0)
+					(length 5.08)
+					(name "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -30.48 0)
+					(length 5.08)
+					(name "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -27.94 0)
+					(length 5.08)
+					(name "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1990,24 +2223,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -45.72 0)
-					(length 5.08)
-					(name "A14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at 15.24 -22.86 180)
 					(length 5.08)
 					(name "/RES"
@@ -2180,24 +2395,6 @@
 						)
 					)
 					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -43.18 0)
-					(length 5.08)
-					(name "A13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2386,24 +2583,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 -40.64 0)
-					(length 5.08)
-					(name "A12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at 15.24 -38.1 180)
 					(length 5.08)
 					(name "USER4"
@@ -2421,114 +2600,31 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -17.78 -38.1 0)
-					(length 5.08)
-					(name "A11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -35.56 0)
-					(length 5.08)
-					(name "A10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -33.02 0)
-					(length 5.08)
-					(name "A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -30.48 0)
-					(length 5.08)
-					(name "A8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -27.94 0)
-					(length 5.08)
-					(name "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "csa_ultrabus_v2-eagle-import:VCC"
-			(power)
+			(power global)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#SUPPLY"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "VCC"
 				(at -1.905 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -2538,33 +2634,41 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2602,7 +2706,52 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "(C) A. Fachat"
+		(exclude_from_sim no)
+		(at 27.94 208.28 0)
+		(effects
+			(font
+				(size 2.54 2.159)
+			)
+			(justify left bottom)
+		)
+		(uuid "37d47151-0886-437e-993e-0fe6b145cde8")
+	)
+	(text "CS/A65 Ultra BUS 2.1A"
+		(exclude_from_sim no)
+		(at 27.94 203.2 0)
+		(effects
+			(font
+				(size 3.81 3.2385)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9ee0f98-ccfd-47d3-af0b-cb1ee5b5211e")
+	)
+	(text "1.0B:\n- fix qualifying SLOTIO and BANK with Phi2\n- separate RC_CLK from BPHI0\n1.1A:\n- remove RC6502 slot\n- Both remaining RC2014 now have MREQ and IOREQ\nqualified with Phi2"
+		(exclude_from_sim no)
+		(at 27.94 193.04 0)
+		(effects
+			(font
+				(size 2.54 2.159)
+			)
+			(justify left bottom)
+		)
+		(uuid "bfed6081-34c0-4ec5-833b-f61ee44f7501")
+	)
+	(text "CSA-ULTRABUS-V1.1A-20240215"
+		(exclude_from_sim no)
+		(at 27.94 226.06 0)
+		(effects
+			(font
+				(size 2.54 2.159)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5514c93-df1b-498f-8ef8-14d20f64ef59")
 	)
 	(junction
 		(at 256.54 40.64)
@@ -5130,53 +5279,8 @@
 		)
 		(uuid "fc9bcbf0-753b-4ac8-93ff-49710ca16495")
 	)
-	(text "(C) A. Fachat"
-		(exclude_from_sim no)
-		(at 27.94 208.28 0)
-		(effects
-			(font
-				(size 2.54 2.159)
-			)
-			(justify left bottom)
-		)
-		(uuid "37d47151-0886-437e-993e-0fe6b145cde8")
-	)
-	(text "CS/A65 Ultra BUS 2.0B"
-		(exclude_from_sim no)
-		(at 27.94 203.2 0)
-		(effects
-			(font
-				(size 3.81 3.2385)
-			)
-			(justify left bottom)
-		)
-		(uuid "b9ee0f98-ccfd-47d3-af0b-cb1ee5b5211e")
-	)
-	(text "1.0B:\n- fix qualifying SLOTIO and BANK with Phi2\n- separate RC_CLK from BPHI0\n1.1A:\n- remove RC6502 slot\n- Both remaining RC2014 now have MREQ and IOREQ\nqualified with Phi2"
-		(exclude_from_sim no)
-		(at 27.94 193.04 0)
-		(effects
-			(font
-				(size 2.54 2.159)
-			)
-			(justify left bottom)
-		)
-		(uuid "bfed6081-34c0-4ec5-833b-f61ee44f7501")
-	)
-	(text "CSA-ULTRABUS-V1.1A-20240215"
-		(exclude_from_sim no)
-		(at 27.94 226.06 0)
-		(effects
-			(font
-				(size 2.54 2.159)
-			)
-			(justify left bottom)
-		)
-		(uuid "c5514c93-df1b-498f-8ef8-14d20f64ef59")
-	)
 	(label "N$1"
 		(at 121.92 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5187,7 +5291,6 @@
 	)
 	(label "/RD0"
 		(at 228.6 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5198,7 +5301,6 @@
 	)
 	(label "TX"
 		(at 350.52 175.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5209,7 +5311,6 @@
 	)
 	(label "/SLOT6.X_IO"
 		(at 228.6 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5220,7 +5321,6 @@
 	)
 	(label "/WR0"
 		(at 187.96 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5231,7 +5331,6 @@
 	)
 	(label "BD[0..7]"
 		(at 165.1 139.7 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -5242,7 +5341,6 @@
 	)
 	(label "USER3"
 		(at 228.6 198.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5253,7 +5351,6 @@
 	)
 	(label "TX"
 		(at 228.6 175.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5264,7 +5361,6 @@
 	)
 	(label "/SLOT6.X_IO"
 		(at 269.24 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5275,7 +5371,6 @@
 	)
 	(label "BD[0..7]"
 		(at 287.02 139.7 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -5286,7 +5381,6 @@
 	)
 	(label "USER2"
 		(at 228.6 195.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5297,7 +5391,6 @@
 	)
 	(label "BA[0..15]"
 		(at 165.1 167.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -5308,7 +5401,6 @@
 	)
 	(label "RX"
 		(at 228.6 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5319,7 +5411,6 @@
 	)
 	(label "/M1"
 		(at 350.52 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5330,7 +5421,6 @@
 	)
 	(label "/M1"
 		(at 111.76 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5341,7 +5431,6 @@
 	)
 	(label "/RD0"
 		(at 350.52 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5352,7 +5441,6 @@
 	)
 	(label "/SLOT6.X_IO"
 		(at 350.52 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5363,7 +5451,6 @@
 	)
 	(label "/SLOT6.X_BANK"
 		(at 350.52 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5374,7 +5461,6 @@
 	)
 	(label "USER1"
 		(at 228.6 190.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5385,7 +5471,6 @@
 	)
 	(label "USER4"
 		(at 350.52 200.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5396,7 +5481,6 @@
 	)
 	(label "RC_CLK"
 		(at 228.6 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5407,7 +5491,6 @@
 	)
 	(label "USER2"
 		(at 350.52 195.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5418,7 +5501,6 @@
 	)
 	(label "/SLOT6.X_BANK"
 		(at 228.6 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5429,7 +5511,6 @@
 	)
 	(label "/WR0"
 		(at 228.6 160.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5440,7 +5521,6 @@
 	)
 	(label "/M1"
 		(at 228.6 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5451,7 +5531,6 @@
 	)
 	(label "/SLOT6.X_BANK"
 		(at 269.24 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5462,7 +5541,6 @@
 	)
 	(label "USER3"
 		(at 350.52 198.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5473,7 +5551,6 @@
 	)
 	(label "/WR0"
 		(at 350.52 160.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5484,7 +5561,6 @@
 	)
 	(label "/RD0"
 		(at 187.96 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5495,7 +5571,6 @@
 	)
 	(label "USER1"
 		(at 350.52 190.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5506,7 +5581,6 @@
 	)
 	(label "BA[0..15]"
 		(at 287.02 167.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -5517,7 +5591,6 @@
 	)
 	(label "N$1"
 		(at 111.76 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5528,7 +5601,6 @@
 	)
 	(label "RC_CLK"
 		(at 350.52 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5539,7 +5611,6 @@
 	)
 	(label "USER4"
 		(at 228.6 200.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5550,7 +5621,6 @@
 	)
 	(label "RX"
 		(at 350.52 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5572,12 +5642,14 @@
 		(uuid "01fe536f-65f3-412b-96c2-2e3cd26c7d4f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.4887 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -5594,12 +5666,14 @@
 		(uuid "08454adb-ea85-4e93-9053-a9c5b5ed2411")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 307.4087 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -5616,12 +5690,14 @@
 		(uuid "08c72244-0535-4088-99e3-208c79e1a6e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 307.2309 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -5638,12 +5714,14 @@
 		(uuid "0e312c96-8ebe-4cdc-b958-1bd525301a81")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.3109 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -5660,12 +5738,14 @@
 		(uuid "13bd3b4d-305f-480b-baea-7b524a91626e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 186.4962 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -5682,12 +5762,14 @@
 		(uuid "1d497562-97d1-433b-9c11-fbee1dbaae01")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 307.2309 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -5704,12 +5786,14 @@
 		(uuid "21a20486-b6b1-4319-99e0-8f149fdf0d33")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 307.2309 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -5726,12 +5810,14 @@
 		(uuid "237c2862-8d5d-44be-af67-288a8ace0a1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 237.4741 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -5748,12 +5834,14 @@
 		(uuid "27192890-3ae2-4e32-bd18-ead455e4d981")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.3109 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -5770,12 +5858,14 @@
 		(uuid "27d7308a-7d8b-4eb6-9e1d-fc47a6f8e666")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 93.346 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -5792,12 +5882,14 @@
 		(uuid "30b9c7b2-c293-4e9c-956c-6b530d8c6de4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 307.4087 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -5814,12 +5906,14 @@
 		(uuid "319678e9-4a96-4265-904d-99c398a7d45a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.3109 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -5836,12 +5930,14 @@
 		(uuid "40d81441-73d5-4cfb-931d-8ceb08c5c2eb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.4887 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -5858,12 +5954,14 @@
 		(uuid "500f9546-4bd2-4b10-ac02-a0a75b73cca0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.4887 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -5880,12 +5978,14 @@
 		(uuid "5095925e-4a7e-4461-9df0-41f4ee47b311")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 134.765 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -5902,12 +6002,14 @@
 		(uuid "50a5653a-c722-4d98-9ece-26ce6aefe733")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 308.4162 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -5924,12 +6026,14 @@
 		(uuid "547b78e1-a3c9-48c3-9c90-eda014ccc83e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 308.4162 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -5946,12 +6050,14 @@
 		(uuid "56bdab4f-b977-4324-9af6-50bea82b24c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 67.2348 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -5968,12 +6074,14 @@
 		(uuid "5938e1eb-c97d-467c-8b78-06f48ea91930")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 308.4162 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -5990,12 +6098,14 @@
 		(uuid "5e828484-23fc-430c-8771-e909f51f752f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 358.9793 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6012,12 +6122,14 @@
 		(uuid "6885d4f4-049d-45c5-b486-0c79310cb7c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 308.4162 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6034,12 +6146,14 @@
 		(uuid "71cefeaa-41fd-42f3-84a4-431f4594384f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 237.0593 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6056,12 +6170,14 @@
 		(uuid "739e4e8d-9a4c-4f2c-8912-7a50d8d59dbd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.3109 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6078,12 +6194,14 @@
 		(uuid "76690f6a-1ce4-49f5-9f86-5ab4af66ff49")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.3109 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6100,12 +6218,14 @@
 		(uuid "78235464-741a-4e63-a9aa-3d5f7e534b5f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 53.485 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6122,12 +6242,14 @@
 		(uuid "7b3342b8-5299-4002-98bb-b1bec6a877c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.4887 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6144,12 +6266,14 @@
 		(uuid "8042770f-9d78-4a1c-b56e-cc0a77c287ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 186.4962 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6166,12 +6290,14 @@
 		(uuid "814ea665-1cb1-4e48-be9b-4ed2a47576c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 307.4087 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6188,12 +6314,14 @@
 		(uuid "83bc3a3d-1b9b-4023-b435-5e8337dea30f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 307.2309 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6210,12 +6338,14 @@
 		(uuid "87fab03b-6a56-4bc2-8d8c-d76178557787")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 307.4087 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6232,12 +6362,14 @@
 		(uuid "89257e80-d626-4ca2-a1aa-0a3e440b787c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 308.4162 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6254,12 +6386,14 @@
 		(uuid "8acfc448-ff04-4882-8f93-afa83ee82ef6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 307.2309 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6276,12 +6410,14 @@
 		(uuid "949c9f0b-b6cd-41a8-bc83-9631587eac92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 307.4087 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6298,12 +6434,14 @@
 		(uuid "95309b31-1a80-44e1-be39-02d4be237862")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 186.4962 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6320,12 +6458,14 @@
 		(uuid "9a095330-fb2f-4557-8d00-84642d5da0f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 307.2309 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6342,12 +6482,14 @@
 		(uuid "9a593880-3022-4049-8e08-f9aa675d143d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 95.1833 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6364,12 +6506,14 @@
 		(uuid "9cb44f9c-c296-4be6-9cae-d540449e134e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.3109 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6386,12 +6530,14 @@
 		(uuid "9cf3da1d-f494-4110-9c2c-8e0f014969cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 307.2309 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6408,12 +6554,14 @@
 		(uuid "a60d6e78-3433-47af-a751-87ceaaa42591")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 95.1833 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6430,12 +6578,14 @@
 		(uuid "a921824c-1bf3-4898-a5ce-df68c06104e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.3109 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6452,12 +6602,14 @@
 		(uuid "b73299b2-e18b-45af-8210-741ed5a13578")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 307.2309 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6474,12 +6626,14 @@
 		(uuid "b9a2403a-996b-42c9-a4cf-bc98e29cb79c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.4887 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6496,12 +6650,14 @@
 		(uuid "bbe5394d-de6e-4627-9443-1c1d7d9f9024")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 307.2309 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6518,12 +6674,14 @@
 		(uuid "bc8bf8df-66a5-477d-a53c-2b39b1ecc31b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.3109 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6540,12 +6698,14 @@
 		(uuid "bdd8e4d2-0052-47fd-b6fb-6bcf5e84a9ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 52.0033 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6562,12 +6722,14 @@
 		(uuid "c1249459-9dfb-4c5b-9cc3-0b91c8948b48")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 186.4962 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6584,12 +6746,14 @@
 		(uuid "c12c575a-afdf-47aa-bad6-f4945786efa6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 307.4087 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6606,12 +6770,14 @@
 		(uuid "c18aed8e-d1ed-4553-9282-f0f6533b1781")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 308.4162 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6628,12 +6794,14 @@
 		(uuid "c4ad110d-dbec-4f1c-8611-7e7324a0e8ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 149.2853 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6650,12 +6818,14 @@
 		(uuid "c8716c3c-1f77-4f73-8c8c-aef63a55bce7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 186.4962 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6672,12 +6842,14 @@
 		(uuid "ca7ded5d-f6fc-43f6-a145-ede73a8d2456")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 307.4087 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6694,12 +6866,14 @@
 		(uuid "cb437d93-f361-448b-abbd-1619100170c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.4887 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6716,12 +6890,14 @@
 		(uuid "d66c83ff-2955-41f7-b1c7-0f7bf0b4bc70")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.4887 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6738,12 +6914,14 @@
 		(uuid "def3da76-730e-4cb9-ad5f-22eafdb7596f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 307.2309 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6760,12 +6938,14 @@
 		(uuid "e4f45a7e-0822-468f-aa35-1b60cdf3e38d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.3109 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6782,12 +6962,14 @@
 		(uuid "e9e78407-59f0-4677-8f00-538aa49099a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 359.3941 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6804,12 +6986,14 @@
 		(uuid "ecdf042d-b4c6-479b-ba87-1b1eb6fd17c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 52.0033 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6826,12 +7010,14 @@
 		(uuid "f0c4858b-098b-4307-944a-102d4cc448f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.4887 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6848,12 +7034,14 @@
 		(uuid "f1b821d6-3892-4dc1-8462-0a17b8cafdea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 186.4962 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6870,12 +7058,14 @@
 		(uuid "f2931e9f-ea73-4aa4-b032-83dde4c28820")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 93.4053 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6892,12 +7082,14 @@
 		(uuid "f7207c39-9cd3-4823-abcb-e4664459da3d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 307.4087 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6914,12 +7106,14 @@
 		(uuid "fdb01814-0684-4fba-b039-47a22cb0e93f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 177.2253 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6936,12 +7130,14 @@
 		(uuid "ff3fcf15-d5c0-4bca-a633-e3b64f553826")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.3109 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6949,22 +7145,28 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:VCC")
 		(at 355.6 208.28 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "262dd3b0-8720-43ff-8a92-114c7fee2314")
 		(property "Reference" "#SUPPLY07"
 			(at 355.6 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VCC"
 			(at 358.775 206.375 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -6974,29 +7176,35 @@
 		)
 		(property "Footprint" ""
 			(at 355.6 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 355.6 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 355.6 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7015,13 +7223,17 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:7400D")
 		(at 200.66 73.66 0)
 		(unit 4)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "28c04b6c-2dba-4175-8a76-a5a41731b00b")
 		(property "Reference" "IC6"
 			(at 200.025 74.295 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7031,39 +7243,47 @@
 		)
 		(property "Value" "7400D"
 			(at 203.2 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "csa_ultrabus_v2:SO14"
 			(at 200.66 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 200.66 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 200.66 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7121,22 +7341,28 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:GND")
 		(at 355.6 215.9 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "5418e757-d6f6-4ca8-86f8-f24b0775a8fd")
 		(property "Reference" "#GND015"
 			(at 355.6 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 353.06 218.44 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7146,29 +7372,35 @@
 		)
 		(property "Footprint" ""
 			(at 355.6 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 355.6 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 355.6 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7187,13 +7419,17 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:7400D")
 		(at 167.64 55.88 0)
 		(unit 2)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "55dd0dbf-5b7d-49ac-aeec-7ee697e46cfd")
 		(property "Reference" "IC6"
 			(at 167.005 56.515 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7203,39 +7439,47 @@
 		)
 		(property "Value" "7400D"
 			(at 170.18 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "csa_ultrabus_v2:SO14"
 			(at 167.64 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 167.64 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 167.64 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7293,13 +7537,17 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:7404D")
 		(at 157.48 76.2 0)
 		(unit 4)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "567a65b7-52e7-40e3-acac-8d61e8ac88de")
 		(property "Reference" "IC1"
 			(at 156.845 76.835 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7309,39 +7557,47 @@
 		)
 		(property "Value" "7404D"
 			(at 160.02 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "csa_ultrabus_v2:SO14"
 			(at 157.48 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 157.48 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 157.48 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7399,13 +7655,17 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:JP2E")
 		(at 106.68 114.3 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "6fef67bd-446c-474c-a8f1-dedaa67d3864")
 		(property "Reference" "JP14"
 			(at 102.87 114.3 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7415,39 +7675,47 @@
 		)
 		(property "Value" "JP2E"
 			(at 112.395 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "csa_ultrabus_v2:JP2"
 			(at 106.68 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 106.68 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 106.68 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7472,22 +7740,28 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:GND")
 		(at 233.68 215.9 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "799950a3-55f6-4651-9ec6-14e94ed27b52")
 		(property "Reference" "#GND014"
 			(at 233.68 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 231.14 218.44 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7497,29 +7771,35 @@
 		)
 		(property "Footprint" ""
 			(at 233.68 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 233.68 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 233.68 215.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7538,22 +7818,28 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:VCC")
 		(at 233.68 208.28 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "a41f127e-ebd2-4186-9b7b-c63746e67a1b")
 		(property "Reference" "#SUPPLY06"
 			(at 233.68 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VCC"
 			(at 236.855 206.375 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7563,29 +7849,35 @@
 		)
 		(property "Footprint" ""
 			(at 233.68 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 233.68 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 233.68 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7604,13 +7896,17 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:7404D")
 		(at 121.92 40.64 0)
 		(unit 3)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "a90efdcb-b721-43d5-87f2-ed618c91ab4e")
 		(property "Reference" "IC1"
 			(at 121.285 41.275 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7620,39 +7916,47 @@
 		)
 		(property "Value" "7404D"
 			(at 124.46 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "csa_ultrabus_v2:SO14"
 			(at 121.92 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 121.92 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 121.92 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7710,13 +8014,17 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:7404D")
 		(at 83.82 63.5 0)
 		(unit 2)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b34a2bba-8d41-4666-a3e9-97dbf44d7996")
 		(property "Reference" "IC1"
 			(at 83.185 64.135 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -7726,39 +8034,47 @@
 		)
 		(property "Value" "7404D"
 			(at 86.36 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "csa_ultrabus_v2:SO14"
 			(at 83.82 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 83.82 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 83.82 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7816,23 +8132,29 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:RC2014/6502")
 		(at 330.2 162.56 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7fc9549-2396-4b1e-84cb-23a9dc6b10be")
 		(property "Reference" "SLOT6.1"
 			(at 325.12 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2.1844 1.8567)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Value" "RC2014/6502"
 			(at 322.58 226.06 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2.1844 1.8567)
@@ -7842,29 +8164,35 @@
 		)
 		(property "Footprint" "csa_ultrabus_v2:SIL40"
 			(at 330.2 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 330.2 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 330.2 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8000,13 +8328,17 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:7400D")
 		(at 167.64 40.64 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f54e157c-9246-4700-a250-2c12c14e675a")
 		(property "Reference" "IC6"
 			(at 167.005 41.275 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8016,39 +8348,47 @@
 		)
 		(property "Value" "7400D"
 			(at 170.18 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "csa_ultrabus_v2:SO14"
 			(at 167.64 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 167.64 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 167.64 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8106,54 +8446,66 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:DOCFIELD")
 		(at 17.78 233.68 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6cdecc9-6970-49f0-99a2-b6fc5ff787dc")
 		(property "Reference" "#FRAME3"
 			(at 17.78 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "DOCFIELD"
 			(at 17.78 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 17.78 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 17.78 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 17.78 233.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -8169,13 +8521,17 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:7400D")
 		(at 200.66 86.36 0)
 		(unit 3)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc2b8038-7a1d-4168-b5fb-f831058630e5")
 		(property "Reference" "IC6"
 			(at 200.025 86.995 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8185,39 +8541,47 @@
 		)
 		(property "Value" "7400D"
 			(at 203.2 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "csa_ultrabus_v2:SO14"
 			(at 200.66 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 200.66 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 200.66 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8275,13 +8639,17 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:7404D")
 		(at 157.48 88.9 0)
 		(unit 5)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "fdb3d262-5268-4485-8d1a-1e3671296aa1")
 		(property "Reference" "IC1"
 			(at 156.845 89.535 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -8291,39 +8659,47 @@
 		)
 		(property "Value" "7404D"
 			(at 160.02 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "csa_ultrabus_v2:SO14"
 			(at 157.48 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 157.48 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 157.48 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8381,23 +8757,29 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:RC2014/6502")
 		(at 208.28 162.56 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "fdc118b8-1589-46ef-9e31-38e44f51b8a7")
 		(property "Reference" "SLOT6.2"
 			(at 203.2 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2.1844 1.8567)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Value" "RC2014/6502"
 			(at 200.66 226.06 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2.1844 1.8567)
@@ -8407,29 +8789,35 @@
 		)
 		(property "Footprint" "csa_ultrabus_v2:SIL40"
 			(at 208.28 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 208.28 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 208.28 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "18"

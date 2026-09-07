@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(uuid "6a3f80e1-5ae6-4c14-8b2a-741e71c9647d")
 	(paper "User" 495.452 266.852)
 	(lib_symbols
@@ -9,8 +9,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 1.143 0.4826 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -20,6 +24,8 @@
 			)
 			(property "Value" ""
 				(at 1.143 -4.5974 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -29,33 +35,41 @@
 			)
 			(property "Footprint" "csa_ultrabus_v2:E2,5-5"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -76,18 +90,6 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 -0.889) (xy 1.524 -0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -1.524 0) (xy -1.524 -0.889)
 					)
 					(stroke
@@ -101,6 +103,18 @@
 				(polyline
 					(pts
 						(xy -1.524 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.889) (xy 1.524 -0.889)
 					)
 					(stroke
 						(width 0.254)
@@ -168,13 +182,18 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "csa_ultrabus_v2-eagle-import:CSABUSSOCK180"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "P"
 				(at 5.08 -10.16 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -184,6 +203,8 @@
 			)
 			(property "Value" ""
 				(at 0 58.42 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -193,33 +214,41 @@
 			)
 			(property "Footprint" "csa_ultrabus_v2:CSABUSSOCK180"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -227,18 +256,6 @@
 				)
 			)
 			(symbol "CSABUSSOCK180_1_0"
-				(polyline
-					(pts
-						(xy -7.62 -58.42) (xy 15.24 -58.42)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -7.62 58.42) (xy -7.62 -58.42)
@@ -253,7 +270,7 @@
 				)
 				(polyline
 					(pts
-						(xy 15.24 -58.42) (xy 15.24 58.42)
+						(xy -7.62 -58.42) (xy 15.24 -58.42)
 					)
 					(stroke
 						(width 0.254)
@@ -275,6 +292,18 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 15.24 -58.42) (xy 15.24 58.42)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin bidirectional line
 					(at 20.32 20.32 180)
 					(length 5.08)
@@ -286,6 +315,150 @@
 						)
 					)
 					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 30.48 180)
+					(length 5.08)
+					(name "VBUF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -43.18 0)
+					(length 5.08)
+					(name "50HZ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -45.72 0)
+					(length 5.08)
+					(name "/IOINH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -48.26 0)
+					(length 5.08)
+					(name "/EXTIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -50.8 0)
+					(length 5.08)
+					(name "/MEMSEL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -53.34 0)
+					(length 5.08)
+					(name "/IOSEL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -55.88 0)
+					(length 5.08)
+					(name "/BE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 43.18 180)
+					(length 5.08)
+					(name "VCC33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -474,24 +647,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at 20.32 30.48 180)
-					(length 5.08)
-					(name "VBUF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at -12.7 -12.7 0)
 					(length 5.08)
 					(name "D2"
@@ -672,24 +827,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at -12.7 -43.18 0)
-					(length 5.08)
-					(name "50HZ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at 20.32 12.7 180)
 					(length 5.08)
 					(name "GND4"
@@ -744,114 +881,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at -12.7 -45.72 0)
-					(length 5.08)
-					(name "/IOINH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -48.26 0)
-					(length 5.08)
-					(name "/EXTIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -50.8 0)
-					(length 5.08)
-					(name "/MEMSEL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -53.34 0)
-					(length 5.08)
-					(name "/IOSEL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -55.88 0)
-					(length 5.08)
-					(name "/BE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 20.32 43.18 180)
-					(length 5.08)
-					(name "VCC33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at 20.32 5.08 180)
 					(length 5.08)
 					(name "GND7"
@@ -862,6 +891,150 @@
 						)
 					)
 					(number "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 35.56 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 33.02 180)
+					(length 5.08)
+					(name "VCC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 53.34 0)
+					(length 5.08)
+					(name "A19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 50.8 0)
+					(length 5.08)
+					(name "A18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 48.26 0)
+					(length 5.08)
+					(name "A17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 45.72 0)
+					(length 5.08)
+					(name "A16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 43.18 0)
+					(length 5.08)
+					(name "A15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 40.64 0)
+					(length 5.08)
+					(name "A14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1050,24 +1223,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at 20.32 35.56 180)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at -12.7 12.7 0)
 					(length 5.08)
 					(name "A3"
@@ -1248,24 +1403,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at 20.32 33.02 180)
-					(length 5.08)
-					(name "VCC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at 20.32 -22.86 180)
 					(length 5.08)
 					(name "16MHZ"
@@ -1319,167 +1456,74 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -12.7 53.34 0)
-					(length 5.08)
-					(name "A19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 50.8 0)
-					(length 5.08)
-					(name "A18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 48.26 0)
-					(length 5.08)
-					(name "A17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 45.72 0)
-					(length 5.08)
-					(name "A16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 43.18 0)
-					(length 5.08)
-					(name "A15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 40.64 0)
-					(length 5.08)
-					(name "A14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "csa_ultrabus_v2-eagle-import:DOCFIELD"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#FRAME"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1489,7 +1533,7 @@
 			(symbol "DOCFIELD_1_0"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 5.08)
+						(xy 0 22.86) (xy 0 35.56)
 					)
 					(stroke
 						(width 0.1016)
@@ -1501,7 +1545,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 71.12 0)
+						(xy 0 22.86) (xy 101.6 22.86)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 15.24) (xy 0 22.86)
 					)
 					(stroke
 						(width 0.1016)
@@ -1537,7 +1593,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 15.24) (xy 0 22.86)
+						(xy 0 0) (xy 0 5.08)
 					)
 					(stroke
 						(width 0.1016)
@@ -1549,31 +1605,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 22.86) (xy 0 35.56)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 22.86) (xy 101.6 22.86)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 71.12 0) (xy 101.6 0)
+						(xy 0 0) (xy 71.12 0)
 					)
 					(stroke
 						(width 0.1016)
@@ -1609,7 +1641,7 @@
 				)
 				(polyline
 					(pts
-						(xy 87.63 5.08) (xy 101.6 5.08)
+						(xy 71.12 0) (xy 101.6 0)
 					)
 					(stroke
 						(width 0.1016)
@@ -1645,7 +1677,43 @@
 				)
 				(polyline
 					(pts
-						(xy 101.6 5.08) (xy 101.6 0)
+						(xy 87.63 5.08) (xy 101.6 5.08)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 101.6 35.56) (xy 0 35.56)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 101.6 35.56) (xy 101.6 22.86)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 101.6 22.86) (xy 101.6 15.24)
 					)
 					(stroke
 						(width 0.1016)
@@ -1681,7 +1749,7 @@
 				)
 				(polyline
 					(pts
-						(xy 101.6 22.86) (xy 101.6 15.24)
+						(xy 101.6 5.08) (xy 101.6 0)
 					)
 					(stroke
 						(width 0.1016)
@@ -1691,32 +1759,26 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 101.6 35.56) (xy 0 35.56)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
+				(text "TITLE:"
+					(at 1.27 19.05 0)
+					(effects
+						(font
+							(size 2.54 2.54)
+						)
+						(justify left bottom)
 					)
 				)
-				(polyline
-					(pts
-						(xy 101.6 35.56) (xy 101.6 22.86)
-					)
-					(stroke
-						(width 0.1016)
-						(type solid)
-					)
-					(fill
-						(type none)
+				(text "Document Number:"
+					(at 1.27 11.43 0)
+					(effects
+						(font
+							(size 2.54 2.54)
+						)
+						(justify left bottom)
 					)
 				)
-				(text "${#}/${##}"
-					(at 86.36 1.27 0)
+				(text "Date:"
+					(at 1.27 1.27 0)
 					(effects
 						(font
 							(size 2.54 2.54)
@@ -1742,8 +1804,8 @@
 						(justify left bottom)
 					)
 				)
-				(text "Date:"
-					(at 1.27 1.27 0)
+				(text "Sheet:"
+					(at 72.39 1.27 0)
 					(effects
 						(font
 							(size 2.54 2.54)
@@ -1751,8 +1813,8 @@
 						(justify left bottom)
 					)
 				)
-				(text "Document Number:"
-					(at 1.27 11.43 0)
+				(text "${#}/${##}"
+					(at 86.36 1.27 0)
 					(effects
 						(font
 							(size 2.54 2.54)
@@ -1769,218 +1831,31 @@
 						(justify left bottom)
 					)
 				)
-				(text "Sheet:"
-					(at 72.39 1.27 0)
-					(effects
-						(font
-							(size 2.54 2.54)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "TITLE:"
-					(at 1.27 19.05 0)
-					(effects
-						(font
-							(size 2.54 2.54)
-						)
-						(justify left bottom)
-					)
-				)
 			)
-		)
-		(symbol "csa_ultrabus_v2-eagle-import:FLOP-4W827001"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -2.54 7.62 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -2.54 -6.096 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "csa_ultrabus_v2:827001"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "FLOP-4W827001_1_0"
-				(rectangle
-					(start 0 -2.794)
-					(end 1.651 -2.286)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0 -0.254)
-					(end 1.651 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0 2.286)
-					(end 1.651 2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0 4.826)
-					(end 1.651 5.334)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at -2.54 5.08 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
+			(embedded_fonts no)
 		)
 		(symbol "csa_ultrabus_v2-eagle-import:GND"
-			(power)
+			(power global)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#GND"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "GND"
 				(at -2.54 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -1990,33 +1865,41 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2055,13 +1938,18 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "csa_ultrabus_v2-eagle-import:JP2E"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "JP"
 				(at -3.81 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -2071,6 +1959,8 @@
 			)
 			(property "Value" ""
 				(at 5.715 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -2080,33 +1970,41 @@
 			)
 			(property "Footprint" "csa_ultrabus_v2:JP2"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2114,6 +2012,18 @@
 				)
 			)
 			(symbol "JP2E_1_0"
+				(polyline
+					(pts
+						(xy -3.175 0.635) (xy -3.175 0)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy -3.175 0) (xy 3.175 0)
@@ -2128,7 +2038,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3.175 0.635) (xy -3.175 0)
+						(xy -2.54 2.54) (xy -2.54 1.27)
 					)
 					(stroke
 						(width 0.4064)
@@ -2152,7 +2062,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 2.54) (xy -2.54 1.27)
+						(xy 0 2.54) (xy 0 1.27)
 					)
 					(stroke
 						(width 0.4064)
@@ -2176,7 +2086,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0 1.27)
+						(xy 2.54 2.54) (xy 2.54 1.27)
 					)
 					(stroke
 						(width 0.4064)
@@ -2200,7 +2110,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 2.54) (xy 2.54 1.27)
+						(xy 3.175 0.635) (xy -3.175 0.635)
 					)
 					(stroke
 						(width 0.4064)
@@ -2213,18 +2123,6 @@
 				(polyline
 					(pts
 						(xy 3.175 0) (xy 3.175 0.635)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 0.635) (xy -3.175 0.635)
 					)
 					(stroke
 						(width 0.4064)
@@ -2289,13 +2187,18 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "csa_ultrabus_v2-eagle-import:MOUNT-HOLE3.2"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "H"
 				(at 2.032 0.5842 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -2305,6 +2208,8 @@
 			)
 			(property "Value" ""
 				(at 2.032 -2.4638 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -2314,33 +2219,41 @@
 			)
 			(property "Footprint" "csa_ultrabus_v2:3,2"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2348,24 +2261,24 @@
 				)
 			)
 			(symbol "MOUNT-HOLE3.2_1_0"
-				(arc
-					(start -1.27 0)
-					(mid -0.898 -0.898)
-					(end 0 -1.27)
-					(stroke
-						(width 1.524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -0.508 0) (xy 0.508 0)
 					)
 					(stroke
 						(width 0.0508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.898 0.898)
+					(end 1.27 0)
+					(stroke
+						(width 1.524)
 						(type solid)
 					)
 					(fill
@@ -2407,9 +2320,9 @@
 					)
 				)
 				(arc
-					(start 1.27 0)
-					(mid 0.898 0.898)
-					(end 0 1.27)
+					(start 0 -1.27)
+					(mid -0.898 -0.898)
+					(end -1.27 0)
 					(stroke
 						(width 1.524)
 						(type solid)
@@ -2419,23 +2332,30 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "csa_ultrabus_v2-eagle-import:VCC"
-			(power)
+			(power global)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#SUPPLY"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "VCC"
 				(at -1.905 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.778 1.5113)
@@ -2445,33 +2365,41 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2509,7 +2437,41 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "CSA-ULTRABUS-V1.0A-20220410"
+		(exclude_from_sim no)
+		(at 27.94 238.76 0)
+		(effects
+			(font
+				(size 2.54 2.159)
+			)
+			(justify left bottom)
+		)
+		(uuid "45ead37d-2ae3-4d8a-abc0-2ad9171f78f3")
+	)
+	(text "CS/A65 Ultra BUS 2.1A"
+		(exclude_from_sim no)
+		(at 30.48 215.9 0)
+		(effects
+			(font
+				(size 3.81 3.2385)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab8debd7-3048-4cf5-980a-7ee716a0e4b8")
+	)
+	(text "(C) A. Fachat"
+		(exclude_from_sim no)
+		(at 30.48 220.98 0)
+		(effects
+			(font
+				(size 2.54 2.159)
+			)
+			(justify left bottom)
+		)
+		(uuid "c6868eea-10c9-40f8-af28-c7b25ad2a1ab")
 	)
 	(junction
 		(at 342.9 198.12)
@@ -2684,12 +2646,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "958f8463-7746-499d-8440-d6e7467d332e")
-	)
-	(junction
-		(at 182.88 226.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "97f19dea-8fe1-462d-8142-05827478a0ce")
 	)
 	(junction
 		(at 452.12 93.98)
@@ -4586,16 +4542,6 @@
 		)
 		(uuid "0433575d-a37e-4a77-bb05-a4746bb28a6d")
 	)
-	(wire
-		(pts
-			(xy 193.04 220.98) (xy 187.96 220.98)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0492cffa-c0f4-4058-9f4a-bbb1c0fdeb33")
-	)
 	(bus
 		(pts
 			(xy 381 86.36) (xy 381 88.9)
@@ -4938,16 +4884,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 220.98) (xy 187.96 213.36)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "12de4186-2839-4975-b520-cefdf5461ae5")
-	)
-	(wire
-		(pts
 			(xy 347.98 71.12) (xy 347.98 83.82)
 		)
 		(stroke
@@ -5256,16 +5192,6 @@
 		)
 		(uuid "20404818-f463-4d63-8e56-d4aee32a0b71")
 	)
-	(wire
-		(pts
-			(xy 182.88 223.52) (xy 182.88 226.06)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "207a763c-2566-400e-bc8b-694721c07a4b")
-	)
 	(bus
 		(pts
 			(xy 109.22 165.1) (xy 109.22 162.56)
@@ -5508,16 +5434,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 226.06) (xy 182.88 226.06)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "2f3c41e5-906a-481b-bd12-c9d6594ba198")
-	)
-	(wire
-		(pts
 			(xy 22.86 205.74) (xy 22.86 88.9)
 		)
 		(stroke
@@ -5658,16 +5574,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 228.6) (xy 180.34 220.98)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "3550037a-0c40-402a-b5ec-cf854c56c072")
-	)
-	(wire
-		(pts
 			(xy 55.88 66.04) (xy 43.18 66.04)
 		)
 		(stroke
@@ -5705,16 +5611,6 @@
 			(type solid)
 		)
 		(uuid "36a3d6ba-07f0-4f1f-8fda-745c20388949")
-	)
-	(wire
-		(pts
-			(xy 187.96 213.36) (xy 200.66 213.36)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "37437f3c-7a86-4acd-b6b7-ab66a4b7cd75")
 	)
 	(bus
 		(pts
@@ -6398,16 +6294,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 223.52) (xy 182.88 223.52)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "56f8ca71-4aa0-4a11-a4d2-0a7342c49f1f")
-	)
-	(wire
-		(pts
 			(xy 167.64 83.82) (xy 154.94 83.82)
 		)
 		(stroke
@@ -6725,16 +6611,6 @@
 			(type solid)
 		)
 		(uuid "63992d71-9dcf-458c-a343-cc4f09e6d440")
-	)
-	(wire
-		(pts
-			(xy 193.04 228.6) (xy 180.34 228.6)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "64418bb6-2abc-4630-be0e-b3f980446514")
 	)
 	(bus
 		(pts
@@ -10288,16 +10164,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 226.06) (xy 182.88 231.14)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "fb29b791-0a3f-49ec-82cd-7d0a87dc36f9")
-	)
-	(wire
-		(pts
 			(xy 88.9 58.42) (xy 101.6 58.42)
 		)
 		(stroke
@@ -10426,42 +10292,8 @@
 		)
 		(uuid "ffd209bd-abdd-467f-b36f-da0eba0bd3a5")
 	)
-	(text "CSA-ULTRABUS-V1.0A-20220410"
-		(exclude_from_sim no)
-		(at 27.94 238.76 0)
-		(effects
-			(font
-				(size 2.54 2.159)
-			)
-			(justify left bottom)
-		)
-		(uuid "45ead37d-2ae3-4d8a-abc0-2ad9171f78f3")
-	)
-	(text "CS/A65 Ultra BUS 2.0B"
-		(exclude_from_sim no)
-		(at 30.48 215.9 0)
-		(effects
-			(font
-				(size 3.81 3.2385)
-			)
-			(justify left bottom)
-		)
-		(uuid "ab8debd7-3048-4cf5-980a-7ee716a0e4b8")
-	)
-	(text "(C) A. Fachat"
-		(exclude_from_sim no)
-		(at 30.48 220.98 0)
-		(effects
-			(font
-				(size 2.54 2.159)
-			)
-			(justify left bottom)
-		)
-		(uuid "c6868eea-10c9-40f8-af28-c7b25ad2a1ab")
-	)
 	(label "I2SCL"
 		(at 332.74 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10472,7 +10304,6 @@
 	)
 	(label "I2SCL"
 		(at 444.5 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10483,7 +10314,6 @@
 	)
 	(label "/SO"
 		(at 101.6 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10494,7 +10324,6 @@
 	)
 	(label "I2SCL"
 		(at 43.18 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -10505,7 +10334,6 @@
 	)
 	(label "/SO"
 		(at 373.38 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10516,7 +10344,6 @@
 	)
 	(label "NOEXEC"
 		(at 444.5 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10527,7 +10354,6 @@
 	)
 	(label "NOTMAPD"
 		(at 332.74 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10538,7 +10364,6 @@
 	)
 	(label "16MHZ"
 		(at 325.12 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10549,7 +10374,6 @@
 	)
 	(label "NOTMAPD"
 		(at 215.9 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10560,7 +10384,6 @@
 	)
 	(label "WPROT"
 		(at 320.04 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10571,7 +10394,6 @@
 	)
 	(label "/EXTIO"
 		(at 144.78 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10582,7 +10404,6 @@
 	)
 	(label "50HZ"
 		(at 261.62 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10593,7 +10414,6 @@
 	)
 	(label "WPROT"
 		(at 43.18 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -10604,7 +10424,6 @@
 	)
 	(label "I2SDA"
 		(at 215.9 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10615,7 +10434,6 @@
 	)
 	(label "/EXTIO"
 		(at 101.6 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10626,7 +10444,6 @@
 	)
 	(label "/SO"
 		(at 144.78 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10637,7 +10454,6 @@
 	)
 	(label "BD[0..7]"
 		(at 111.76 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10648,7 +10464,6 @@
 	)
 	(label "50HZ"
 		(at 101.6 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10659,7 +10474,6 @@
 	)
 	(label "50HZ"
 		(at 144.78 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10670,7 +10484,6 @@
 	)
 	(label "I2SCL"
 		(at 215.9 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10681,7 +10494,6 @@
 	)
 	(label "WPROT"
 		(at 203.2 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10692,7 +10504,6 @@
 	)
 	(label "NOTMAPD"
 		(at 444.5 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10703,7 +10514,6 @@
 	)
 	(label "16MHZ"
 		(at 208.28 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10714,7 +10524,6 @@
 	)
 	(label "/EXTIO"
 		(at 261.62 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10725,7 +10534,6 @@
 	)
 	(label "NOEXEC"
 		(at 215.9 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10736,7 +10544,6 @@
 	)
 	(label "16MHZ"
 		(at 436.88 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10747,7 +10554,6 @@
 	)
 	(label "/EXTIO"
 		(at 373.38 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10758,7 +10564,6 @@
 	)
 	(label "16MHZ"
 		(at 111.76 203.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10769,7 +10574,6 @@
 	)
 	(label "NOEXEC"
 		(at 43.18 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -10780,7 +10584,6 @@
 	)
 	(label "I2SDA"
 		(at 332.74 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10791,7 +10594,6 @@
 	)
 	(label "NOTMAPD"
 		(at 43.18 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -10802,7 +10604,6 @@
 	)
 	(label "16MHZ"
 		(at 38.1 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10813,7 +10614,6 @@
 	)
 	(label "I2SDA"
 		(at 43.18 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -10824,7 +10624,6 @@
 	)
 	(label "WPROT"
 		(at 431.8 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10835,7 +10634,6 @@
 	)
 	(label "NOEXEC"
 		(at 332.74 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10846,7 +10644,6 @@
 	)
 	(label "/SO"
 		(at 261.62 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10857,7 +10654,6 @@
 	)
 	(label "50HZ"
 		(at 373.38 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10868,7 +10664,6 @@
 	)
 	(label "I2SDA"
 		(at 444.5 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -10890,12 +10685,14 @@
 		(uuid "004c92aa-ccc5-480d-a5c2-5a7ca8853d9e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 114.1909 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -10912,12 +10709,14 @@
 		(uuid "0061ddbe-be43-4247-84a1-97163ebe4ae9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 274.3887 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -10934,12 +10733,14 @@
 		(uuid "02e0ba30-f15b-41eb-a818-c5198804600d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 111.8287 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -10956,12 +10757,14 @@
 		(uuid "02f77d89-1c0c-4a81-b265-e4b7bb8346be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 154.306 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -10978,12 +10781,14 @@
 		(uuid "031fde04-d7d1-4312-aea7-fee377f906e5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 157.5487 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11000,12 +10805,14 @@
 		(uuid "0455b140-e090-40bf-bb9a-2c9bd92ff90c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 121.3453 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11022,12 +10829,14 @@
 		(uuid "0492aa39-e91f-4dc4-a3f7-5901f1a84979")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 270.0793 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11044,12 +10853,14 @@
 		(uuid "04ce3f60-91cb-4278-bf80-08352d0e0ebf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 279.2909 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11066,12 +10877,14 @@
 		(uuid "05cd0ece-123c-44c9-a603-d7637b65b85a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 279.2909 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11088,12 +10901,14 @@
 		(uuid "07c36b10-5b42-430b-9330-6cd49e4d4bc7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 381.0688 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11110,12 +10925,14 @@
 		(uuid "07ee639a-2861-4ad7-beae-204cbc3b73c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 213.3102 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11132,12 +10949,14 @@
 		(uuid "07fe912e-e967-4c1d-91c0-13a55d0a1f07")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 121.3453 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11154,12 +10973,14 @@
 		(uuid "0867abe0-b03d-4578-9030-4a7edad54f79")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 391.0509 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11176,12 +10997,14 @@
 		(uuid "0da68422-2ef6-43f5-a513-a6ee05043e29")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 111.8287 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11198,12 +11021,14 @@
 		(uuid "0e044d1f-660a-4178-8415-ff774dfcac96")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 274.3887 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11220,12 +11045,14 @@
 		(uuid "0e7d46ca-5be0-4959-bb7a-5a8e3c436c74")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 280.4762 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11242,12 +11069,14 @@
 		(uuid "0fc16ba8-5564-4f76-9675-cb38f9032306")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 274.3887 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11264,12 +11093,14 @@
 		(uuid "11f547b2-f689-4af1-8eff-ac9bc5dd0745")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 153.5948 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11286,12 +11117,14 @@
 		(uuid "12a9b6c5-6642-4c0c-89e4-836c6197d7d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 449.58 156.8694 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11308,12 +11141,14 @@
 		(uuid "12e3dcfe-0278-486a-b85c-fd56aac7b8e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 46.3306 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11330,12 +11165,14 @@
 		(uuid "14ff2c57-fb8f-409d-8835-7f9c57173de2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 280.4762 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11352,12 +11189,14 @@
 		(uuid "156769b6-2c96-4b68-adbe-804ec22406f5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 392.2362 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11374,12 +11213,14 @@
 		(uuid "186e0b66-6f85-497f-8b95-38788db74182")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 111.8287 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11396,12 +11237,14 @@
 		(uuid "19e914ca-972d-4f4c-9b26-7432e0f14dbd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 334.7053 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11418,12 +11261,14 @@
 		(uuid "1b991a86-a72d-4afb-b095-3df77c9d893f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 114.1909 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11440,12 +11285,14 @@
 		(uuid "1bf3888e-ded6-475b-ba2c-36b82fe79823")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 335.8906 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11462,12 +11309,14 @@
 		(uuid "1caa698d-c776-4e98-bba3-a96e79aae81e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 163.6362 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11484,12 +11333,14 @@
 		(uuid "1cf5d9a3-f94a-431c-9320-cfbb2ad89b6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 114.1909 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11506,12 +11357,14 @@
 		(uuid "1e1e6dcd-9486-424c-bf95-4249ae88792a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 223.52 158.0547 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11528,12 +11381,14 @@
 		(uuid "1ed38fec-6a00-40df-980b-5b8efb6c5247")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 386.1487 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11550,12 +11405,14 @@
 		(uuid "1ef91e19-d0a1-4327-9fae-fa483ab8d527")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 115.3762 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11572,12 +11429,14 @@
 		(uuid "1f04a945-fee2-4edc-be36-c8a3404ef4dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 280.4762 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11594,12 +11453,14 @@
 		(uuid "20de64b5-2a2f-4e63-ae96-fabc9137e0b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 213.3102 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11616,12 +11477,14 @@
 		(uuid "233bc68f-ec50-4bd0-9bdd-d2ec08f09a63")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 155.3136 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11638,12 +11501,14 @@
 		(uuid "23cc3815-b0dd-4d4a-81b4-43fe034f0ea6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 445.5763 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11660,12 +11525,14 @@
 		(uuid "23cc6659-d0e8-4dcd-9976-ccf471ed64e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 111.8287 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11682,12 +11549,14 @@
 		(uuid "24006868-566f-4623-83e2-8319c64b6838")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 334.7053 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11704,12 +11573,14 @@
 		(uuid "25bb0a66-2945-4a9a-b91d-494e4795223b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 280.4762 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11726,12 +11597,14 @@
 		(uuid "25e50ea7-2458-4228-b88f-2eddf1b4b620")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 163.6362 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11748,12 +11621,14 @@
 		(uuid "26f144d1-92b9-4590-94aa-48e9a4575474")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 452.12 158.0547 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11770,12 +11645,14 @@
 		(uuid "27098e71-fe33-4aae-993d-91e054996345")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 122.5306 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11792,12 +11669,14 @@
 		(uuid "2a5dadef-ea2f-4c67-92cd-0c4990b13cbe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 381.8393 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11814,12 +11693,14 @@
 		(uuid "2b0b1d11-ffe8-4a8c-a80f-38f7cf859b3a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 391.0509 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11836,12 +11717,14 @@
 		(uuid "2d971783-fb4d-4451-a2ae-37f51ef3e94c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 383.9136 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11858,12 +11741,14 @@
 		(uuid "2f42cde9-a7e4-437a-8308-ca65946a6e07")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 280.4762 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11880,12 +11765,14 @@
 		(uuid "2fcbd438-af04-4ebc-9455-f4a37f331b5f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 162.4509 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11902,12 +11789,14 @@
 		(uuid "317417f3-de6d-4452-a0ce-10fafbfafc99")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 112.1336 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11924,12 +11813,14 @@
 		(uuid "31d4178c-cbd8-4c45-b4d3-0ef14b7d80fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 115.3762 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11946,12 +11837,14 @@
 		(uuid "324f2aee-9c79-4093-a945-fa9fc5440590")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 392.2362 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11968,12 +11861,14 @@
 		(uuid "331cd75d-b5fb-41b4-b305-08431fb726e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 391.0509 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -11990,12 +11885,14 @@
 		(uuid "33604332-3dcc-4eab-a06b-3fa5452b8191")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 270.4348 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12012,12 +11909,14 @@
 		(uuid "362accb9-0f91-4a0c-b742-298527a96204")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 342.9 158.0547 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12034,12 +11933,14 @@
 		(uuid "366aa0af-2438-4073-9cac-dbcbb9eed686")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 114.1909 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12056,12 +11957,14 @@
 		(uuid "37136083-4734-45f6-b017-7c7964439cf5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 155.1952 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12078,12 +11981,14 @@
 		(uuid "3718bb45-971f-4be2-a1dd-9313b6de8b10")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 382.2541 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12100,12 +12005,14 @@
 		(uuid "385eb092-39d9-44b1-9728-527b8398183f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 162.4509 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12122,12 +12029,14 @@
 		(uuid "3e016758-6fac-4cb9-9d45-94804cf32d71")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 115.3762 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12144,12 +12053,14 @@
 		(uuid "3ee85193-dbe0-4cf3-bfa9-3b0a4e2ab180")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 279.2909 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12166,12 +12077,14 @@
 		(uuid "3eef8d49-852a-4ca7-9087-83b2aa6fcc06")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 392.2362 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12188,12 +12101,14 @@
 		(uuid "3f0cf11c-5a34-453a-9346-e11ee1b42b1d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 162.4509 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12210,12 +12125,14 @@
 		(uuid "3f9d89cb-9a36-4d2b-94d6-3bb23309e8f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 163.6362 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12232,12 +12149,14 @@
 		(uuid "4174237f-b5f2-420a-a05e-5931e0e5a5ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 441.9102 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12254,12 +12173,14 @@
 		(uuid "4427ab05-ca41-4862-b459-f0a61e7c531e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 279.2909 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12276,12 +12197,14 @@
 		(uuid "45506418-b525-4e73-b6fa-17eb61d9fb91")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 157.5487 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12298,12 +12221,14 @@
 		(uuid "45ac6466-eb3b-463b-a807-8513cd779d2a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 392.2362 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12320,12 +12245,14 @@
 		(uuid "46805a79-d4b2-42bf-9ea8-6889b4543923")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 380.9502 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12342,12 +12269,14 @@
 		(uuid "471f40c5-efd1-48f5-8e6b-ee9bf81ce341")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 47.6853 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12364,12 +12293,14 @@
 		(uuid "4b5cbd94-7b85-4339-948c-5765ac22a12e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 153.6541 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12386,12 +12317,14 @@
 		(uuid "4c4e576e-1c97-497b-84d2-92dbc475406b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 444.2808 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12408,12 +12341,14 @@
 		(uuid "4e66b602-6e35-4cfd-aa14-981107243a54")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 226.06 158.0547 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12430,12 +12365,14 @@
 		(uuid "4ee285be-48f4-436e-92d8-4e9d6c32f07a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 115.3762 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12452,12 +12389,14 @@
 		(uuid "504cb7fa-44ee-4067-b932-68bf0ca3bb1b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 162.4509 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12474,12 +12413,14 @@
 		(uuid "5072772a-bf1b-4342-abe1-0ef11fa45176")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 163.6362 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12496,12 +12437,14 @@
 		(uuid "509edc47-aaeb-4aeb-a1e2-9688601ea2a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 332.5208 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12518,12 +12461,14 @@
 		(uuid "50fcc7e0-48d4-4173-9c87-bf949614b995")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 228.6 158.0547 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12540,12 +12485,14 @@
 		(uuid "51e03fd6-ea7d-465b-a976-83e413b6ef03")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 110.0593 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12562,12 +12509,14 @@
 		(uuid "54b92481-fd56-4a09-a283-4c5ca19c46f3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 219.0506 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12584,12 +12533,14 @@
 		(uuid "54da3d3e-7279-4961-a51c-96422341b085")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 392.2362 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12606,12 +12557,14 @@
 		(uuid "564cd74e-aaf9-48d5-a0eb-f50aeee9cb79")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 274.3887 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12628,12 +12581,14 @@
 		(uuid "58bf44b0-5cdf-4e82-9218-773a3a718178")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 217.2303 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12650,12 +12605,14 @@
 		(uuid "59273c4d-4a88-439a-af2b-d9c7d28a9603")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 111.8287 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12672,12 +12629,14 @@
 		(uuid "5b0decbb-66f5-4504-b87a-8dc372d0dbc0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 114.2079 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12694,12 +12653,14 @@
 		(uuid "5b3a0c41-9506-4fde-8679-869438db6f3a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 51.8763 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12716,12 +12677,14 @@
 		(uuid "5d1899e4-1acf-4155-b387-012bb5d2eb79")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 163.6362 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12738,12 +12701,14 @@
 		(uuid "5dc7b86a-8fee-4501-82b8-22e524051469")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 446.4653 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12760,12 +12725,14 @@
 		(uuid "5dfa423e-5dd7-47e2-9b78-797969f90428")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 162.4509 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12782,12 +12749,14 @@
 		(uuid "5ef9da44-f34f-4ef5-88f2-5e44e6a8bc00")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 392.2362 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12804,12 +12773,14 @@
 		(uuid "5f449cfc-392d-4af5-83d9-b75e4e45bab5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 109.2888 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12826,12 +12797,14 @@
 		(uuid "6075d04d-9f31-4b05-8720-1ae8f13ea859")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 391.0509 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12848,12 +12821,14 @@
 		(uuid "60cac09e-ce27-4d55-8462-c60ee0b4303e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 386.1487 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12870,12 +12845,14 @@
 		(uuid "6192609d-54c9-4ab9-a836-2e67be93df65")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 447.6506 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12892,12 +12869,14 @@
 		(uuid "61f13d91-20f9-439f-b326-4f6ff71d7eb7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 220.98 156.8694 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12914,12 +12893,14 @@
 		(uuid "629f385a-8ccf-4ec7-80db-978cbc36ef46")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 280.4762 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12936,12 +12917,14 @@
 		(uuid "632cdf90-eef0-4ed9-847b-6cdc78924b15")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 386.1487 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12958,12 +12941,14 @@
 		(uuid "64548bf2-bce5-4ba2-a728-ace9a0e8e7eb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 111.8287 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -12980,12 +12965,14 @@
 		(uuid "645cefc9-aca8-4109-b6b8-e84699ab0a2b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 279.2909 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13002,12 +12989,14 @@
 		(uuid "66138d37-2a38-40e1-837e-f5758ae68c27")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 391.0509 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13024,12 +13013,14 @@
 		(uuid "668ecc67-b148-487e-93dd-c5791ed9630f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 382.1948 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13046,12 +13037,14 @@
 		(uuid "6f44e23c-984f-4042-9f92-1edee8d2bdf2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 114.1909 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13068,12 +13061,14 @@
 		(uuid "72f49ab4-b6f4-4999-8ee0-8bcf5c13d373")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 337.82 156.8694 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13090,12 +13085,14 @@
 		(uuid "73667877-3c2d-4548-a1f9-f92c65d86244")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 270.4941 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13112,12 +13109,14 @@
 		(uuid "75cb263f-d6e8-42c9-9d09-d09bf244bd94")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 279.2909 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13134,12 +13133,14 @@
 		(uuid "77b6898c-033d-47aa-b994-9ab75d615de0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 30.48 142.8147 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13156,12 +13157,14 @@
 		(uuid "79e7c7ac-1f07-408e-9812-8aa5e7a39e95")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 115.3762 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13178,12 +13181,14 @@
 		(uuid "79e9b3fd-37ce-4cae-b4b0-75221c20a55a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 382.906 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13200,12 +13205,14 @@
 		(uuid "7d151941-976c-4717-af10-321a55cd482f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 162.4509 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13222,12 +13229,14 @@
 		(uuid "7de1c5bf-6b49-441c-96e0-44ece428b581")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 115.3762 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13244,12 +13253,14 @@
 		(uuid "7f091e47-50fa-4b2f-8ddb-dbd54742188d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 391.0509 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13266,12 +13277,14 @@
 		(uuid "826e6bad-d46b-4d86-91c1-1381879d2971")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 115.3762 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13288,12 +13301,14 @@
 		(uuid "83340709-b2fd-49f0-a5a2-4ff3587808d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 157.3879 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13310,12 +13325,14 @@
 		(uuid "834e0a80-e7f7-4303-8b7d-f098b71be3ae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 216.9763 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13332,12 +13349,14 @@
 		(uuid "83577dfc-ee24-4171-af3b-ebe70f1ca31b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 157.5487 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13354,12 +13373,14 @@
 		(uuid "847c2fc8-9547-423a-93c3-6394ecd3fe98")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 114.1909 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13376,12 +13397,14 @@
 		(uuid "86c0fe29-b41d-4777-a209-05203c28ab50")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 274.2279 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13398,12 +13421,14 @@
 		(uuid "885bd907-3b44-4eba-8777-2bdf119e3fe4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 386.1487 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13420,12 +13445,14 @@
 		(uuid "893d5c3b-d013-4105-9af5-0c2e331e9655")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 163.6362 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13442,12 +13469,14 @@
 		(uuid "89bc486f-9ad3-4563-b98f-519550c7861a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 392.2362 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13464,12 +13493,14 @@
 		(uuid "8a8f9594-02bc-4b3e-b355-98cd63824b08")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 274.3887 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13486,12 +13517,14 @@
 		(uuid "8d0c5f58-25bf-42d7-9009-133be5a6b545")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 279.2909 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13508,12 +13541,14 @@
 		(uuid "92055a61-cbaa-483e-a116-aacc91bc2cc1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 157.5487 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13530,12 +13565,14 @@
 		(uuid "92a8a45b-8332-4a59-8518-d4ba224d1293")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 274.3887 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13552,12 +13589,14 @@
 		(uuid "9521dd4f-722f-47bc-84ac-a02b8e0101d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 386.1487 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13574,12 +13613,14 @@
 		(uuid "9600de12-db5e-4187-ad2e-5a454479e398")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 274.3887 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13596,12 +13637,14 @@
 		(uuid "989852e7-fa5a-47c6-b70b-77fca1308a3f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 111.8287 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13618,12 +13661,14 @@
 		(uuid "99c835a2-c5dd-467e-8b6a-7f29c86dd9c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 50.2253 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13640,12 +13685,14 @@
 		(uuid "9b3dd8af-abdc-4ce5-bd19-03852ddf6c0a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 35.56 141.6294 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13662,12 +13709,14 @@
 		(uuid "9dbf3331-2ad4-4bd0-bbcc-763d30a09cb3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 392.2362 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13684,12 +13733,14 @@
 		(uuid "a252778f-77d0-40bd-97bf-aba486755223")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 386.1487 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13706,12 +13757,14 @@
 		(uuid "a271b5d2-813f-4f8d-b1a1-361015644f18")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 279.2909 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13728,12 +13781,14 @@
 		(uuid "a687287c-81df-4e5c-8910-2e431663a89e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 162.4509 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13750,12 +13805,14 @@
 		(uuid "a6dbfecb-f44d-4392-bfbd-101f1e9c6e09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 163.6362 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13772,12 +13829,14 @@
 		(uuid "a7c7c93e-b084-4089-8fc9-a172067d72dc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 215.6808 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13794,12 +13853,14 @@
 		(uuid "a949adb6-ec3f-4421-a208-991f7a664923")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 217.2303 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13816,12 +13877,14 @@
 		(uuid "a9bbe383-7046-4daa-88b0-d37ce14a44a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 280.4762 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13838,12 +13901,14 @@
 		(uuid "aa7d45b9-4447-45de-be3a-2999620321a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 157.5487 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13860,12 +13925,14 @@
 		(uuid "aa8e1a09-2893-4045-a5f2-14715c4dd8d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 330.1502 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13882,12 +13949,14 @@
 		(uuid "ac351f29-b269-419c-966d-f9658c5625da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 280.4762 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13904,12 +13973,14 @@
 		(uuid "ac824131-9923-4e04-bd8a-37e7028602ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 391.0509 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13926,12 +13997,14 @@
 		(uuid "ad327db3-8de0-47d9-aa7c-a2b4574c28a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 48.8706 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13948,12 +14021,14 @@
 		(uuid "ae0e81e8-3caa-4d52-9f48-83cb4ed7dcaa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 115.3762 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13970,12 +14045,14 @@
 		(uuid "af0e0df7-c27e-49c4-9f57-165dedfb2580")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 382.0171 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -13992,12 +14069,14 @@
 		(uuid "af735587-26ff-4254-bffd-8ca088e01c0f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 47.6853 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14014,12 +14093,14 @@
 		(uuid "af89dad9-4243-4825-9bf3-24fcdc5086bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 152.4688 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14036,12 +14117,14 @@
 		(uuid "b004217f-3ab0-4975-9e31-6ede6cfc6dc2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 163.6362 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14058,12 +14141,14 @@
 		(uuid "b02c4de5-323f-4f7f-a579-36480f29d567")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 386.1487 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14080,12 +14165,14 @@
 		(uuid "b0d32e91-c38a-4187-8c0e-03de0988774b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 111.8287 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14102,12 +14189,14 @@
 		(uuid "b10bbeba-f8b9-4bdd-be6c-3db6b08ea041")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 162.4509 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14124,12 +14213,14 @@
 		(uuid "b173be40-6222-42ca-a7ff-92f377ac9b5d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 447.6506 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14146,12 +14237,14 @@
 		(uuid "b205c3af-32aa-4a40-a2b6-aa901d90d830")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 330.1502 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14168,12 +14261,14 @@
 		(uuid "b2121ae5-d33c-4d53-980d-508df4e6a0f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 383.7952 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14190,12 +14285,14 @@
 		(uuid "b36bc33e-8b70-49f2-ada5-8e8f06228611")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 454.66 158.0547 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14212,12 +14309,14 @@
 		(uuid "b39475c9-2e57-4ca1-a336-a3ebbcec612a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 446.4653 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14234,12 +14333,14 @@
 		(uuid "b40ee4fd-b0c3-4fd8-8592-4b753aec0673")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 157.5487 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14256,12 +14357,14 @@
 		(uuid "b5dad5a5-6866-4912-a2dc-3282aad125d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 269.1902 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14278,12 +14381,14 @@
 		(uuid "b5ee9b1d-c2a0-414b-a332-8a706ca1d443")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 157.5487 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14300,12 +14405,14 @@
 		(uuid "b7e06015-8efa-474e-b7aa-f808c929f7da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 112.0152 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14322,12 +14429,14 @@
 		(uuid "ba323621-3f6b-47fd-b870-8cb9529a446c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 334.0703 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14344,12 +14453,14 @@
 		(uuid "ba5e0568-b325-4c46-9e5d-caa305927bbb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 391.0509 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14366,12 +14477,14 @@
 		(uuid "bb42e218-bf13-4d50-9ba1-52e05cfa87d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 333.8163 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14388,12 +14501,14 @@
 		(uuid "bcb86b1b-d541-4667-a268-47afeffcbcb3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 386.1487 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14410,12 +14525,14 @@
 		(uuid "bd79b241-8f3c-4551-84ff-f0316e46dffe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 163.6362 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14432,12 +14549,14 @@
 		(uuid "bfa0767b-c7f2-4618-bb90-7cc7215db250")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 441.9102 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14454,12 +14573,14 @@
 		(uuid "bfb51e9b-e3e3-4041-b97c-0e5299c906c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 110.4741 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14476,12 +14597,14 @@
 		(uuid "c3ed3058-f3a3-4958-88de-d15c38a9671c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 457.2 158.0547 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14498,12 +14621,14 @@
 		(uuid "c4b5d069-0c9c-475f-9421-de86d6d266fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 391.0509 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14520,12 +14645,14 @@
 		(uuid "c4d53822-6a79-4c9e-a82c-9e419de2d8a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 217.8653 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14542,12 +14669,14 @@
 		(uuid "c84dc7b9-874a-4ddb-90c4-45adb9d209c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 115.3762 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14564,12 +14693,14 @@
 		(uuid "c9ded3a9-a9b8-456f-9060-098dacef5a6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 270.2571 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14586,12 +14717,14 @@
 		(uuid "ca4acd1d-e568-4cd6-b9be-360cfdb4a01b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 391.0509 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14608,12 +14741,14 @@
 		(uuid "caf26aea-c809-44e6-864c-dcf380f2e69b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 114.1909 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14630,12 +14765,14 @@
 		(uuid "cb60890c-e6fc-4a20-953a-81b3c368d2f3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 121.3453 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14652,12 +14789,14 @@
 		(uuid "ccdcfe7a-7ec7-44c0-b335-b9b621d7c29f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 38.1 142.8147 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14674,12 +14813,14 @@
 		(uuid "cd413ade-a9fa-431f-9de8-5c012dfecff7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 269.3088 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14696,12 +14837,14 @@
 		(uuid "cfd6bce8-6f94-494f-a35e-c6aa79acd805")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 152.3502 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14718,12 +14861,14 @@
 		(uuid "d0b0d6ad-ebbc-4b5e-b581-e2aefd793d22")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 33.02 142.4592 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14740,12 +14885,14 @@
 		(uuid "d0d7722b-2ca2-4b7e-be0f-8a56dbd06474")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 122.5306 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14762,12 +14909,14 @@
 		(uuid "d193169d-ec78-4b20-a84c-88752593b482")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 153.4171 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14784,12 +14933,14 @@
 		(uuid "d3e59790-abc7-442c-85e1-b90ccbf2d87a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 110.2371 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14806,12 +14957,14 @@
 		(uuid "d4c54dd3-5867-4d5c-a0f7-2cf01f60ae38")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 115.3762 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14828,12 +14981,14 @@
 		(uuid "d5c3cbd7-4af8-456a-843d-48af9ae9c9e9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 392.2362 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14850,12 +15005,14 @@
 		(uuid "d5f087f3-9c5c-444e-9432-ede2b9cafc6b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 153.2393 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14872,12 +15029,14 @@
 		(uuid "d629afbf-5dea-429f-91b5-c94a73668c78")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 162.4509 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14894,12 +15053,14 @@
 		(uuid "dc069c47-b05c-4cb3-bc28-4b387f305f33")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 340.36 158.0547 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14916,12 +15077,14 @@
 		(uuid "df4be168-a863-4900-bbfe-b31798b88940")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 114.1909 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14938,12 +15101,14 @@
 		(uuid "e07396ad-075b-4d0b-b1e2-2ed61b6792aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 157.5487 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14960,12 +15125,14 @@
 		(uuid "e132984f-9c1e-40e6-b9af-1d9b5ec4be7c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 279.2909 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -14982,34 +15149,14 @@
 		(uuid "e5a029aa-9aa5-4e7d-9603-10db345d27ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 274.3887 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "12V"
-		(shape bidirectional)
-		(at 190.5 213.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "e7d42cc9-5cd0-4822-8d46-ee56bcdceeae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.9516 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -15026,12 +15173,14 @@
 		(uuid "ea6b4f91-ba93-4b09-aab6-0358a38b5a0a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 110.4148 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -15048,12 +15197,14 @@
 		(uuid "eb568430-c129-41bc-b802-a8ff44e39ad7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 114.1909 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -15070,12 +15221,14 @@
 		(uuid "eb982498-26f2-477d-8749-327385a9c835")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 446.4653 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -15092,12 +15245,14 @@
 		(uuid "ebcbe51c-2dcc-4f12-b38b-663a98c887b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 280.4762 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -15114,12 +15269,14 @@
 		(uuid "ebe7bfef-fb77-45ed-9076-fb321906a2ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 279.2909 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -15136,12 +15293,14 @@
 		(uuid "ee077fe5-7a60-429a-a504-f310340cb5de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 114.1909 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -15158,12 +15317,14 @@
 		(uuid "f307bc3a-7206-499f-919a-b376e23a9d52")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 162.4509 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -15180,12 +15341,14 @@
 		(uuid "f5b2a462-1318-44fa-804f-c3b61a033735")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 109.1702 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -15202,12 +15365,14 @@
 		(uuid "f6085dc9-897f-4fc2-b889-ed283df22437")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 280.4762 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -15224,12 +15389,14 @@
 		(uuid "f81d4d01-9aaf-4f6c-bb46-43e8dfa06839")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 163.6362 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -15246,12 +15413,14 @@
 		(uuid "f854201c-1984-4d12-a0bd-b5a69792b4b1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 272.0352 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -15268,12 +15437,14 @@
 		(uuid "f8db1731-bb9a-41d6-b633-d811e68f5094")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 345.44 157.4197 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -15290,12 +15461,14 @@
 		(uuid "f8f72d9d-a09a-468c-9612-b431bc124fb6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 392.2362 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -15312,12 +15485,14 @@
 		(uuid "fa29d9c6-9864-4e99-a671-eb8f0dec45b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 272.1536 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -15334,12 +15509,14 @@
 		(uuid "fa97bb44-b9bb-4061-a88c-c84a87e11c37")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 111.126 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -15356,12 +15533,14 @@
 		(uuid "fad17bd2-746f-41e2-ac97-1bc86d73eb3a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 335.8906 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -15378,12 +15557,14 @@
 		(uuid "fbc72e16-9d87-478e-9be8-cb756d53ec0b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 271.146 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -15400,12 +15581,14 @@
 		(uuid "fd4b2bfe-394c-48d0-b3f0-88665b1c435d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 385.9879 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -15422,12 +15605,14 @@
 		(uuid "fed1df9f-a5a1-4579-9ece-1ac4cb780a69")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 219.6856 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -15444,12 +15629,14 @@
 		(uuid "ff23728c-e9f1-4bc0-acfa-6d712d90b45f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 47.0503 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -15457,22 +15644,28 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:GND")
 		(at 337.82 114.3 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "09261429-41a4-4d3f-a5b2-50ca0e1eb232")
 		(property "Reference" "#GND04"
 			(at 337.82 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 335.28 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -15482,29 +15675,35 @@
 		)
 		(property "Footprint" ""
 			(at 337.82 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 337.82 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 337.82 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15523,22 +15722,28 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:GND")
 		(at 50.8 175.26 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "10517ddb-baad-4278-9cd1-5810aa79dd8c")
 		(property "Reference" "#GND08"
 			(at 50.8 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 48.26 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -15548,29 +15753,35 @@
 		)
 		(property "Footprint" ""
 			(at 50.8 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 50.8 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 50.8 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15589,13 +15800,17 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:MOUNT-HOLE3.2")
 		(at 261.62 231.14 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "15f38f5e-b0ec-4612-8494-178fe4459f72")
 		(property "Reference" "H2"
 			(at 263.652 230.5558 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -15605,6 +15820,8 @@
 		)
 		(property "Value" "MOUNT-HOLE3.2"
 			(at 263.652 233.6038 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -15614,29 +15831,35 @@
 		)
 		(property "Footprint" "csa_ultrabus_v2:3,2"
 			(at 261.62 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 261.62 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 261.62 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -15652,13 +15875,17 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:CPOL-EUE2.5-5")
 		(at 452.12 86.36 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "178c6dc9-373d-4189-81d2-e9cce0bacac0")
 		(property "Reference" "C5"
 			(at 453.263 85.8774 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -15668,6 +15895,8 @@
 		)
 		(property "Value" "47u"
 			(at 453.263 90.9574 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -15677,29 +15906,35 @@
 		)
 		(property "Footprint" "csa_ultrabus_v2:E2,5-5"
 			(at 452.12 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 452.12 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 452.12 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "+"
@@ -15721,13 +15956,17 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:CPOL-EUE2.5-5")
 		(at 43.18 165.1 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e0768bf-1dac-433d-8e55-41e93c1a7e21")
 		(property "Reference" "C1"
 			(at 44.323 164.6174 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -15737,6 +15976,8 @@
 		)
 		(property "Value" "47u"
 			(at 44.323 169.6974 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -15746,29 +15987,35 @@
 		)
 		(property "Footprint" "csa_ultrabus_v2:E2,5-5"
 			(at 43.18 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 43.18 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 43.18 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "+"
@@ -15790,13 +16037,17 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:CSABUSSOCK180")
 		(at 76.2 114.3 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "20df6686-e600-47b7-bc4b-c63c0437d545")
 		(property "Reference" "P1"
 			(at 71.12 104.14 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -15806,6 +16057,8 @@
 		)
 		(property "Value" "CSABUSSOCK180"
 			(at 76.2 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -15815,29 +16068,35 @@
 		)
 		(property "Footprint" "csa_ultrabus_v2:CSABUSSOCK180"
 			(at 76.2 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 76.2 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 76.2 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "A1"
@@ -16045,22 +16304,28 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:VCC")
 		(at 449.58 76.2 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "27696d28-b01b-41c6-835a-7ae3f853cbab")
 		(property "Reference" "#V03"
 			(at 449.58 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VCC"
 			(at 447.675 73.025 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16070,29 +16335,35 @@
 		)
 		(property "Footprint" ""
 			(at 449.58 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 449.58 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 449.58 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16111,13 +16382,17 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:MOUNT-HOLE3.2")
 		(at 288.29 231.14 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "2a94b978-bfdd-4f54-b1ff-47569b232870")
 		(property "Reference" "H5"
 			(at 290.322 230.5558 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16127,6 +16402,8 @@
 		)
 		(property "Value" "MOUNT-HOLE3.2"
 			(at 290.322 233.6038 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16136,29 +16413,35 @@
 		)
 		(property "Footprint" "csa_ultrabus_v2:3,2"
 			(at 288.29 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 288.29 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 288.29 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -16172,90 +16455,30 @@
 	)
 	(symbol
 		(lib_id "csa_ultrabus_v2-eagle-import:GND")
-		(at 182.88 233.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2e006a4c-bb7b-474a-94ba-c2e94c862512")
-		(property "Reference" "#GND02"
-			(at 182.88 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 180.34 236.22 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 182.88 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2328a98e-7d4c-4cd2-bae4-61995ff6e18c")
-		)
-		(instances
-			(project "csa_ultrabus_v2"
-				(path "/853198cd-9822-4f86-be33-c83d5da827d7/1fe210f8-c98a-4838-9832-4bbc78dcac4a"
-					(reference "#GND02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "csa_ultrabus_v2-eagle-import:GND")
 		(at 50.8 137.16 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "312add43-9a7e-449f-b672-3f24067a13a2")
 		(property "Reference" "#GND05"
 			(at 50.8 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 48.26 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16265,29 +16488,35 @@
 		)
 		(property "Footprint" ""
 			(at 50.8 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 50.8 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 50.8 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16306,13 +16535,17 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:CPOL-EUE2.5-5")
 		(at 347.98 86.36 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "39373713-6040-4b52-8a2b-16af77b79ff2")
 		(property "Reference" "C4"
 			(at 349.123 85.8774 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16322,6 +16555,8 @@
 		)
 		(property "Value" "47u"
 			(at 349.123 90.9574 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16331,29 +16566,35 @@
 		)
 		(property "Footprint" "csa_ultrabus_v2:E2,5-5"
 			(at 347.98 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 347.98 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 347.98 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "+"
@@ -16375,54 +16616,66 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:DOCFIELD")
 		(at 17.78 246.38 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ac2da53-9f73-4cae-962d-9bf56b952379")
 		(property "Reference" "#FRAME1"
 			(at 17.78 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "DOCFIELD"
 			(at 17.78 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 17.78 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 17.78 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 17.78 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -16438,13 +16691,17 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:CSABUSSOCK180")
 		(at 180.34 114.3 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e72aded-90c3-4bcc-8f5a-ab4e58f9a4c3")
 		(property "Reference" "P2"
 			(at 185.42 124.46 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16454,6 +16711,8 @@
 		)
 		(property "Value" "CSABUSSOCK180"
 			(at 180.34 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16463,29 +16722,35 @@
 		)
 		(property "Footprint" "csa_ultrabus_v2:CSABUSSOCK180"
 			(at 180.34 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 180.34 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 180.34 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "A1"
@@ -16693,13 +16958,17 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:CPOL-EUE2.5-5")
 		(at 459.74 86.36 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "4357ceed-7f85-4a42-b19f-aab0fd7d42e2")
 		(property "Reference" "C6"
 			(at 460.883 85.8774 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16709,6 +16978,8 @@
 		)
 		(property "Value" "47u"
 			(at 460.883 90.9574 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16718,29 +16989,35 @@
 		)
 		(property "Footprint" "csa_ultrabus_v2:E2,5-5"
 			(at 459.74 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 459.74 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 459.74 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "+"
@@ -16762,13 +17039,17 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:MOUNT-HOLE3.2")
 		(at 236.22 231.14 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "449476de-714f-4a89-85f4-6a456a45dc2d")
 		(property "Reference" "H1"
 			(at 238.252 230.5558 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16778,6 +17059,8 @@
 		)
 		(property "Value" "MOUNT-HOLE3.2"
 			(at 238.252 233.6038 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16787,29 +17070,35 @@
 		)
 		(property "Footprint" "csa_ultrabus_v2:3,2"
 			(at 236.22 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 236.22 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 236.22 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -16825,13 +17114,17 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:CSABUSSOCK180")
 		(at 408.94 114.3 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "47a3a6f7-622b-4641-b39a-a0415c32e3bf")
 		(property "Reference" "P4"
 			(at 414.02 124.46 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16841,6 +17134,8 @@
 		)
 		(property "Value" "CSABUSSOCK180"
 			(at 408.94 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16850,29 +17145,35 @@
 		)
 		(property "Footprint" "csa_ultrabus_v2:CSABUSSOCK180"
 			(at 408.94 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 408.94 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 408.94 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "A1"
@@ -17080,22 +17381,28 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:GND")
 		(at 152.4 231.14 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "5dc9b22d-1859-43e9-a4f5-6fc1557609f2")
 		(property "Reference" "#GND01"
 			(at 152.4 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 149.86 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -17105,29 +17412,35 @@
 		)
 		(property "Footprint" ""
 			(at 152.4 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 152.4 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 152.4 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17146,13 +17459,17 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:CPOL-EUE2.5-5")
 		(at 223.52 86.36 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "84c3243c-8411-4d2a-a3cb-e20d9f131fc0")
 		(property "Reference" "C18"
 			(at 224.663 85.8774 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -17162,6 +17479,8 @@
 		)
 		(property "Value" "47u"
 			(at 224.663 90.9574 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -17171,29 +17490,35 @@
 		)
 		(property "Footprint" "csa_ultrabus_v2:E2,5-5"
 			(at 223.52 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 223.52 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 223.52 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "+"
@@ -17215,13 +17540,17 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:CPOL-EUE2.5-5")
 		(at 50.8 165.1 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "945a2f51-f4c5-4599-9e4e-1c6e71b6c3d4")
 		(property "Reference" "C17"
 			(at 51.943 164.6174 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -17231,6 +17560,8 @@
 		)
 		(property "Value" "47u"
 			(at 51.943 169.6974 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -17240,29 +17571,35 @@
 		)
 		(property "Footprint" "csa_ultrabus_v2:E2,5-5"
 			(at 50.8 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 50.8 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 50.8 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "+"
@@ -17284,22 +17621,28 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:GND")
 		(at 220.98 114.3 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "95acc22e-7a8c-4f37-b54e-0953a87fad08")
 		(property "Reference" "#GND06"
 			(at 220.98 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 218.44 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -17309,29 +17652,35 @@
 		)
 		(property "Footprint" ""
 			(at 220.98 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 220.98 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 220.98 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17350,13 +17699,17 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:MOUNT-HOLE3.2")
 		(at 236.22 238.76 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ae6538e-a085-4428-b674-a196b77e6625")
 		(property "Reference" "H3"
 			(at 238.252 238.1758 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -17366,6 +17719,8 @@
 		)
 		(property "Value" "MOUNT-HOLE3.2"
 			(at 238.252 241.2238 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -17375,29 +17730,35 @@
 		)
 		(property "Footprint" "csa_ultrabus_v2:3,2"
 			(at 236.22 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 236.22 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 236.22 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -17413,13 +17774,17 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:MOUNT-HOLE3.2")
 		(at 261.62 238.76 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f96a3a9-969f-4227-95c8-e0d74074517c")
 		(property "Reference" "H4"
 			(at 263.652 238.1758 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -17429,6 +17794,8 @@
 		)
 		(property "Value" "MOUNT-HOLE3.2"
 			(at 263.652 241.2238 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -17438,29 +17805,35 @@
 		)
 		(property "Footprint" "csa_ultrabus_v2:3,2"
 			(at 261.62 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 261.62 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 261.62 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -17473,82 +17846,20 @@
 		)
 	)
 	(symbol
-		(lib_id "csa_ultrabus_v2-eagle-import:VCC")
-		(at 180.34 218.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a85314ee-718c-45c2-9888-12eb0f2a6773")
-		(property "Reference" "#V01"
-			(at 180.34 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 178.435 215.265 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 180.34 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "367ab93e-0b86-4288-a20d-dc1ff410abd7")
-		)
-		(instances
-			(project "csa_ultrabus_v2"
-				(path "/853198cd-9822-4f86-be33-c83d5da827d7/1fe210f8-c98a-4838-9832-4bbc78dcac4a"
-					(reference "#V01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "csa_ultrabus_v2-eagle-import:CPOL-EUE2.5-5")
 		(at 340.36 86.36 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9f17f79-9a2d-4418-8381-97bc9b5e39ad")
 		(property "Reference" "C3"
 			(at 341.503 85.8774 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -17558,6 +17869,8 @@
 		)
 		(property "Value" "47u"
 			(at 341.503 90.9574 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -17567,29 +17880,35 @@
 		)
 		(property "Footprint" "csa_ultrabus_v2:E2,5-5"
 			(at 340.36 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 340.36 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 340.36 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "+"
@@ -17608,101 +17927,31 @@
 		)
 	)
 	(symbol
-		(lib_id "csa_ultrabus_v2-eagle-import:FLOP-4W827001")
-		(at 195.58 226.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ae82bec3-01df-4c7b-b2d5-348528f0e0af")
-		(property "Reference" "J1"
-			(at 193.04 218.44 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "FLOP-4W827001"
-			(at 193.04 232.156 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "csa_ultrabus_v2:827001"
-			(at 195.58 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "139645f7-6324-46a3-af3d-e954ca45e885")
-		)
-		(pin "2"
-			(uuid "228e47fa-db0e-488f-8a69-e6c79551de7c")
-		)
-		(pin "3"
-			(uuid "793da4a5-876b-4df9-8955-5081e420af1d")
-		)
-		(pin "4"
-			(uuid "0d9a31e7-4785-416b-b1aa-122821ae95e8")
-		)
-		(instances
-			(project "csa_ultrabus_v2"
-				(path "/853198cd-9822-4f86-be33-c83d5da827d7/1fe210f8-c98a-4838-9832-4bbc78dcac4a"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "csa_ultrabus_v2-eagle-import:VCC")
 		(at 337.82 76.2 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1432696-64eb-42f8-8006-53ce1844d071")
 		(property "Reference" "#V02"
 			(at 337.82 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VCC"
 			(at 335.915 73.025 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -17712,29 +17961,35 @@
 		)
 		(property "Footprint" ""
 			(at 337.82 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 337.82 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 337.82 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17753,13 +18008,17 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:MOUNT-HOLE3.2")
 		(at 288.29 238.76 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2bd31d5-13ca-4d15-a6ed-0adaecc3171d")
 		(property "Reference" "H6"
 			(at 290.322 238.1758 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -17769,6 +18028,8 @@
 		)
 		(property "Value" "MOUNT-HOLE3.2"
 			(at 290.322 241.2238 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -17778,29 +18039,35 @@
 		)
 		(property "Footprint" "csa_ultrabus_v2:3,2"
 			(at 288.29 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 288.29 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 288.29 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -17816,22 +18083,28 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:GND")
 		(at 43.18 175.26 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "ba650a3f-52a2-4dca-b2ee-3f0abba34f1d")
 		(property "Reference" "#GND03"
 			(at 43.18 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 40.64 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -17841,29 +18114,35 @@
 		)
 		(property "Footprint" ""
 			(at 43.18 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 43.18 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 43.18 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17882,22 +18161,28 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:VCC")
 		(at 220.98 76.2 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "cab9510a-806f-449f-abe7-e3585f2b9523")
 		(property "Reference" "#V06"
 			(at 220.98 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VCC"
 			(at 219.075 73.025 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -17907,29 +18192,35 @@
 		)
 		(property "Footprint" ""
 			(at 220.98 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 220.98 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 220.98 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17948,13 +18239,17 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:JP2E")
 		(at 152.4 220.98 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "d99d2484-d946-4bff-a1fd-1608493e6981")
 		(property "Reference" "JP1"
 			(at 148.59 220.98 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -17964,39 +18259,47 @@
 		)
 		(property "Value" "JP2E"
 			(at 158.115 220.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "csa_ultrabus_v2:JP2"
 			(at 152.4 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 152.4 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 152.4 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18021,13 +18324,17 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:CSABUSSOCK180")
 		(at 297.18 114.3 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e201ca60-656b-46c0-9587-26b046d0bc6e")
 		(property "Reference" "P3"
 			(at 302.26 124.46 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -18037,6 +18344,8 @@
 		)
 		(property "Value" "CSABUSSOCK180"
 			(at 297.18 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -18046,29 +18355,35 @@
 		)
 		(property "Footprint" "csa_ultrabus_v2:CSABUSSOCK180"
 			(at 297.18 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 297.18 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 297.18 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "A1"
@@ -18276,22 +18591,28 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:VCC")
 		(at 48.26 147.32 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2eac8d4-00a3-4066-a286-b22abf3aec60")
 		(property "Reference" "#V05"
 			(at 48.26 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VCC"
 			(at 45.085 149.225 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -18301,29 +18622,35 @@
 		)
 		(property "Footprint" ""
 			(at 48.26 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 48.26 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 48.26 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18342,22 +18669,28 @@
 		(lib_id "csa_ultrabus_v2-eagle-import:GND")
 		(at 449.58 114.3 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "f42e86e5-44e7-429f-a217-422f4e46fbc3")
 		(property "Reference" "#GND07"
 			(at 449.58 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 447.04 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -18367,29 +18700,35 @@
 		)
 		(property "Footprint" ""
 			(at 449.58 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 449.58 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 449.58 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
