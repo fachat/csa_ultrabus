@@ -2719,7 +2719,7 @@
 		)
 		(uuid "f7d3f9e4-7110-423f-9f5d-fc7db9182ad1")
 	)
-	(text "USB-C-PWR-V1.4A-20260907"
+	(text "USB-C-PWR-V1.4A-20260909"
 		(exclude_from_sim no)
 		(at 219.71 177.8 0)
 		(effects
@@ -5975,7 +5975,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 225.425 67.945 0)
 			(hide yes)
 			(show_name no)
@@ -6019,7 +6019,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C12065"
+		(property "LCSC" "C2297"
 			(at 229.235 68.2624 0)
 			(hide yes)
 			(show_name no)
@@ -6473,7 +6473,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23228"
 			(at 262.255 57.785 0)
 			(hide yes)
 			(show_name no)
@@ -6704,7 +6704,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 238.76 67.945 0)
 			(hide yes)
 			(show_name no)
@@ -6748,7 +6748,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C12065"
+		(property "LCSC" "C2297"
 			(at 242.57 68.2624 0)
 			(hide yes)
 			(show_name no)
@@ -6886,7 +6886,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 264.795 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -6930,7 +6930,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C12065"
+		(property "LCSC" "C2297"
 			(at 268.605 68.8974 0)
 			(hide yes)
 			(show_name no)
@@ -6990,7 +6990,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 251.46 67.945 0)
 			(hide yes)
 			(show_name no)
@@ -7034,7 +7034,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C12065"
+		(property "LCSC" "C2297"
 			(at 255.27 68.2624 0)
 			(hide yes)
 			(show_name no)
@@ -7639,7 +7639,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 211.455 67.945 0)
 			(hide yes)
 			(show_name no)
@@ -7683,7 +7683,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C12065"
+		(property "LCSC" "C2297"
 			(at 215.265 68.2624 0)
 			(hide yes)
 			(show_name no)
@@ -7881,7 +7881,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C27592"
 			(at 254 55.8799 0)
 			(hide yes)
 			(show_name no)
@@ -8487,7 +8487,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C33546014"
+		(property "LCSC" "C13585"
 			(at 60.96 80.3909 0)
 			(hide yes)
 			(show_name no)
@@ -8670,7 +8670,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4190"
+		(property "LCSC" "C4216"
 			(at 231.775 113.6649 0)
 			(hide yes)
 			(show_name no)
@@ -9229,7 +9229,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C33546014"
+		(property "LCSC" "C13585"
 			(at 45.72 41.0209 0)
 			(hide yes)
 			(show_name no)

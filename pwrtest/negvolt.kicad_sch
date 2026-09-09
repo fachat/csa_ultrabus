@@ -1820,7 +1820,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "USB-C-PWR-V1.4A-20260907"
+	(text "USB-C-PWR-V1.4A-20260909"
 		(exclude_from_sim no)
 		(at 219.71 178.435 0)
 		(effects
@@ -3324,7 +3324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 104.775 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -3368,7 +3368,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C12065"
+		(property "LCSC" "C2297"
 			(at 100.965 174.9426 0)
 			(hide yes)
 			(show_name no)
@@ -3521,7 +3521,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 91.44 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -3565,7 +3565,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C12065"
+		(property "LCSC" "C2297"
 			(at 87.63 174.9426 0)
 			(hide yes)
 			(show_name no)
@@ -4292,7 +4292,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C33546014"
+		(property "LCSC" "C13585"
 			(at 77.47 59.4359 0)
 			(hide yes)
 			(show_name no)
@@ -5285,7 +5285,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C33546014"
+		(property "LCSC" "C13585"
 			(at 64.77 59.4359 0)
 			(hide yes)
 			(show_name no)
@@ -5378,7 +5378,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C33546014"
+		(property "LCSC" "C13585"
 			(at 106.68 108.3309 0)
 			(hide yes)
 			(show_name no)
